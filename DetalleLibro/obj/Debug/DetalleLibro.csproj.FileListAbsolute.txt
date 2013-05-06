@@ -1,0 +1,51 @@
+C:\Users\ideti\Desktop\Examen 2 parcial\examen2\DetalleLibro\bin\Debug\DetalleLibro.exe.config
+C:\Users\ideti\Desktop\Examen 2 parcial\examen2\DetalleLibro\bin\Debug\DetalleLibro.exe
+C:\Users\ideti\Desktop\Examen 2 parcial\examen2\DetalleLibro\bin\Debug\DetalleLibro.pdb
+C:\Users\ideti\Desktop\Examen 2 parcial\examen2\DetalleLibro\obj\Debug\MainWindow.baml
+C:\Users\ideti\Desktop\Examen 2 parcial\examen2\DetalleLibro\obj\Debug\MainWindow.g.cs
+C:\Users\ideti\Desktop\Examen 2 parcial\examen2\DetalleLibro\obj\Debug\App.g.cs
+C:\Users\ideti\Desktop\Examen 2 parcial\examen2\DetalleLibro\obj\Debug\DetalleLibro_MarkupCompile.cache
+C:\Users\ideti\Desktop\Examen 2 parcial\examen2\DetalleLibro\obj\Debug\DetalleLibro.g.resources
+C:\Users\ideti\Desktop\Examen 2 parcial\examen2\DetalleLibro\obj\Debug\DetalleLibro.Properties.Resources.resources
+C:\Users\ideti\Desktop\Examen 2 parcial\examen2\DetalleLibro\obj\Debug\DetalleLibro.csproj.GenerateResource.Cache
+C:\Users\ideti\Desktop\Examen 2 parcial\examen2\DetalleLibro\obj\Debug\DetalleLibro.exe
+C:\Users\ideti\Desktop\Examen 2 parcial\examen2\DetalleLibro\obj\Debug\DetalleLibro.pdb
+C:\Users\ideti\Desktop\Examen 2 parcial\examen2\DetalleLibro\obj\Debug\DetalleLibro.csprojResolveAssemblyReference.cache
+C:\Users\ideti\Desktop\examen2\DetalleLibro\bin\Debug\DetalleLibro.exe.config
+C:\Users\ideti\Desktop\examen2\DetalleLibro\obj\Debug\DetalleLibro.exe
+C:\Users\ideti\Desktop\examen2\DetalleLibro\obj\Debug\DetalleLibro.pdb
+C:\Users\ideti\Desktop\examen2\DetalleLibro\bin\Debug\DetalleLibro.exe
+C:\Users\ideti\Desktop\examen2\DetalleLibro\bin\Debug\DetalleLibro.pdb
+C:\Users\ideti\Desktop\examen2\DetalleLibro\obj\Debug\DetalleLibro.csprojResolveAssemblyReference.cache
+C:\Users\ideti\Desktop\examen2\DetalleLibro\obj\Debug\MainWindow.baml
+C:\Users\ideti\Desktop\examen2\DetalleLibro\obj\Debug\MainWindow.g.cs
+C:\Users\ideti\Desktop\examen2\DetalleLibro\obj\Debug\App.g.cs
+C:\Users\ideti\Desktop\examen2\DetalleLibro\obj\Debug\DetalleLibro_MarkupCompile.cache
+C:\Users\ideti\Desktop\examen2\DetalleLibro\obj\Debug\DetalleLibro.g.resources
+C:\Users\ideti\Desktop\examen2\DetalleLibro\obj\Debug\DetalleLibro.Properties.Resources.resources
+C:\Users\ideti\Desktop\examen2\DetalleLibro\obj\Debug\DetalleLibro.csproj.GenerateResource.Cache
+C:\UDEM\udem\10 semestre\componentes\examen2_Menus_tarea\examen2_new\DetalleLibro\bin\Debug\DetalleLibro.exe.config
+C:\UDEM\udem\10 semestre\componentes\examen2_Menus_tarea\examen2_new\DetalleLibro\obj\Debug\DetalleLibro.exe
+C:\UDEM\udem\10 semestre\componentes\examen2_Menus_tarea\examen2_new\DetalleLibro\obj\Debug\DetalleLibro.pdb
+C:\UDEM\udem\10 semestre\componentes\examen2_Menus_tarea\examen2_new\DetalleLibro\bin\Debug\DetalleLibro.exe
+C:\UDEM\udem\10 semestre\componentes\examen2_Menus_tarea\examen2_new\DetalleLibro\bin\Debug\DetalleLibro.pdb
+C:\UDEM\udem\10 semestre\componentes\examen2_Menus_tarea\examen2_new\DetalleLibro\obj\Debug\DetalleLibro.csprojResolveAssemblyReference.cache
+C:\UDEM\udem\10 semestre\componentes\examen2_Menus_tarea\examen2_new\DetalleLibro\obj\Debug\MainWindow.baml
+C:\UDEM\udem\10 semestre\componentes\examen2_Menus_tarea\examen2_new\DetalleLibro\obj\Debug\MainWindow.g.cs
+C:\UDEM\udem\10 semestre\componentes\examen2_Menus_tarea\examen2_new\DetalleLibro\obj\Debug\App.g.cs
+C:\UDEM\udem\10 semestre\componentes\examen2_Menus_tarea\examen2_new\DetalleLibro\obj\Debug\DetalleLibro_MarkupCompile.cache
+C:\UDEM\udem\10 semestre\componentes\examen2_Menus_tarea\examen2_new\DetalleLibro\obj\Debug\DetalleLibro.g.resources
+C:\UDEM\udem\10 semestre\componentes\examen2_Menus_tarea\examen2_new\DetalleLibro\obj\Debug\DetalleLibro.Properties.Resources.resources
+C:\UDEM\udem\10 semestre\componentes\examen2_Menus_tarea\examen2_new\DetalleLibro\obj\Debug\DetalleLibro.csproj.GenerateResource.Cache
+C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\DetalleLibro\bin\Debug\DetalleLibro.exe.config
+C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\DetalleLibro\bin\Debug\DetalleLibro.exe
+C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\DetalleLibro\bin\Debug\DetalleLibro.pdb
+C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\DetalleLibro\obj\Debug\MainWindow.baml
+C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\DetalleLibro\obj\Debug\MainWindow.g.cs
+C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\DetalleLibro\obj\Debug\App.g.cs
+C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\DetalleLibro\obj\Debug\DetalleLibro_MarkupCompile.cache
+C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\DetalleLibro\obj\Debug\DetalleLibro.g.resources
+C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\DetalleLibro\obj\Debug\DetalleLibro.Properties.Resources.resources
+C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\DetalleLibro\obj\Debug\DetalleLibro.csproj.GenerateResource.Cache
+C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\DetalleLibro\obj\Debug\DetalleLibro.exe
+C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\DetalleLibro\obj\Debug\DetalleLibro.pdb

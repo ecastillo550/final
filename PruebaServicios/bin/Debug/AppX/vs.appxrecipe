@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>JONYMANOLO</Machine>
+    <WindowsUser>JuanManuel</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>5AB9E050C57E74AAC7576AC269C6C89D944C9D7CDE8C7F39145052A528783653</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>506da68b-29cc-4c02-90d0-3df36d60db7a_1.0.0.0_neutral__vwz8k1yrpn5qc</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>506da68b-29cc-4c02-90d0-3df36d60db7a_vwz8k1yrpn5qc!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>506da68b-29cc-4c02-90d0-3df36d60db7a</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=JuanManuel</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\PruebaServicios\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-05-05T17:22:48.715</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\PruebaServicios\bin\Debug\PruebaServicios.exe">
+      <PackagePath>PruebaServicios.exe</PackagePath>
+      <Modified>2013-05-05T17:22:36.318</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\PruebaServicios\bin\Debug\PruebaServicios.pdb">
+      <PackagePath>PruebaServicios.pdb</PackagePath>
+      <Modified>2013-05-05T17:22:36.269</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\PruebaServicios\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-16T04:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\PruebaServicios\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-16T04:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\PruebaServicios\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-16T04:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\PruebaServicios\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-16T04:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\PruebaServicios\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+      <Modified>2013-05-05T16:50:24.531</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\PruebaServicios\bin\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+      <Modified>2012-06-27T00:19:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\PruebaServicios\bin\Debug\MainPage.xaml">
+      <PackagePath>MainPage.xaml</PackagePath>
+      <Modified>2013-05-05T17:09:45.103</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\PruebaServicios\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2013-05-05T17:22:48.510</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

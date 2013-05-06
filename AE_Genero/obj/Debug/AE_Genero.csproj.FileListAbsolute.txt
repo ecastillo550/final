@@ -1,0 +1,26 @@
+C:\Users\ideti\Desktop\examen2\AE_Genero\bin\Debug\AE_Genero.exe.config
+C:\Users\ideti\Desktop\examen2\AE_Genero\bin\Debug\AE_Genero.exe
+C:\Users\ideti\Desktop\examen2\AE_Genero\bin\Debug\AE_Genero.pdb
+C:\Users\ideti\Desktop\examen2\AE_Genero\obj\Debug\Genero.baml
+C:\Users\ideti\Desktop\examen2\AE_Genero\obj\Debug\Genero.g.cs
+C:\Users\ideti\Desktop\examen2\AE_Genero\obj\Debug\App.g.cs
+C:\Users\ideti\Desktop\examen2\AE_Genero\obj\Debug\AE_Genero_MarkupCompile.cache
+C:\Users\ideti\Desktop\examen2\AE_Genero\obj\Debug\AE_Genero.g.resources
+C:\Users\ideti\Desktop\examen2\AE_Genero\obj\Debug\AE_Genero.Properties.Resources.resources
+C:\Users\ideti\Desktop\examen2\AE_Genero\obj\Debug\AE_Genero.csproj.GenerateResource.Cache
+C:\Users\ideti\Desktop\examen2\AE_Genero\obj\Debug\AE_Genero.exe
+C:\Users\ideti\Desktop\examen2\AE_Genero\obj\Debug\AE_Genero.pdb
+C:\Users\ideti\Desktop\examen2\AE_Genero\bin\Debug\AE_Genero.exe.CodeAnalysisLog.xml
+C:\Users\ideti\Desktop\examen2\AE_Genero\bin\Debug\AE_Genero.exe.lastcodeanalysissucceeded
+C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\AE_Genero\bin\Debug\AE_Genero.exe.config
+C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\AE_Genero\bin\Debug\AE_Genero.exe
+C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\AE_Genero\bin\Debug\AE_Genero.pdb
+C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\AE_Genero\obj\Debug\Genero.baml
+C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\AE_Genero\obj\Debug\Genero.g.cs
+C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\AE_Genero\obj\Debug\App.g.cs
+C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\AE_Genero\obj\Debug\AE_Genero_MarkupCompile.cache
+C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\AE_Genero\obj\Debug\AE_Genero.g.resources
+C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\AE_Genero\obj\Debug\AE_Genero.Properties.Resources.resources
+C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\AE_Genero\obj\Debug\AE_Genero.csproj.GenerateResource.Cache
+C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\AE_Genero\obj\Debug\AE_Genero.exe
+C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\AE_Genero\obj\Debug\AE_Genero.pdb

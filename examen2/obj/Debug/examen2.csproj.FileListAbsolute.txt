@@ -1,0 +1,20 @@
+C:\Users\ideti\Desktop\Examen 2 parcial\examen2\examen2\obj\Debug\examen2.csprojResolveAssemblyReference.cache
+C:\Users\ideti\Desktop\Examen 2 parcial\examen2\examen2\bin\examen2.dll
+C:\Users\ideti\Desktop\Examen 2 parcial\examen2\examen2\bin\examen2.pdb
+C:\Users\ideti\Desktop\Examen 2 parcial\examen2\examen2\obj\Debug\examen2.dll
+C:\Users\ideti\Desktop\Examen 2 parcial\examen2\examen2\obj\Debug\examen2.pdb
+C:\Users\ideti\Desktop\examen2\examen2\bin\examen2.dll
+C:\Users\ideti\Desktop\examen2\examen2\bin\examen2.pdb
+C:\Users\ideti\Desktop\examen2\examen2\obj\Debug\examen2.csprojResolveAssemblyReference.cache
+C:\Users\ideti\Desktop\examen2\examen2\obj\Debug\examen2.dll
+C:\Users\ideti\Desktop\examen2\examen2\obj\Debug\examen2.pdb
+C:\UDEM\udem\10 semestre\componentes\examen2_Menus_tarea\examen2_new\examen2\bin\examen2.dll
+C:\UDEM\udem\10 semestre\componentes\examen2_Menus_tarea\examen2_new\examen2\bin\examen2.pdb
+C:\UDEM\udem\10 semestre\componentes\examen2_Menus_tarea\examen2_new\examen2\obj\Debug\examen2.dll
+C:\UDEM\udem\10 semestre\componentes\examen2_Menus_tarea\examen2_new\examen2\obj\Debug\examen2.pdb
+C:\UDEM\udem\10 semestre\componentes\examen2_Menus_tarea\examen2_new\examen2\obj\Debug\examen2.csprojResolveAssemblyReference.cache
+C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\examen2\bin\examen2.dll
+C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\examen2\bin\examen2.pdb
+C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\examen2\obj\Debug\examen2.dll
+C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\examen2\obj\Debug\examen2.pdb
+C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\examen2\obj\Debug\examen2.csprojResolveAssemblyReference.cache

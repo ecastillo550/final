@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/examen2" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/examen2" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="ArrayOfLibro">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Libro" nillable="true" type="tns:Libro" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfLibro" nillable="true" type="tns:ArrayOfLibro" />
+  <xs:complexType name="Libro">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AutorID" type="xs:int" />
+      <xs:element minOccurs="0" name="Descripcion" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="EditorialID" type="xs:int" />
+      <xs:element minOccurs="0" name="GeneroID" type="xs:int" />
+      <xs:element minOccurs="0" name="Idioma" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ImagenURL" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LibroID" type="xs:int" />
+      <xs:element minOccurs="0" name="NoPaginas" type="xs:int" />
+      <xs:element minOccurs="0" name="Nombre" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Pais" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Libro" nillable="true" type="tns:Libro" />
+  <xs:complexType name="ArrayOfAutor">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Autor" nillable="true" type="tns:Autor" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfAutor" nillable="true" type="tns:ArrayOfAutor" />
+  <xs:complexType name="Autor">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ApPaterno" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AutorID" type="xs:int" />
+      <xs:element minOccurs="0" name="ListaLibros" nillable="true" type="tns:ArrayOfLibro" />
+      <xs:element minOccurs="0" name="Nacionalidad" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Nombre" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UrlImg" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Autor" nillable="true" type="tns:Autor" />
+  <xs:complexType name="ArrayOfGenero">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Genero" nillable="true" type="tns:Genero" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfGenero" nillable="true" type="tns:ArrayOfGenero" />
+  <xs:complexType name="Genero">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="GeneroID" type="xs:int" />
+      <xs:element minOccurs="0" name="ListaLibros" nillable="true" type="tns:ArrayOfLibro" />
+      <xs:element minOccurs="0" name="Nombre" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Genero" nillable="true" type="tns:Genero" />
+  <xs:complexType name="ArrayOfEditorial">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Editorial" nillable="true" type="tns:Editorial" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfEditorial" nillable="true" type="tns:ArrayOfEditorial" />
+  <xs:complexType name="Editorial">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Direccion" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="EditorialID" type="xs:int" />
+      <xs:element minOccurs="0" name="Estado" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Nombre" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Pais" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="URLEditorial" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Editorial" nillable="true" type="tns:Editorial" />
+</xs:schema>

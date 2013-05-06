@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Service1" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:49585/Service1.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:49585/Service1.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:49585/Service1.svc?xsd=xsd2" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IService1_ObtenerListaLibros_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerListaLibros" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ObtenerListaLibros_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerListaLibrosResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ObtenerListaGeneros_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerListaGeneros" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ObtenerListaGeneros_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerListaGenerosResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ObtenerListaAutor_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerListaAutor" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ObtenerListaAutor_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerListaAutorResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ObtenerListaEditorial_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerListaEditorial" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ObtenerListaEditorial_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerListaEditorialResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ObtenerListaLibrosNombres_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerListaLibrosNombres" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ObtenerListaLibrosNombres_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerListaLibrosNombresResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_BuscaLibro_InputMessage">
+    <wsdl:part name="parameters" element="tns:BuscaLibro" />
+  </wsdl:message>
+  <wsdl:message name="IService1_BuscaLibro_OutputMessage">
+    <wsdl:part name="parameters" element="tns:BuscaLibroResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_BuscaGenero_InputMessage">
+    <wsdl:part name="parameters" element="tns:BuscaGenero" />
+  </wsdl:message>
+  <wsdl:message name="IService1_BuscaGenero_OutputMessage">
+    <wsdl:part name="parameters" element="tns:BuscaGeneroResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_BuscaAutor_InputMessage">
+    <wsdl:part name="parameters" element="tns:BuscaAutor" />
+  </wsdl:message>
+  <wsdl:message name="IService1_BuscaAutor_OutputMessage">
+    <wsdl:part name="parameters" element="tns:BuscaAutorResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_BuscaEditorial_InputMessage">
+    <wsdl:part name="parameters" element="tns:BuscaEditorial" />
+  </wsdl:message>
+  <wsdl:message name="IService1_BuscaEditorial_OutputMessage">
+    <wsdl:part name="parameters" element="tns:BuscaEditorialResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ObtenerListaLibrosOrdenada_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerListaLibrosOrdenada" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ObtenerListaLibrosOrdenada_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerListaLibrosOrdenadaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_NuevoGenero_InputMessage">
+    <wsdl:part name="parameters" element="tns:NuevoGenero" />
+  </wsdl:message>
+  <wsdl:message name="IService1_NuevoGenero_OutputMessage">
+    <wsdl:part name="parameters" element="tns:NuevoGeneroResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_NuevoAutor_InputMessage">
+    <wsdl:part name="parameters" element="tns:NuevoAutor" />
+  </wsdl:message>
+  <wsdl:message name="IService1_NuevoAutor_OutputMessage">
+    <wsdl:part name="parameters" element="tns:NuevoAutorResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_NuevoEditorial_InputMessage">
+    <wsdl:part name="parameters" element="tns:NuevoEditorial" />
+  </wsdl:message>
+  <wsdl:message name="IService1_NuevoEditorial_OutputMessage">
+    <wsdl:part name="parameters" element="tns:NuevoEditorialResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_NuevoLibro_InputMessage">
+    <wsdl:part name="parameters" element="tns:NuevoLibro" />
+  </wsdl:message>
+  <wsdl:message name="IService1_NuevoLibro_OutputMessage">
+    <wsdl:part name="parameters" element="tns:NuevoLibroResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_EditaGenero_InputMessage">
+    <wsdl:part name="parameters" element="tns:EditaGenero" />
+  </wsdl:message>
+  <wsdl:message name="IService1_EditaGenero_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EditaGeneroResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_EditaAutor_InputMessage">
+    <wsdl:part name="parameters" element="tns:EditaAutor" />
+  </wsdl:message>
+  <wsdl:message name="IService1_EditaAutor_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EditaAutorResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_EditaEditorial_InputMessage">
+    <wsdl:part name="parameters" element="tns:EditaEditorial" />
+  </wsdl:message>
+  <wsdl:message name="IService1_EditaEditorial_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EditaEditorialResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_EditaLibro_InputMessage">
+    <wsdl:part name="parameters" element="tns:EditaLibro" />
+  </wsdl:message>
+  <wsdl:message name="IService1_EditaLibro_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EditaLibroResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ObtenerDetalleLibro_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerDetalleLibro" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ObtenerDetalleLibro_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerDetalleLibroResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IService1">
+    <wsdl:operation name="ObtenerListaLibros">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/ObtenerListaLibros" message="tns:IService1_ObtenerListaLibros_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/ObtenerListaLibrosResponse" message="tns:IService1_ObtenerListaLibros_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerListaGeneros">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/ObtenerListaGeneros" message="tns:IService1_ObtenerListaGeneros_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/ObtenerListaGenerosResponse" message="tns:IService1_ObtenerListaGeneros_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerListaAutor">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/ObtenerListaAutor" message="tns:IService1_ObtenerListaAutor_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/ObtenerListaAutorResponse" message="tns:IService1_ObtenerListaAutor_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerListaEditorial">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/ObtenerListaEditorial" message="tns:IService1_ObtenerListaEditorial_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/ObtenerListaEditorialResponse" message="tns:IService1_ObtenerListaEditorial_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerListaLibrosNombres">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/ObtenerListaLibrosNombres" message="tns:IService1_ObtenerListaLibrosNombres_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/ObtenerListaLibrosNombresResponse" message="tns:IService1_ObtenerListaLibrosNombres_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="BuscaLibro">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/BuscaLibro" message="tns:IService1_BuscaLibro_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/BuscaLibroResponse" message="tns:IService1_BuscaLibro_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="BuscaGenero">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/BuscaGenero" message="tns:IService1_BuscaGenero_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/BuscaGeneroResponse" message="tns:IService1_BuscaGenero_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="BuscaAutor">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/BuscaAutor" message="tns:IService1_BuscaAutor_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/BuscaAutorResponse" message="tns:IService1_BuscaAutor_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="BuscaEditorial">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/BuscaEditorial" message="tns:IService1_BuscaEditorial_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/BuscaEditorialResponse" message="tns:IService1_BuscaEditorial_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerListaLibrosOrdenada">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/ObtenerListaLibrosOrdenada" message="tns:IService1_ObtenerListaLibrosOrdenada_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/ObtenerListaLibrosOrdenadaResponse" message="tns:IService1_ObtenerListaLibrosOrdenada_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="NuevoGenero">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/NuevoGenero" message="tns:IService1_NuevoGenero_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/NuevoGeneroResponse" message="tns:IService1_NuevoGenero_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="NuevoAutor">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/NuevoAutor" message="tns:IService1_NuevoAutor_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/NuevoAutorResponse" message="tns:IService1_NuevoAutor_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="NuevoEditorial">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/NuevoEditorial" message="tns:IService1_NuevoEditorial_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/NuevoEditorialResponse" message="tns:IService1_NuevoEditorial_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="NuevoLibro">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/NuevoLibro" message="tns:IService1_NuevoLibro_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/NuevoLibroResponse" message="tns:IService1_NuevoLibro_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EditaGenero">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/EditaGenero" message="tns:IService1_EditaGenero_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/EditaGeneroResponse" message="tns:IService1_EditaGenero_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EditaAutor">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/EditaAutor" message="tns:IService1_EditaAutor_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/EditaAutorResponse" message="tns:IService1_EditaAutor_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EditaEditorial">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/EditaEditorial" message="tns:IService1_EditaEditorial_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/EditaEditorialResponse" message="tns:IService1_EditaEditorial_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EditaLibro">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/EditaLibro" message="tns:IService1_EditaLibro_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/EditaLibroResponse" message="tns:IService1_EditaLibro_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerDetalleLibro">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/ObtenerDetalleLibro" message="tns:IService1_ObtenerDetalleLibro_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/ObtenerDetalleLibroResponse" message="tns:IService1_ObtenerDetalleLibro_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IService1" type="tns:IService1">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ObtenerListaLibros">
+      <soap:operation soapAction="http://tempuri.org/IService1/ObtenerListaLibros" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerListaGeneros">
+      <soap:operation soapAction="http://tempuri.org/IService1/ObtenerListaGeneros" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerListaAutor">
+      <soap:operation soapAction="http://tempuri.org/IService1/ObtenerListaAutor" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerListaEditorial">
+      <soap:operation soapAction="http://tempuri.org/IService1/ObtenerListaEditorial" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerListaLibrosNombres">
+      <soap:operation soapAction="http://tempuri.org/IService1/ObtenerListaLibrosNombres" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BuscaLibro">
+      <soap:operation soapAction="http://tempuri.org/IService1/BuscaLibro" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BuscaGenero">
+      <soap:operation soapAction="http://tempuri.org/IService1/BuscaGenero" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BuscaAutor">
+      <soap:operation soapAction="http://tempuri.org/IService1/BuscaAutor" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BuscaEditorial">
+      <soap:operation soapAction="http://tempuri.org/IService1/BuscaEditorial" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerListaLibrosOrdenada">
+      <soap:operation soapAction="http://tempuri.org/IService1/ObtenerListaLibrosOrdenada" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="NuevoGenero">
+      <soap:operation soapAction="http://tempuri.org/IService1/NuevoGenero" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="NuevoAutor">
+      <soap:operation soapAction="http://tempuri.org/IService1/NuevoAutor" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="NuevoEditorial">
+      <soap:operation soapAction="http://tempuri.org/IService1/NuevoEditorial" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="NuevoLibro">
+      <soap:operation soapAction="http://tempuri.org/IService1/NuevoLibro" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EditaGenero">
+      <soap:operation soapAction="http://tempuri.org/IService1/EditaGenero" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EditaAutor">
+      <soap:operation soapAction="http://tempuri.org/IService1/EditaAutor" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EditaEditorial">
+      <soap:operation soapAction="http://tempuri.org/IService1/EditaEditorial" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EditaLibro">
+      <soap:operation soapAction="http://tempuri.org/IService1/EditaLibro" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerDetalleLibro">
+      <soap:operation soapAction="http://tempuri.org/IService1/ObtenerDetalleLibro" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service1">
+    <wsdl:port name="BasicHttpBinding_IService1" binding="tns:BasicHttpBinding_IService1">
+      <soap:address location="http://localhost:49585/Service1.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

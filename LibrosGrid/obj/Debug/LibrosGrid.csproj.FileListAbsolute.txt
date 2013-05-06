@@ -1,0 +1,69 @@
+C:\Users\ideti\Desktop\Examen 2 parcial\examen2\LibrosGrid\bin\Debug\LibrosGrid.exe.config
+C:\Users\ideti\Desktop\Examen 2 parcial\examen2\LibrosGrid\bin\Debug\LibrosGrid.exe
+C:\Users\ideti\Desktop\Examen 2 parcial\examen2\LibrosGrid\bin\Debug\LibrosGrid.pdb
+C:\Users\ideti\Desktop\Examen 2 parcial\examen2\LibrosGrid\obj\Debug\LibrosGrid.csprojResolveAssemblyReference.cache
+C:\Users\ideti\Desktop\Examen 2 parcial\examen2\LibrosGrid\obj\Debug\MainWindow.baml
+C:\Users\ideti\Desktop\Examen 2 parcial\examen2\LibrosGrid\obj\Debug\MainWindow.g.cs
+C:\Users\ideti\Desktop\Examen 2 parcial\examen2\LibrosGrid\obj\Debug\App.g.cs
+C:\Users\ideti\Desktop\Examen 2 parcial\examen2\LibrosGrid\obj\Debug\LibrosGrid_MarkupCompile.cache
+C:\Users\ideti\Desktop\Examen 2 parcial\examen2\LibrosGrid\obj\Debug\LibrosGrid.g.resources
+C:\Users\ideti\Desktop\Examen 2 parcial\examen2\LibrosGrid\obj\Debug\LibrosGrid.Properties.Resources.resources
+C:\Users\ideti\Desktop\Examen 2 parcial\examen2\LibrosGrid\obj\Debug\LibrosGrid.csproj.GenerateResource.Cache
+C:\Users\ideti\Desktop\Examen 2 parcial\examen2\LibrosGrid\obj\Debug\LibrosGrid.exe
+C:\Users\ideti\Desktop\Examen 2 parcial\examen2\LibrosGrid\obj\Debug\LibrosGrid.pdb
+C:\Users\ideti\Desktop\examen2\LibrosGrid\bin\Debug\LibrosGrid.exe.config
+C:\Users\ideti\Desktop\examen2\LibrosGrid\obj\Debug\LibrosGrid.exe
+C:\Users\ideti\Desktop\examen2\LibrosGrid\obj\Debug\LibrosGrid.pdb
+C:\Users\ideti\Desktop\examen2\LibrosGrid\bin\Debug\LibrosGrid.exe
+C:\Users\ideti\Desktop\examen2\LibrosGrid\bin\Debug\LibrosGrid.pdb
+C:\Users\ideti\Desktop\examen2\LibrosGrid\obj\Debug\LibrosGrid.csprojResolveAssemblyReference.cache
+C:\Users\ideti\Desktop\examen2\LibrosGrid\obj\Debug\MainWindow.baml
+C:\Users\ideti\Desktop\examen2\LibrosGrid\obj\Debug\MainWindow.g.cs
+C:\Users\ideti\Desktop\examen2\LibrosGrid\obj\Debug\App.g.cs
+C:\Users\ideti\Desktop\examen2\LibrosGrid\obj\Debug\LibrosGrid_MarkupCompile.cache
+C:\Users\ideti\Desktop\examen2\LibrosGrid\obj\Debug\LibrosGrid.g.resources
+C:\Users\ideti\Desktop\examen2\LibrosGrid\obj\Debug\LibrosGrid.Properties.Resources.resources
+C:\Users\ideti\Desktop\examen2\LibrosGrid\obj\Debug\LibrosGrid.csproj.GenerateResource.Cache
+C:\Users\ideti\Desktop\examen2\LibrosGrid\obj\Debug\Genero.baml
+C:\Users\ideti\Desktop\examen2\LibrosGrid\obj\Debug\Genero.g.cs
+C:\UDEM\udem\10 semestre\componentes\examen2_Menus_tarea\examen2_new\LibrosGrid\bin\Debug\LibrosGrid.exe.config
+C:\UDEM\udem\10 semestre\componentes\examen2_Menus_tarea\examen2_new\LibrosGrid\obj\Debug\LibrosGrid.exe
+C:\UDEM\udem\10 semestre\componentes\examen2_Menus_tarea\examen2_new\LibrosGrid\obj\Debug\LibrosGrid.pdb
+C:\UDEM\udem\10 semestre\componentes\examen2_Menus_tarea\examen2_new\LibrosGrid\bin\Debug\LibrosGrid.exe
+C:\UDEM\udem\10 semestre\componentes\examen2_Menus_tarea\examen2_new\LibrosGrid\bin\Debug\LibrosGrid.pdb
+C:\UDEM\udem\10 semestre\componentes\examen2_Menus_tarea\examen2_new\LibrosGrid\obj\Debug\LibrosGrid.csprojResolveAssemblyReference.cache
+C:\UDEM\udem\10 semestre\componentes\examen2_Menus_tarea\examen2_new\LibrosGrid\obj\Debug\Genero.baml
+C:\UDEM\udem\10 semestre\componentes\examen2_Menus_tarea\examen2_new\LibrosGrid\obj\Debug\MainWindow.baml
+C:\UDEM\udem\10 semestre\componentes\examen2_Menus_tarea\examen2_new\LibrosGrid\obj\Debug\Genero.g.cs
+C:\UDEM\udem\10 semestre\componentes\examen2_Menus_tarea\examen2_new\LibrosGrid\obj\Debug\MainWindow.g.cs
+C:\UDEM\udem\10 semestre\componentes\examen2_Menus_tarea\examen2_new\LibrosGrid\obj\Debug\App.g.cs
+C:\UDEM\udem\10 semestre\componentes\examen2_Menus_tarea\examen2_new\LibrosGrid\obj\Debug\LibrosGrid_MarkupCompile.cache
+C:\UDEM\udem\10 semestre\componentes\examen2_Menus_tarea\examen2_new\LibrosGrid\obj\Debug\LibrosGrid.g.resources
+C:\UDEM\udem\10 semestre\componentes\examen2_Menus_tarea\examen2_new\LibrosGrid\obj\Debug\LibrosGrid.Properties.Resources.resources
+C:\UDEM\udem\10 semestre\componentes\examen2_Menus_tarea\examen2_new\LibrosGrid\obj\Debug\LibrosGrid.csproj.GenerateResource.Cache
+C:\UDEM\udem\10 semestre\componentes\examen2_Menus_tarea\examen2_new\LibrosGrid\obj\Debug\Autor.baml
+C:\UDEM\udem\10 semestre\componentes\examen2_Menus_tarea\examen2_new\LibrosGrid\obj\Debug\Autor.g.cs
+C:\UDEM\udem\10 semestre\componentes\examen2_Menus_tarea\examen2_new\LibrosGrid\obj\Debug\Editorial.baml
+C:\UDEM\udem\10 semestre\componentes\examen2_Menus_tarea\examen2_new\LibrosGrid\obj\Debug\Editorial.g.cs
+C:\UDEM\udem\10 semestre\componentes\examen2_Menus_tarea\examen2_new\LibrosGrid\obj\Debug\Libro.baml
+C:\UDEM\udem\10 semestre\componentes\examen2_Menus_tarea\examen2_new\LibrosGrid\obj\Debug\Libro.g.cs
+C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\LibrosGrid\bin\Debug\LibrosGrid.exe.config
+C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\LibrosGrid\bin\Debug\LibrosGrid.exe
+C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\LibrosGrid\bin\Debug\LibrosGrid.pdb
+C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\LibrosGrid\obj\Debug\Autor.baml
+C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\LibrosGrid\obj\Debug\Editorial.baml
+C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\LibrosGrid\obj\Debug\Genero.baml
+C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\LibrosGrid\obj\Debug\Libro.baml
+C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\LibrosGrid\obj\Debug\MainWindow.baml
+C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\LibrosGrid\obj\Debug\Autor.g.cs
+C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\LibrosGrid\obj\Debug\Editorial.g.cs
+C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\LibrosGrid\obj\Debug\Genero.g.cs
+C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\LibrosGrid\obj\Debug\Libro.g.cs
+C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\LibrosGrid\obj\Debug\MainWindow.g.cs
+C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\LibrosGrid\obj\Debug\App.g.cs
+C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\LibrosGrid\obj\Debug\LibrosGrid_MarkupCompile.cache
+C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\LibrosGrid\obj\Debug\LibrosGrid.g.resources
+C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\LibrosGrid\obj\Debug\LibrosGrid.Properties.Resources.resources
+C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\LibrosGrid\obj\Debug\LibrosGrid.csproj.GenerateResource.Cache
+C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\LibrosGrid\obj\Debug\LibrosGrid.exe
+C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\LibrosGrid\obj\Debug\LibrosGrid.pdb
