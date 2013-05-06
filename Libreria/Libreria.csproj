@@ -113,6 +113,9 @@
     <Compile Include="GroupDetailPage.xaml.cs">
       <DependentUpon>GroupDetailPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Home.xaml.cs">
+      <DependentUpon>Home.xaml</DependentUpon>
+    </Compile>
     <Compile Include="ItemDetailPage.xaml.cs">
       <DependentUpon>ItemDetailPage.xaml</DependentUpon>
     </Compile>
@@ -169,6 +172,7 @@
   <ItemGroup>
     <Content Include="Assets\ageekinjapan.jpg" />
     <Content Include="Assets\amanecer.jpg" />
+    <Content Include="Assets\autores.jpg" />
     <Content Include="Assets\canciondesusannah.jpg" />
     <Content Include="Assets\cincuentasombras1.jpg" />
     <Content Include="Assets\cincuentasombras2.jpg" />
@@ -182,6 +186,7 @@
     <Content Include="Assets\elpistolero.jpg" />
     <Content Include="Assets\elprincipecaspian.jpg" />
     <Content Include="Assets\elsobrinodelmago.jpg" />
+    <Content Include="Assets\generos.jpg" />
     <Content Include="Assets\happyhappyhappy.jpg" />
     <Content Include="Assets\howfullisyourbucket.jpg" />
     <Content Include="Assets\howfullisyourbucketkids.jpg" />
@@ -226,8 +231,11 @@
     <Content Include="Assets\peppapega.jpg" />
     <Content Include="Assets\peppapiscina.jpg" />
     <Content Include="Assets\pj2.jpg" />
+    <Content Include="Assets\principal.jpg" />
+    <Content Include="Assets\sk.jpg" />
     <Content Include="Assets\SmallLogo.png" />
     <Content Include="Assets\SplashScreen.png" />
+    <Content Include="Assets\SplashScreen2.png" />
     <Content Include="Assets\StoreLogo.png" />
     <Content Include="Assets\LightGray.png" />
     <Content Include="Assets\MediumGray.png" />
@@ -259,6 +267,10 @@
     <Page Include="GroupDetailPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Home.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="ItemDetailPage.xaml">
       <Generator>MSBuild:Compile</Generator>
