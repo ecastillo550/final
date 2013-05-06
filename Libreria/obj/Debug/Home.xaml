@@ -52,20 +52,41 @@
                 <ColumnDefinition Width="Auto"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
-            <Button x:ConnectionId='2' x:Name="backButton"                IsEnabled="{Binding Frame.CanGoBack, ElementName=pageRoot}" Style="{StaticResource BackButtonStyle}"/>
+            <Button x:ConnectionId='4' x:Name="backButton"                IsEnabled="{Binding Frame.CanGoBack, ElementName=pageRoot}" Style="{StaticResource BackButtonStyle}"/>
             <TextBlock x:Name="pageTitle" Grid.Column="1" Style="{StaticResource PageHeaderTextStyle}">
             	<Run Text="Librer"/>
             	<Run Text="ía HON"/>
             </TextBlock>
-            <TextBlock x:Name="pageTitle_Copy" Style="{StaticResource PageHeaderTextStyle}" Grid.ColumnSpan="2" Margin="107,0,922,-85" Text="Género"/>
-            <TextBlock x:Name="pageTitle_Copy1" Style="{StaticResource PageHeaderTextStyle}" Margin="680,0,229,-139" Grid.Column="1">
-            	<Run Text="Autor"/>
-            	<LineBreak/>
-            	<Run/>
-            </TextBlock>
         </Grid>
-        <Image HorizontalAlignment="Left" Height="386" Margin="91,117,0,0" Grid.Row="1" VerticalAlignment="Top" Width="390" Source="Assets/generos.jpg"/>
-        <Image HorizontalAlignment="Left" Height="386" Margin="803,117,0,0" Grid.Row="1" VerticalAlignment="Top" Width="393" Source="Assets/autores.jpg"/>
+        <GridView x:Name="Menu" HorizontalAlignment="Left" Margin="91,102,0,0" Grid.Row="1" VerticalAlignment="Top" Width="1231" Height="444">
+            <StackPanel x:ConnectionId='2' Orientation="Vertical" Width="382"                                                                              >
+                <GridViewItem Margin="0">
+                    <Image x:Name="genero_img" HorizontalAlignment="Left" Height="363" VerticalAlignment="Top" Width="374" Source="Assets/generos.jpg"/>
+                </GridViewItem>
+                <TextBlock x:Name="genero_txt" Style="{StaticResource PageHeaderTextStyle}" Margin="0,0,45,0" Text="Género"/>
+            </StackPanel>
+            <StackPanel x:ConnectionId='3' Orientation="Vertical" Width="392"                                             >
+                <GridViewItem Margin="0">
+                    <Image Height="359" Width="364" Source="Assets/autores.jpg"/>
+                </GridViewItem>
+                <TextBlock x:Name="Autor_txt" Style="{StaticResource PageHeaderTextStyle}" Margin="0,0,55,0">
+                	<Run Text="Autor"/>
+                	<LineBreak/>
+                	<Run/>
+                </TextBlock>
+            </StackPanel>
+            <StackPanel Orientation="Vertical" Width="392">
+                <GridViewItem Margin="0" Height="365">
+                    <Image Height="285" Width="378" Source="Assets/editorial.jpg"/>
+                </GridViewItem>
+                <TextBlock x:Name="Editorial_txt" Style="{StaticResource PageHeaderTextStyle}" Margin="0,0,55,0">
+                	<Run Text="Editorial"/>
+                	<LineBreak/>
+                	<Run/>
+                </TextBlock>
+            </StackPanel>
+        </GridView>
+          
 
         <VisualStateManager.VisualStateGroups>
 

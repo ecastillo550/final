@@ -16,17 +16,17 @@
     <AppXManifest Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-05-06T00:21:54.835</Modified>
+      <Modified>2013-05-06T06:45:04.469</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\bin\Debug\Libreria.exe">
       <PackagePath>Libreria.exe</PackagePath>
-      <Modified>2013-05-06T00:24:21.811</Modified>
+      <Modified>2013-05-06T06:45:04.137</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\bin\Debug\Libreria.pdb">
       <PackagePath>Libreria.pdb</PackagePath>
-      <Modified>2013-05-06T00:24:21.755</Modified>
+      <Modified>2013-05-06T06:45:04.084</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\Assets\ageekinjapan.jpg">
       <PackagePath>Assets\ageekinjapan.jpg</PackagePath>
@@ -35,6 +35,10 @@
     <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\Assets\amanecer.jpg">
       <PackagePath>Assets\amanecer.jpg</PackagePath>
       <Modified>2013-05-02T07:08:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\Assets\autores.jpg">
+      <PackagePath>Assets\autores.jpg</PackagePath>
+      <Modified>2013-05-06T01:34:03.663</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\Assets\canciondesusannah.jpg">
       <PackagePath>Assets\canciondesusannah.jpg</PackagePath>
@@ -68,6 +72,10 @@
       <PackagePath>Assets\eclipse.jpg</PackagePath>
       <Modified>2013-05-02T07:08:24.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\Assets\editorial.jpg">
+      <PackagePath>Assets\editorial.jpg</PackagePath>
+      <Modified>2013-05-06T03:20:52.802</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\Assets\elcaballoyelmuchacho.jpg">
       <PackagePath>Assets\elcaballoyelmuchacho.jpg</PackagePath>
       <Modified>2013-05-02T01:04:52.000</Modified>
@@ -87,6 +95,10 @@
     <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\Assets\elsobrinodelmago.jpg">
       <PackagePath>Assets\elsobrinodelmago.jpg</PackagePath>
       <Modified>2013-05-02T01:04:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\Assets\generos.jpg">
+      <PackagePath>Assets\generos.jpg</PackagePath>
+      <Modified>2013-05-06T01:34:03.669</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\Assets\happyhappyhappy.jpg">
       <PackagePath>Assets\happyhappyhappy.jpg</PackagePath>
@@ -260,6 +272,14 @@
       <PackagePath>Assets\pj2.jpg</PackagePath>
       <Modified>2013-04-30T18:56:20.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\Assets\principal.jpg">
+      <PackagePath>Assets\principal.jpg</PackagePath>
+      <Modified>2013-05-05T23:36:11.798</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\Assets\sk.jpg">
+      <PackagePath>Assets\sk.jpg</PackagePath>
+      <Modified>2013-05-05T22:17:52.792</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\Assets\TheRockyHorrorPictureShowBook.jpg">
       <PackagePath>Assets\TheRockyHorrorPictureShowBook.jpg</PackagePath>
       <Modified>2013-05-01T20:22:04.702</Modified>
@@ -286,6 +306,10 @@
       <PackagePath>Assets\SplashScreen.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2013-05-05T23:41:27.311</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\Assets\SplashScreen2.png">
+      <PackagePath>Assets\SplashScreen2.png</PackagePath>
+      <Modified>2012-03-16T04:42:52.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
@@ -314,11 +338,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\bin\Debug\GroupedItemsPage.xaml">
       <PackagePath>GroupedItemsPage.xaml</PackagePath>
-      <Modified>2013-05-06T00:21:22.868</Modified>
+      <Modified>2013-05-06T06:36:24.961</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\bin\Debug\GroupDetailPage.xaml">
       <PackagePath>GroupDetailPage.xaml</PackagePath>
       <Modified>2013-05-05T17:44:37.218</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\bin\Debug\Home.xaml">
+      <PackagePath>Home.xaml</PackagePath>
+      <Modified>2013-05-06T05:25:37.667</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\bin\Debug\ItemDetailPage.xaml">
       <PackagePath>ItemDetailPage.xaml</PackagePath>
@@ -326,7 +354,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2013-05-05T23:41:55.718</Modified>
+      <Modified>2013-05-06T06:45:04.331</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

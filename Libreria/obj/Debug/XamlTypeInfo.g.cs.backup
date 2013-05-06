@@ -118,9 +118,11 @@ namespace Libreria.Libreria_XamlTypeInfo
 
         private object Activate_2_GroupDetailPage() { return new global::Libreria.GroupDetailPage(); }
 
-        private object Activate_3_RichTextColumns() { return new global::Libreria.Common.RichTextColumns(); }
+        private object Activate_3_Home() { return new global::Libreria.Home(); }
 
-        private object Activate_4_ItemDetailPage() { return new global::Libreria.ItemDetailPage(); }
+        private object Activate_4_RichTextColumns() { return new global::Libreria.Common.RichTextColumns(); }
+
+        private object Activate_5_ItemDetailPage() { return new global::Libreria.ItemDetailPage(); }
 
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(string typeName)
@@ -168,9 +170,15 @@ namespace Libreria.Libreria_XamlTypeInfo
                 xamlType = userType;
                 break;
 
+            case "Libreria.Home":
+                userType = new global::Libreria.Libreria_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Libreria.Home), GetXamlTypeByName("Libreria.Common.LayoutAwarePage"));
+                userType.Activator = Activate_3_Home;
+                xamlType = userType;
+                break;
+
             case "Libreria.Common.RichTextColumns":
                 userType = new global::Libreria.Libreria_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Libreria.Common.RichTextColumns), GetXamlTypeByName("Windows.UI.Xaml.Controls.Panel"));
-                userType.Activator = Activate_3_RichTextColumns;
+                userType.Activator = Activate_4_RichTextColumns;
                 userType.SetContentPropertyName("Libreria.Common.RichTextColumns.RichTextContent");
                 userType.AddMemberName("RichTextContent");
                 userType.AddMemberName("ColumnTemplate");
@@ -179,7 +187,7 @@ namespace Libreria.Libreria_XamlTypeInfo
 
             case "Libreria.ItemDetailPage":
                 userType = new global::Libreria.Libreria_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Libreria.ItemDetailPage), GetXamlTypeByName("Libreria.Common.LayoutAwarePage"));
-                userType.Activator = Activate_4_ItemDetailPage;
+                userType.Activator = Activate_5_ItemDetailPage;
                 xamlType = userType;
                 break;
 

@@ -27,10 +27,6 @@ C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_n
 C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\obj\Debug\pri.resfiles
 C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\obj\Debug\LanguageQualifiers.txt
 C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\obj\Debug\ProjectArchitectures.txt
-C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\obj\Debug\priconfig.xml.intermediate
-C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\obj\Debug\layout.resfiles.intermediate
-C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\obj\Debug\resources.resfiles.intermediate
-C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\obj\Debug\pri.resfiles.intermediate
 C:\udem\final\Libreria\bin\Debug\Libreria.exe
 C:\udem\final\Libreria\bin\Debug\Libreria.pdb
 C:\udem\final\Libreria\bin\Debug\resources.pri
@@ -67,3 +63,10 @@ C:\udem\final\Libreria\obj\Debug\resources.resfiles
 C:\udem\final\Libreria\obj\Debug\pri.resfiles
 C:\udem\final\Libreria\obj\Debug\LanguageQualifiers.txt
 C:\udem\final\Libreria\obj\Debug\ProjectArchitectures.txt
+C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\obj\Debug\Home.g.i.cs
+C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\obj\Debug\Home.g.cs
+C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\obj\Debug\Home.xaml
+C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\obj\Debug\priconfig.xml.intermediate
+C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\obj\Debug\layout.resfiles.intermediate
+C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\obj\Debug\resources.resfiles.intermediate
+C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\obj\Debug\pri.resfiles.intermediate

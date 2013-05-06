@@ -41,6 +41,9 @@ namespace Libreria.Data
         }
 
         private string _uniqueId = string.Empty;
+
+        
+        
         public string UniqueId
         {
             get { return this._uniqueId; }
@@ -224,8 +227,11 @@ namespace Libreria.Data
     /// </summary>
     public sealed class SampleDataSource
     {
+
         private static SampleDataSource _sampleDataSource = new SampleDataSource();
-        private svcLibreria.Service1Client client;
+        private static svcLibreria.Service1Client client;
+        public static int tipo { get; set; }
+       
 
         private ObservableCollection<SampleDataGroup> _allGroups = new ObservableCollection<SampleDataGroup>();
         public ObservableCollection<SampleDataGroup> AllGroups
@@ -239,7 +245,7 @@ namespace Libreria.Data
             
             return _sampleDataSource.AllGroups;
         }
-
+        
         public static SampleDataGroup GetGroup(string uniqueId)
         {
             // Simple linear search is acceptable for small data sets
@@ -258,7 +264,25 @@ namespace Libreria.Data
 
         public SampleDataSource()
         {
-            GetDataAutor();
+
+            if (Home.tipo == 1)
+            {
+                GetDataGenero();
+            }
+
+            else
+            {
+                if (Home.tipo == 2)
+                {
+                    GetDataAutor();
+                }
+            }
+
+                             
+        }
+        public void getGenero()
+        {
+            GetDataGenero();
         }
         public async void GetDataGenero()
         {

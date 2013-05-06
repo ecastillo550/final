@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Libreria.Data;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -21,8 +22,10 @@ namespace Libreria
     /// </summary>
     public sealed partial class Home : Libreria.Common.LayoutAwarePage
     {
+        public static int tipo = 0;
         public Home()
         {
+            tipo = 0;
             this.InitializeComponent();
         }
 
@@ -53,6 +56,32 @@ namespace Libreria
         {
 
 
+        }
+
+        private void StackPanel_GotFocus_1(object sender, RoutedEventArgs e)
+        {
+            //this.Frame.Navigate(typeof(GroupedItemsPage), pageTitle.Text);
+            tipo = 1;
+        }
+
+        private void StackPanel_PointerPressed_1(object sender, PointerRoutedEventArgs e)
+        {
+            tipo = 1;
+            
+            this.Frame.Navigate(typeof(GroupedItemsPage), "AllGroups");
+            
+        }
+
+        private void StackPanel_PointerPressed_2(object sender, PointerRoutedEventArgs e)
+        {
+            tipo = 2;
+           
+            this.Frame.Navigate(typeof(GroupedItemsPage), "AllGroups");
+        }
+        private void StackPanel_GotFocus_2(object sender, RoutedEventArgs e)
+        {
+            //this.Frame.Navigate(typeof(GroupedItemsPage), pageTitle.Text);
+            tipo = 2;
         }
     }
 }
