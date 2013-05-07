@@ -86,5 +86,6 @@ Assets\trhpsb.jpg
 Assets\wj.jpg
 App.xaml
 Common\StandardStyles.xaml
+Home.xaml
 ItemsPage.xaml
 SplitPage.xaml

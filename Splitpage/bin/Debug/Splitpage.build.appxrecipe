@@ -287,6 +287,9 @@
     <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\bin\Debug\Common\StandardStyles.xaml">
       <PackagePath>Common\StandardStyles.xaml</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\bin\Debug\Home.xaml">
+      <PackagePath>Home.xaml</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\bin\Debug\ItemsPage.xaml">
       <PackagePath>ItemsPage.xaml</PackagePath>
     </AppxPackagedFile>

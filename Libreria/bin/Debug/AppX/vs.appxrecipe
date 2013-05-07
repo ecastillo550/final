@@ -22,11 +22,11 @@
   <ItemGroup>
     <AppxPackagedFile Include="C:\udem\finalv1\Libreria\bin\Debug\Libreria.exe">
       <PackagePath>Libreria.exe</PackagePath>
-      <Modified>2013-05-06T22:55:04.296</Modified>
+      <Modified>2013-05-07T14:18:10.215</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\udem\finalv1\Libreria\bin\Debug\Libreria.pdb">
       <PackagePath>Libreria.pdb</PackagePath>
-      <Modified>2013-05-06T22:55:04.249</Modified>
+      <Modified>2013-05-07T14:18:10.197</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\ageekinjapan.jpg">
       <PackagePath>Assets\ageekinjapan.jpg</PackagePath>
@@ -346,7 +346,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\udem\finalv1\Libreria\bin\Debug\Home.xaml">
       <PackagePath>Home.xaml</PackagePath>
-      <Modified>2013-05-06T07:19:07.908</Modified>
+      <Modified>2013-05-07T14:11:39.992</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\udem\finalv1\Libreria\bin\Debug\ItemDetailPage.xaml">
       <PackagePath>ItemDetailPage.xaml</PackagePath>

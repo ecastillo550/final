@@ -83,5 +83,11 @@ namespace Libreria
             //this.Frame.Navigate(typeof(GroupedItemsPage), pageTitle.Text);
             tipo = 2;
         }
+
+        private void Menu_ItemClick_1(object sender, ItemClickEventArgs e)
+        {
+            
+            this.Frame.Navigate(typeof(GroupedItemsPage), "AllGroups");
+        }
     }
 }

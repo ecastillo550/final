@@ -257,9 +257,20 @@ namespace Splitpage.Data
 
         public SampleDataSource()
         {
-            GetDataGenero();
-                
+
+            if (Home.tipo == 1)
+            {
+                GetDataGenero();
             }
+
+            else
+            {
+                if (Home.tipo == 2)
+                {
+                    GetDataAutor();
+                }
+            }
+        }
 
 
         

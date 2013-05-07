@@ -16,17 +16,17 @@
     <AppXManifest Include="C:\udem\finalv1\Splitpage\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-05-07T06:46:57.198</Modified>
+      <Modified>2013-05-07T13:47:55.856</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\bin\Debug\Splitpage.exe">
       <PackagePath>Splitpage.exe</PackagePath>
-      <Modified>2013-05-07T06:48:12.919</Modified>
+      <Modified>2013-05-07T14:52:20.863</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\bin\Debug\Splitpage.pdb">
       <PackagePath>Splitpage.pdb</PackagePath>
-      <Modified>2013-05-07T06:48:12.900</Modified>
+      <Modified>2013-05-07T14:52:20.847</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\ageekinjapan.jpg">
       <PackagePath>Assets\ageekinjapan.jpg</PackagePath>
@@ -384,6 +384,10 @@
       <PackagePath>Common\StandardStyles.xaml</PackagePath>
       <Modified>2012-06-26T22:19:20.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\bin\Debug\Home.xaml">
+      <PackagePath>Home.xaml</PackagePath>
+      <Modified>2013-05-07T14:52:19.894</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\bin\Debug\ItemsPage.xaml">
       <PackagePath>ItemsPage.xaml</PackagePath>
       <Modified>2013-05-07T06:40:29.713</Modified>
@@ -394,7 +398,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2013-05-07T06:46:57.142</Modified>
+      <Modified>2013-05-07T13:47:55.580</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

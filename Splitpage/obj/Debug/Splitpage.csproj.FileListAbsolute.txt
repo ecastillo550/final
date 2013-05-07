@@ -28,3 +28,6 @@ C:\udem\finalv1\Splitpage\obj\Debug\resources.resfiles
 C:\udem\finalv1\Splitpage\obj\Debug\pri.resfiles
 C:\udem\finalv1\Splitpage\obj\Debug\LanguageQualifiers.txt
 C:\udem\finalv1\Splitpage\obj\Debug\ProjectArchitectures.txt
+C:\udem\finalv1\Splitpage\obj\Debug\Home.g.i.cs
+C:\udem\finalv1\Splitpage\obj\Debug\Home.g.cs
+C:\udem\finalv1\Splitpage\obj\Debug\Home.xaml
