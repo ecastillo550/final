@@ -1,269 +1,269 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>JONYMANOLO</Machine>
-    <WindowsUser>JuanManuel</WindowsUser>
+    <Machine>ERICK-LAP</Machine>
+    <WindowsUser>ecast_000</WindowsUser>
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\bin\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\udem\finalv1\Libreria\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\bin\Debug\Libreria.exe">
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\bin\Debug\Libreria.exe">
       <PackagePath>Libreria.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\bin\Debug\Libreria.pdb">
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\bin\Debug\Libreria.pdb">
       <PackagePath>Libreria.pdb</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\Assets\ageekinjapan.jpg">
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\ageekinjapan.jpg">
       <PackagePath>Assets\ageekinjapan.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\Assets\amanecer.jpg">
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\amanecer.jpg">
       <PackagePath>Assets\amanecer.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\Assets\autores.jpg">
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\autores.jpg">
       <PackagePath>Assets\autores.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\Assets\canciondesusannah.jpg">
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\canciondesusannah.jpg">
       <PackagePath>Assets\canciondesusannah.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\Assets\cincuentasombras1.jpg">
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\cincuentasombras1.jpg">
       <PackagePath>Assets\cincuentasombras1.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\Assets\cincuentasombras2.jpg">
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\cincuentasombras2.jpg">
       <PackagePath>Assets\cincuentasombras2.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\Assets\cincuentasombras3.jpg">
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\cincuentasombras3.jpg">
       <PackagePath>Assets\cincuentasombras3.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\Assets\crepusculo.jpg">
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\crepusculo.jpg">
       <PackagePath>Assets\crepusculo.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\Assets\cujo.jpg">
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\cujo.jpg">
       <PackagePath>Assets\cujo.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\Assets\diabetesowls.JPG">
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\diabetesowls.JPG">
       <PackagePath>Assets\diabetesowls.JPG</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\Assets\eclipse.jpg">
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\eclipse.jpg">
       <PackagePath>Assets\eclipse.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\Assets\editorial.jpg">
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\editorial.jpg">
       <PackagePath>Assets\editorial.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\Assets\elcaballoyelmuchacho.jpg">
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\elcaballoyelmuchacho.jpg">
       <PackagePath>Assets\elcaballoyelmuchacho.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\Assets\elleonlabrujayelarmario.jpg">
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\elleonlabrujayelarmario.jpg">
       <PackagePath>Assets\elleonlabrujayelarmario.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\Assets\elpistolero.jpg">
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\elpistolero.jpg">
       <PackagePath>Assets\elpistolero.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\Assets\elprincipecaspian.jpg">
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\elprincipecaspian.jpg">
       <PackagePath>Assets\elprincipecaspian.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\Assets\elsobrinodelmago.jpg">
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\elsobrinodelmago.jpg">
       <PackagePath>Assets\elsobrinodelmago.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\Assets\generos.jpg">
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\generos.jpg">
       <PackagePath>Assets\generos.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\Assets\happyhappyhappy.jpg">
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\happyhappyhappy.jpg">
       <PackagePath>Assets\happyhappyhappy.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\Assets\howfullisyourbucket.jpg">
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\howfullisyourbucket.jpg">
       <PackagePath>Assets\howfullisyourbucket.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\Assets\howfullisyourbucketkids.jpg">
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\howfullisyourbucketkids.jpg">
       <PackagePath>Assets\howfullisyourbucketkids.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\Assets\hppa.jpg">
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\hppa.jpg">
       <PackagePath>Assets\hppa.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\Assets\hpss.jpg">
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\hpss.jpg">
       <PackagePath>Assets\hpss.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\Assets\hpsse.jpg">
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\hpsse.jpg">
       <PackagePath>Assets\hpsse.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\Assets\it.jpg">
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\it.jpg">
       <PackagePath>Assets\it.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\Assets\jdate.jpg">
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\jdate.jpg">
       <PackagePath>Assets\jdate.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\Assets\JohnDiesAtTheEnd.jpg">
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\JohnDiesAtTheEnd.jpg">
       <PackagePath>Assets\JohnDiesAtTheEnd.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\Assets\jp.jpg">
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\jp.jpg">
       <PackagePath>Assets\jp.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\Assets\lallegadadelostres.jpg">
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\lallegadadelostres.jpg">
       <PackagePath>Assets\lallegadadelostres.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\Assets\lasilladeplata.jpg">
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\lasilladeplata.jpg">
       <PackagePath>Assets\lasilladeplata.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\Assets\lastierrasbaldias.JPG">
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\lastierrasbaldias.JPG">
       <PackagePath>Assets\lastierrasbaldias.JPG</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\Assets\latorreoscura.jpg">
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\latorreoscura.jpg">
       <PackagePath>Assets\latorreoscura.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\Assets\latravesiadelviajerodelalba.jpg">
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\latravesiadelviajerodelalba.jpg">
       <PackagePath>Assets\latravesiadelviajerodelalba.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\Assets\laultimabatalla.jpg">
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\laultimabatalla.jpg">
       <PackagePath>Assets\laultimabatalla.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\Assets\lces.jpg">
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\lces.jpg">
       <PackagePath>Assets\lces.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\Assets\lobosdelcalla.jpg">
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\lobosdelcalla.jpg">
       <PackagePath>Assets\lobosdelcalla.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\Assets\lunanueva.jpg">
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\lunanueva.jpg">
       <PackagePath>Assets\lunanueva.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\Assets\magoycristal.jpg">
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\magoycristal.jpg">
       <PackagePath>Assets\magoycristal.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\Assets\maho.JPG">
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\maho.JPG">
       <PackagePath>Assets\maho.JPG</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\Assets\meganalarisa1.jpg">
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\meganalarisa1.jpg">
       <PackagePath>Assets\meganalarisa1.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\Assets\meganalarisa10.jpg">
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\meganalarisa10.jpg">
       <PackagePath>Assets\meganalarisa10.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\Assets\meganalarisa2.jpg">
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\meganalarisa2.jpg">
       <PackagePath>Assets\meganalarisa2.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\Assets\meganalarisa3.jpg">
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\meganalarisa3.jpg">
       <PackagePath>Assets\meganalarisa3.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\Assets\meganalarisa4.jpg">
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\meganalarisa4.jpg">
       <PackagePath>Assets\meganalarisa4.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\Assets\meganalarisa5.jpg">
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\meganalarisa5.jpg">
       <PackagePath>Assets\meganalarisa5.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\Assets\meganalarisa6.jpg">
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\meganalarisa6.jpg">
       <PackagePath>Assets\meganalarisa6.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\Assets\meganalarisa7.jpg">
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\meganalarisa7.jpg">
       <PackagePath>Assets\meganalarisa7.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\Assets\meganalarisa8.jpg">
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\meganalarisa8.jpg">
       <PackagePath>Assets\meganalarisa8.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\Assets\meganalarisa9.jpg">
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\meganalarisa9.jpg">
       <PackagePath>Assets\meganalarisa9.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\Assets\mondragoarbolesparlantes.jpg">
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\mondragoarbolesparlantes.jpg">
       <PackagePath>Assets\mondragoarbolesparlantes.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\Assets\mondragobanyan.jpg">
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\mondragobanyan.jpg">
       <PackagePath>Assets\mondragobanyan.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\Assets\mondragobaobab.jpg">
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\mondragobaobab.jpg">
       <PackagePath>Assets\mondragobaobab.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\Assets\mondragogranprueba.jpg">
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\mondragogranprueba.jpg">
       <PackagePath>Assets\mondragogranprueba.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\Assets\onceminutos.jpg">
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\onceminutos.jpg">
       <PackagePath>Assets\onceminutos.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\Assets\orgulloyprejuicio.jpg">
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\orgulloyprejuicio.jpg">
       <PackagePath>Assets\orgulloyprejuicio.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\Assets\peppaBichos.jpg">
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\peppaBichos.jpg">
       <PackagePath>Assets\peppaBichos.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\Assets\peppaEscuela.jpg">
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\peppaEscuela.jpg">
       <PackagePath>Assets\peppaEscuela.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\Assets\peppafeliz.jpg">
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\peppafeliz.jpg">
       <PackagePath>Assets\peppafeliz.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\Assets\peppapega.jpg">
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\peppapega.jpg">
       <PackagePath>Assets\peppapega.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\Assets\peppapiscina.jpg">
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\peppapiscina.jpg">
       <PackagePath>Assets\peppapiscina.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\Assets\pj2.jpg">
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\pj2.jpg">
       <PackagePath>Assets\pj2.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\Assets\principal.jpg">
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\principal.jpg">
       <PackagePath>Assets\principal.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\Assets\sk.jpg">
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\sk.jpg">
       <PackagePath>Assets\sk.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\Assets\TheRockyHorrorPictureShowBook.jpg">
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\TheRockyHorrorPictureShowBook.jpg">
       <PackagePath>Assets\TheRockyHorrorPictureShowBook.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\Assets\toothiana.jpg">
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\toothiana.jpg">
       <PackagePath>Assets\toothiana.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\Assets\trhpsb.jpg">
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\trhpsb.jpg">
       <PackagePath>Assets\trhpsb.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\Assets\Logo.png">
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Logo.png">
       <PackagePath>Assets\Logo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\Assets\SmallLogo.png">
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\SmallLogo.png">
       <PackagePath>Assets\SmallLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\Assets\SplashScreen.png">
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\SplashScreen.png">
       <PackagePath>Assets\SplashScreen.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\Assets\SplashScreen2.png">
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\SplashScreen2.png">
       <PackagePath>Assets\SplashScreen2.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\Assets\LightGray.png">
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\LightGray.png">
       <PackagePath>Assets\LightGray.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\Assets\MediumGray.png">
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\MediumGray.png">
       <PackagePath>Assets\MediumGray.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\Assets\DarkGray.png">
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\DarkGray.png">
       <PackagePath>Assets\DarkGray.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\bin\Debug\App.xaml">
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\bin\Debug\App.xaml">
       <PackagePath>App.xaml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\bin\Debug\Common\StandardStyles.xaml">
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\bin\Debug\Common\StandardStyles.xaml">
       <PackagePath>Common\StandardStyles.xaml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\bin\Debug\GroupedItemsPage.xaml">
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\bin\Debug\GroupedItemsPage.xaml">
       <PackagePath>GroupedItemsPage.xaml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\bin\Debug\GroupDetailPage.xaml">
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\bin\Debug\GroupDetailPage.xaml">
       <PackagePath>GroupDetailPage.xaml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\bin\Debug\Home.xaml">
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\bin\Debug\Home.xaml">
       <PackagePath>Home.xaml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\bin\Debug\ItemDetailPage.xaml">
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\bin\Debug\ItemDetailPage.xaml">
       <PackagePath>ItemDetailPage.xaml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\bin\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

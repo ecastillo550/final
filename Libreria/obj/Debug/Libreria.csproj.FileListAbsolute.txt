@@ -70,3 +70,35 @@ C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_n
 C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\obj\Debug\layout.resfiles.intermediate
 C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\obj\Debug\resources.resfiles.intermediate
 C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\obj\Debug\pri.resfiles.intermediate
+C:\udem\finalv1\Libreria\bin\Debug\Libreria.exe
+C:\udem\finalv1\Libreria\bin\Debug\Libreria.pdb
+C:\udem\finalv1\Libreria\bin\Debug\resources.pri
+C:\udem\finalv1\Libreria\bin\Debug\AppxManifest.xml
+C:\udem\finalv1\Libreria\bin\Debug\Libreria.build.appxrecipe
+C:\udem\finalv1\Libreria\obj\Debug\App.g.i.cs
+C:\udem\finalv1\Libreria\obj\Debug\App.g.cs
+C:\udem\finalv1\Libreria\obj\Debug\Common\StandardStyles.g.i.cs
+C:\udem\finalv1\Libreria\obj\Debug\Common\StandardStyles.g.cs
+C:\udem\finalv1\Libreria\obj\Debug\GroupedItemsPage.g.i.cs
+C:\udem\finalv1\Libreria\obj\Debug\GroupedItemsPage.g.cs
+C:\udem\finalv1\Libreria\obj\Debug\GroupDetailPage.g.i.cs
+C:\udem\finalv1\Libreria\obj\Debug\GroupDetailPage.g.cs
+C:\udem\finalv1\Libreria\obj\Debug\Home.g.i.cs
+C:\udem\finalv1\Libreria\obj\Debug\Home.g.cs
+C:\udem\finalv1\Libreria\obj\Debug\ItemDetailPage.g.i.cs
+C:\udem\finalv1\Libreria\obj\Debug\ItemDetailPage.g.cs
+C:\udem\finalv1\Libreria\obj\Debug\XamlTypeInfo.g.cs
+C:\udem\finalv1\Libreria\obj\Debug\App.xaml
+C:\udem\finalv1\Libreria\obj\Debug\Common\StandardStyles.xaml
+C:\udem\finalv1\Libreria\obj\Debug\GroupedItemsPage.xaml
+C:\udem\finalv1\Libreria\obj\Debug\GroupDetailPage.xaml
+C:\udem\finalv1\Libreria\obj\Debug\Home.xaml
+C:\udem\finalv1\Libreria\obj\Debug\ItemDetailPage.xaml
+C:\udem\finalv1\Libreria\obj\Debug\Libreria.exe
+C:\udem\finalv1\Libreria\obj\Debug\Libreria.pdb
+C:\udem\finalv1\Libreria\obj\Debug\priconfig.xml
+C:\udem\finalv1\Libreria\obj\Debug\layout.resfiles
+C:\udem\finalv1\Libreria\obj\Debug\resources.resfiles
+C:\udem\finalv1\Libreria\obj\Debug\pri.resfiles
+C:\udem\finalv1\Libreria\obj\Debug\LanguageQualifiers.txt
+C:\udem\finalv1\Libreria\obj\Debug\ProjectArchitectures.txt

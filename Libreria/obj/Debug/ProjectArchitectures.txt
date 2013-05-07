@@ -1,1 +1,1 @@
-C:\UDEM\udem\10 semestre\componentes\TrabajoFinal\trabajo_final_prueba\examen2_new\Libreria\Libreria.csproj;neutral
+C:\udem\finalv1\Libreria\Libreria.csproj;neutral
