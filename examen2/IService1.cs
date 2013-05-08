@@ -26,7 +26,13 @@ namespace examen2
         //DataSet
         [OperationContract]
         DataSet ObtenerListaLibrosXAutor(int AutorID);
+        [OperationContract]
         DataSet ObtenerListaLibrosXGenero(int GeneroID);
+        [OperationContract]
+        DataSet ObtenerListaLibrosXEditorial(int EditorialID);
+
+        [OperationContract]
+        void NuevoLibro(string nombre, int autor, int editorial, int genero, string idioma, string pais, int paginas, string ImagenURL, string Descripcion);
   /*     
    *    [OperationContract]
         DataSet ObtenerListaGeneros();
@@ -58,8 +64,7 @@ namespace examen2
         void NuevoAutor(string nombre, string APaterno, string Nacionalidad);
         [OperationContract]
         void NuevoEditorial(string nombre, string Direccion, string Estado,string Pais);
-        [OperationContract]
-        void NuevoLibro(string nombre, int autor, int editorial, int genero,string idioma,string pais, int paginas);
+       
 
         //Editar
         [OperationContract]
@@ -133,7 +138,11 @@ namespace examen2
         [DataMember]
         public string Pais { get; set; }
         [DataMember]
+        public string ImagenURL { get; set; }
+        [DataMember]
         public string URLEditorial { get; set; }
+        [DataMember]
+        public List<Libro> ListaLibros { get; set; }
     }
 
     [DataContract]
@@ -143,6 +152,8 @@ namespace examen2
         public int GeneroID { get; set; }
         [DataMember]
         public string Nombre { get; set; }
+        [DataMember]
+        public string ImagenURL { get; set; }
         [DataMember]
         public List<Libro> ListaLibros { get; set; }
     }

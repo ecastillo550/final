@@ -16,365 +16,477 @@
     <AppXManifest Include="C:\udem\finalv1\Splitpage\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-05-07T13:47:55.856</Modified>
+      <Modified>2013-05-07T15:05:01.657</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\bin\Debug\Splitpage.exe">
       <PackagePath>Splitpage.exe</PackagePath>
-      <Modified>2013-05-07T14:52:20.863</Modified>
+      <Modified>2013-05-08T06:23:08.190</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\bin\Debug\Splitpage.pdb">
       <PackagePath>Splitpage.pdb</PackagePath>
-      <Modified>2013-05-07T14:52:20.847</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\ageekinjapan.jpg">
-      <PackagePath>Assets\ageekinjapan.jpg</PackagePath>
-      <Modified>2013-05-07T06:46:33.547</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\amanecer.jpg">
-      <PackagePath>Assets\amanecer.jpg</PackagePath>
-      <Modified>2013-05-07T06:46:33.549</Modified>
+      <Modified>2013-05-08T06:23:08.173</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\autores.jpg">
       <PackagePath>Assets\autores.jpg</PackagePath>
-      <Modified>2013-05-07T06:46:33.550</Modified>
+      <Modified>2013-05-07T15:02:57.025</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\canciondesusannah.jpg">
-      <PackagePath>Assets\canciondesusannah.jpg</PackagePath>
-      <Modified>2013-05-07T06:46:33.552</Modified>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Autor\csl.jpg">
+      <PackagePath>Assets\Autor\csl.jpg</PackagePath>
+      <Modified>2013-05-07T15:02:57.038</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\cincuentasombras1.jpg">
-      <PackagePath>Assets\cincuentasombras1.jpg</PackagePath>
-      <Modified>2013-05-07T06:46:33.553</Modified>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Autor\ds.jpg">
+      <PackagePath>Assets\Autor\ds.jpg</PackagePath>
+      <Modified>2013-05-07T15:02:57.040</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\cincuentasombras2.jpg">
-      <PackagePath>Assets\cincuentasombras2.jpg</PackagePath>
-      <Modified>2013-05-07T06:46:33.554</Modified>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Autor\elj.jpg">
+      <PackagePath>Assets\Autor\elj.jpg</PackagePath>
+      <Modified>2013-05-07T15:02:57.041</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\cincuentasombras3.jpg">
-      <PackagePath>Assets\cincuentasombras3.jpg</PackagePath>
-      <Modified>2013-05-07T06:46:33.556</Modified>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Autor\ggm.jpg">
+      <PackagePath>Assets\Autor\ggm.jpg</PackagePath>
+      <Modified>2013-05-07T15:02:57.043</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\crepusculo.jpg">
-      <PackagePath>Assets\crepusculo.jpg</PackagePath>
-      <Modified>2013-05-07T06:46:33.557</Modified>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Autor\hpl.jpg">
+      <PackagePath>Assets\Autor\hpl.jpg</PackagePath>
+      <Modified>2013-05-07T15:02:57.044</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\csl.jpg">
-      <PackagePath>Assets\csl.jpg</PackagePath>
-      <Modified>2013-05-07T06:46:33.610</Modified>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Autor\jkr.jpg">
+      <PackagePath>Assets\Autor\jkr.jpg</PackagePath>
+      <Modified>2013-05-07T15:02:57.046</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\cujo.jpg">
-      <PackagePath>Assets\cujo.jpg</PackagePath>
-      <Modified>2013-05-07T06:46:33.612</Modified>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Autor\mc.jpg">
+      <PackagePath>Assets\Autor\mc.jpg</PackagePath>
+      <Modified>2013-05-07T15:02:57.048</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\diabetesowls.JPG">
-      <PackagePath>Assets\diabetesowls.JPG</PackagePath>
-      <Modified>2013-05-07T06:46:38.179</Modified>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Autor\nr.jpg">
+      <PackagePath>Assets\Autor\nr.jpg</PackagePath>
+      <Modified>2013-05-07T15:02:57.049</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\ds.jpg">
-      <PackagePath>Assets\ds.jpg</PackagePath>
-      <Modified>2013-05-07T06:46:38.213</Modified>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Autor\pc.jpg">
+      <PackagePath>Assets\Autor\pc.jpg</PackagePath>
+      <Modified>2013-05-07T15:02:57.050</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\eclipse.jpg">
-      <PackagePath>Assets\eclipse.jpg</PackagePath>
-      <Modified>2013-05-07T06:46:38.214</Modified>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Autor\sk.jpg">
+      <PackagePath>Assets\Autor\sk.jpg</PackagePath>
+      <Modified>2013-05-07T15:02:57.051</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Autor\sm.jpg">
+      <PackagePath>Assets\Autor\sm.jpg</PackagePath>
+      <Modified>2013-05-07T15:02:57.053</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Autor\tr.jpg">
+      <PackagePath>Assets\Autor\tr.jpg</PackagePath>
+      <Modified>2013-05-07T15:02:57.054</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Autor\wj.jpg">
+      <PackagePath>Assets\Autor\wj.jpg</PackagePath>
+      <Modified>2013-05-07T15:02:57.056</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\editorial.jpg">
       <PackagePath>Assets\editorial.jpg</PackagePath>
-      <Modified>2013-05-07T06:46:38.216</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\elcaballoyelmuchacho.jpg">
-      <PackagePath>Assets\elcaballoyelmuchacho.jpg</PackagePath>
-      <Modified>2013-05-07T06:46:38.218</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\elj.jpg">
-      <PackagePath>Assets\elj.jpg</PackagePath>
-      <Modified>2013-05-07T06:46:38.247</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\elleonlabrujayelarmario.jpg">
-      <PackagePath>Assets\elleonlabrujayelarmario.jpg</PackagePath>
-      <Modified>2013-05-07T06:46:38.249</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\elpistolero.jpg">
-      <PackagePath>Assets\elpistolero.jpg</PackagePath>
-      <Modified>2013-05-07T06:46:38.251</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\elprincipecaspian.jpg">
-      <PackagePath>Assets\elprincipecaspian.jpg</PackagePath>
-      <Modified>2013-05-07T06:46:38.252</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\elsobrinodelmago.jpg">
-      <PackagePath>Assets\elsobrinodelmago.jpg</PackagePath>
-      <Modified>2013-05-07T06:46:38.254</Modified>
+      <Modified>2013-05-07T15:02:57.027</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\generos.jpg">
       <PackagePath>Assets\generos.jpg</PackagePath>
-      <Modified>2013-05-07T06:46:38.256</Modified>
+      <Modified>2013-05-07T15:02:57.028</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\ggm.jpg">
-      <PackagePath>Assets\ggm.jpg</PackagePath>
-      <Modified>2013-05-07T06:46:38.268</Modified>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Libro\ageekinjapan.jpg">
+      <PackagePath>Assets\Libro\ageekinjapan.jpg</PackagePath>
+      <Modified>2013-05-07T15:02:56.952</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\happyhappyhappy.jpg">
-      <PackagePath>Assets\happyhappyhappy.jpg</PackagePath>
-      <Modified>2013-05-07T06:46:38.269</Modified>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Libro\amanecer.jpg">
+      <PackagePath>Assets\Libro\amanecer.jpg</PackagePath>
+      <Modified>2013-05-07T15:02:56.953</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\howfullisyourbucket.jpg">
-      <PackagePath>Assets\howfullisyourbucket.jpg</PackagePath>
-      <Modified>2013-05-07T06:46:38.271</Modified>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Libro\canciondesusannah.jpg">
+      <PackagePath>Assets\Libro\canciondesusannah.jpg</PackagePath>
+      <Modified>2013-05-07T15:02:56.955</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\howfullisyourbucketkids.jpg">
-      <PackagePath>Assets\howfullisyourbucketkids.jpg</PackagePath>
-      <Modified>2013-05-07T06:46:38.272</Modified>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Libro\cincuentasombras1.jpg">
+      <PackagePath>Assets\Libro\cincuentasombras1.jpg</PackagePath>
+      <Modified>2013-05-07T15:02:56.956</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\hpl.jpg">
-      <PackagePath>Assets\hpl.jpg</PackagePath>
-      <Modified>2013-05-07T06:46:38.291</Modified>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Libro\cincuentasombras2.jpg">
+      <PackagePath>Assets\Libro\cincuentasombras2.jpg</PackagePath>
+      <Modified>2013-05-07T15:02:56.957</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\hppa.jpg">
-      <PackagePath>Assets\hppa.jpg</PackagePath>
-      <Modified>2013-05-07T06:46:38.293</Modified>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Libro\cincuentasombras3.jpg">
+      <PackagePath>Assets\Libro\cincuentasombras3.jpg</PackagePath>
+      <Modified>2013-05-07T15:02:56.958</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\hpss.jpg">
-      <PackagePath>Assets\hpss.jpg</PackagePath>
-      <Modified>2013-05-07T06:46:38.295</Modified>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Libro\crepusculo.jpg">
+      <PackagePath>Assets\Libro\crepusculo.jpg</PackagePath>
+      <Modified>2013-05-07T15:02:56.960</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\hpsse.jpg">
-      <PackagePath>Assets\hpsse.jpg</PackagePath>
-      <Modified>2013-05-07T06:46:38.296</Modified>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Libro\cujo.jpg">
+      <PackagePath>Assets\Libro\cujo.jpg</PackagePath>
+      <Modified>2013-05-07T15:02:56.961</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\it.jpg">
-      <PackagePath>Assets\it.jpg</PackagePath>
-      <Modified>2013-05-07T06:46:38.297</Modified>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Libro\diabetesowls.JPG">
+      <PackagePath>Assets\Libro\diabetesowls.JPG</PackagePath>
+      <Modified>2013-05-07T15:02:56.962</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\jdate.jpg">
-      <PackagePath>Assets\jdate.jpg</PackagePath>
-      <Modified>2013-05-07T06:46:38.299</Modified>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Libro\eclipse.jpg">
+      <PackagePath>Assets\Libro\eclipse.jpg</PackagePath>
+      <Modified>2013-05-07T15:02:56.964</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\jkr.jpg">
-      <PackagePath>Assets\jkr.jpg</PackagePath>
-      <Modified>2013-05-07T06:46:38.326</Modified>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Libro\elcaballoyelmuchacho.jpg">
+      <PackagePath>Assets\Libro\elcaballoyelmuchacho.jpg</PackagePath>
+      <Modified>2013-05-07T15:02:56.966</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\JohnDiesAtTheEnd.jpg">
-      <PackagePath>Assets\JohnDiesAtTheEnd.jpg</PackagePath>
-      <Modified>2013-05-07T06:46:38.328</Modified>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Libro\elleonlabrujayelarmario.jpg">
+      <PackagePath>Assets\Libro\elleonlabrujayelarmario.jpg</PackagePath>
+      <Modified>2013-05-07T15:02:56.967</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\jp.jpg">
-      <PackagePath>Assets\jp.jpg</PackagePath>
-      <Modified>2013-05-07T06:46:38.330</Modified>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Libro\elpistolero.jpg">
+      <PackagePath>Assets\Libro\elpistolero.jpg</PackagePath>
+      <Modified>2013-05-07T15:02:56.968</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\lallegadadelostres.jpg">
-      <PackagePath>Assets\lallegadadelostres.jpg</PackagePath>
-      <Modified>2013-05-07T06:46:38.331</Modified>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Libro\elprincipecaspian.jpg">
+      <PackagePath>Assets\Libro\elprincipecaspian.jpg</PackagePath>
+      <Modified>2013-05-07T15:02:56.969</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\lasilladeplata.jpg">
-      <PackagePath>Assets\lasilladeplata.jpg</PackagePath>
-      <Modified>2013-05-07T06:46:38.333</Modified>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Libro\elsobrinodelmago.jpg">
+      <PackagePath>Assets\Libro\elsobrinodelmago.jpg</PackagePath>
+      <Modified>2013-05-07T15:02:56.970</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\lastierrasbaldias.JPG">
-      <PackagePath>Assets\lastierrasbaldias.JPG</PackagePath>
-      <Modified>2013-05-07T06:46:38.334</Modified>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Libro\happyhappyhappy.jpg">
+      <PackagePath>Assets\Libro\happyhappyhappy.jpg</PackagePath>
+      <Modified>2013-05-07T15:02:56.972</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\latorreoscura.jpg">
-      <PackagePath>Assets\latorreoscura.jpg</PackagePath>
-      <Modified>2013-05-07T06:46:38.336</Modified>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Libro\howfullisyourbucket.jpg">
+      <PackagePath>Assets\Libro\howfullisyourbucket.jpg</PackagePath>
+      <Modified>2013-05-07T15:02:56.974</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\latravesiadelviajerodelalba.jpg">
-      <PackagePath>Assets\latravesiadelviajerodelalba.jpg</PackagePath>
-      <Modified>2013-05-07T06:46:38.337</Modified>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Libro\howfullisyourbucketkids.jpg">
+      <PackagePath>Assets\Libro\howfullisyourbucketkids.jpg</PackagePath>
+      <Modified>2013-05-07T15:02:56.975</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\laultimabatalla.jpg">
-      <PackagePath>Assets\laultimabatalla.jpg</PackagePath>
-      <Modified>2013-05-07T06:46:38.339</Modified>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Libro\hppa.jpg">
+      <PackagePath>Assets\Libro\hppa.jpg</PackagePath>
+      <Modified>2013-05-07T15:02:56.976</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\lces.jpg">
-      <PackagePath>Assets\lces.jpg</PackagePath>
-      <Modified>2013-05-07T06:46:38.341</Modified>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Libro\hpss.jpg">
+      <PackagePath>Assets\Libro\hpss.jpg</PackagePath>
+      <Modified>2013-05-07T15:02:56.977</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\lobosdelcalla.jpg">
-      <PackagePath>Assets\lobosdelcalla.jpg</PackagePath>
-      <Modified>2013-05-07T06:46:38.343</Modified>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Libro\hpsse.jpg">
+      <PackagePath>Assets\Libro\hpsse.jpg</PackagePath>
+      <Modified>2013-05-07T15:02:56.978</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\lunanueva.jpg">
-      <PackagePath>Assets\lunanueva.jpg</PackagePath>
-      <Modified>2013-05-07T06:46:38.346</Modified>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Libro\it.jpg">
+      <PackagePath>Assets\Libro\it.jpg</PackagePath>
+      <Modified>2013-05-07T15:02:56.979</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\magoycristal.jpg">
-      <PackagePath>Assets\magoycristal.jpg</PackagePath>
-      <Modified>2013-05-07T06:46:38.347</Modified>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Libro\jdate.jpg">
+      <PackagePath>Assets\Libro\jdate.jpg</PackagePath>
+      <Modified>2013-05-07T15:02:56.980</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\maho.JPG">
-      <PackagePath>Assets\maho.JPG</PackagePath>
-      <Modified>2013-05-07T06:46:38.349</Modified>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Libro\JohnDiesAtTheEnd.jpg">
+      <PackagePath>Assets\Libro\JohnDiesAtTheEnd.jpg</PackagePath>
+      <Modified>2013-05-07T15:02:56.982</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\mc.jpg">
-      <PackagePath>Assets\mc.jpg</PackagePath>
-      <Modified>2013-05-07T06:46:38.363</Modified>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Libro\jp.jpg">
+      <PackagePath>Assets\Libro\jp.jpg</PackagePath>
+      <Modified>2013-05-07T15:02:56.983</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\meganalarisa1.jpg">
-      <PackagePath>Assets\meganalarisa1.jpg</PackagePath>
-      <Modified>2013-05-07T06:46:38.365</Modified>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Libro\lallegadadelostres.jpg">
+      <PackagePath>Assets\Libro\lallegadadelostres.jpg</PackagePath>
+      <Modified>2013-05-07T15:02:56.984</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\meganalarisa10.jpg">
-      <PackagePath>Assets\meganalarisa10.jpg</PackagePath>
-      <Modified>2013-05-07T06:46:38.377</Modified>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Libro\lasilladeplata.jpg">
+      <PackagePath>Assets\Libro\lasilladeplata.jpg</PackagePath>
+      <Modified>2013-05-07T15:02:56.985</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\meganalarisa2.jpg">
-      <PackagePath>Assets\meganalarisa2.jpg</PackagePath>
-      <Modified>2013-05-07T06:46:38.367</Modified>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Libro\lastierrasbaldias.JPG">
+      <PackagePath>Assets\Libro\lastierrasbaldias.JPG</PackagePath>
+      <Modified>2013-05-07T15:02:56.987</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\meganalarisa3.jpg">
-      <PackagePath>Assets\meganalarisa3.jpg</PackagePath>
-      <Modified>2013-05-07T06:46:38.368</Modified>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Libro\latorreoscura.jpg">
+      <PackagePath>Assets\Libro\latorreoscura.jpg</PackagePath>
+      <Modified>2013-05-07T15:02:56.988</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\meganalarisa4.jpg">
-      <PackagePath>Assets\meganalarisa4.jpg</PackagePath>
-      <Modified>2013-05-07T06:46:38.370</Modified>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Libro\latravesiadelviajerodelalba.jpg">
+      <PackagePath>Assets\Libro\latravesiadelviajerodelalba.jpg</PackagePath>
+      <Modified>2013-05-07T15:02:56.989</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\meganalarisa5.jpg">
-      <PackagePath>Assets\meganalarisa5.jpg</PackagePath>
-      <Modified>2013-05-07T06:46:38.371</Modified>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Libro\laultimabatalla.jpg">
+      <PackagePath>Assets\Libro\laultimabatalla.jpg</PackagePath>
+      <Modified>2013-05-07T15:02:56.990</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\meganalarisa6.jpg">
-      <PackagePath>Assets\meganalarisa6.jpg</PackagePath>
-      <Modified>2013-05-07T06:46:38.372</Modified>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Libro\lces.jpg">
+      <PackagePath>Assets\Libro\lces.jpg</PackagePath>
+      <Modified>2013-05-07T15:02:56.991</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\meganalarisa7.jpg">
-      <PackagePath>Assets\meganalarisa7.jpg</PackagePath>
-      <Modified>2013-05-07T06:46:38.373</Modified>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Libro\lobosdelcalla.jpg">
+      <PackagePath>Assets\Libro\lobosdelcalla.jpg</PackagePath>
+      <Modified>2013-05-07T15:02:56.992</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\meganalarisa8.jpg">
-      <PackagePath>Assets\meganalarisa8.jpg</PackagePath>
-      <Modified>2013-05-07T06:46:38.375</Modified>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Libro\lunanueva.jpg">
+      <PackagePath>Assets\Libro\lunanueva.jpg</PackagePath>
+      <Modified>2013-05-07T15:02:56.993</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\meganalarisa9.jpg">
-      <PackagePath>Assets\meganalarisa9.jpg</PackagePath>
-      <Modified>2013-05-07T06:46:38.376</Modified>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Libro\magoycristal.jpg">
+      <PackagePath>Assets\Libro\magoycristal.jpg</PackagePath>
+      <Modified>2013-05-07T15:02:56.995</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\mondragoarbolesparlantes.jpg">
-      <PackagePath>Assets\mondragoarbolesparlantes.jpg</PackagePath>
-      <Modified>2013-05-07T06:46:38.379</Modified>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Libro\maho.JPG">
+      <PackagePath>Assets\Libro\maho.JPG</PackagePath>
+      <Modified>2013-05-07T15:02:56.996</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\mondragobanyan.jpg">
-      <PackagePath>Assets\mondragobanyan.jpg</PackagePath>
-      <Modified>2013-05-07T06:46:38.381</Modified>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Libro\meganalarisa1.jpg">
+      <PackagePath>Assets\Libro\meganalarisa1.jpg</PackagePath>
+      <Modified>2013-05-07T15:02:56.997</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\mondragobaobab.jpg">
-      <PackagePath>Assets\mondragobaobab.jpg</PackagePath>
-      <Modified>2013-05-07T06:46:38.382</Modified>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Libro\meganalarisa10.jpg">
+      <PackagePath>Assets\Libro\meganalarisa10.jpg</PackagePath>
+      <Modified>2013-05-07T15:02:56.998</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\mondragogranprueba.jpg">
-      <PackagePath>Assets\mondragogranprueba.jpg</PackagePath>
-      <Modified>2013-05-07T06:46:38.384</Modified>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Libro\meganalarisa2.jpg">
+      <PackagePath>Assets\Libro\meganalarisa2.jpg</PackagePath>
+      <Modified>2013-05-07T15:02:56.999</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\nr.jpg">
-      <PackagePath>Assets\nr.jpg</PackagePath>
-      <Modified>2013-05-07T06:46:38.386</Modified>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Libro\meganalarisa3.jpg">
+      <PackagePath>Assets\Libro\meganalarisa3.jpg</PackagePath>
+      <Modified>2013-05-07T15:02:57.001</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\onceminutos.jpg">
-      <PackagePath>Assets\onceminutos.jpg</PackagePath>
-      <Modified>2013-05-07T06:46:38.387</Modified>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Libro\meganalarisa4.jpg">
+      <PackagePath>Assets\Libro\meganalarisa4.jpg</PackagePath>
+      <Modified>2013-05-07T15:02:57.002</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\orgulloyprejuicio.jpg">
-      <PackagePath>Assets\orgulloyprejuicio.jpg</PackagePath>
-      <Modified>2013-05-07T06:46:38.389</Modified>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Libro\meganalarisa5.jpg">
+      <PackagePath>Assets\Libro\meganalarisa5.jpg</PackagePath>
+      <Modified>2013-05-07T15:02:57.003</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\pc.jpg">
-      <PackagePath>Assets\pc.jpg</PackagePath>
-      <Modified>2013-05-07T06:46:38.391</Modified>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Libro\meganalarisa6.jpg">
+      <PackagePath>Assets\Libro\meganalarisa6.jpg</PackagePath>
+      <Modified>2013-05-07T15:02:57.004</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\peppaBichos.jpg">
-      <PackagePath>Assets\peppaBichos.jpg</PackagePath>
-      <Modified>2013-05-07T06:46:38.392</Modified>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Libro\meganalarisa7.jpg">
+      <PackagePath>Assets\Libro\meganalarisa7.jpg</PackagePath>
+      <Modified>2013-05-07T15:02:57.005</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\peppaEscuela.jpg">
-      <PackagePath>Assets\peppaEscuela.jpg</PackagePath>
-      <Modified>2013-05-07T06:46:38.394</Modified>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Libro\meganalarisa8.jpg">
+      <PackagePath>Assets\Libro\meganalarisa8.jpg</PackagePath>
+      <Modified>2013-05-07T15:02:57.006</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\peppafeliz.jpg">
-      <PackagePath>Assets\peppafeliz.jpg</PackagePath>
-      <Modified>2013-05-07T06:46:38.395</Modified>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Libro\meganalarisa9.jpg">
+      <PackagePath>Assets\Libro\meganalarisa9.jpg</PackagePath>
+      <Modified>2013-05-07T15:02:57.007</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\peppapega.jpg">
-      <PackagePath>Assets\peppapega.jpg</PackagePath>
-      <Modified>2013-05-07T06:46:38.397</Modified>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Libro\mondragoarbolesparlantes.jpg">
+      <PackagePath>Assets\Libro\mondragoarbolesparlantes.jpg</PackagePath>
+      <Modified>2013-05-07T15:02:57.008</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\peppapiscina.jpg">
-      <PackagePath>Assets\peppapiscina.jpg</PackagePath>
-      <Modified>2013-05-07T06:46:38.399</Modified>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Libro\mondragobanyan.jpg">
+      <PackagePath>Assets\Libro\mondragobanyan.jpg</PackagePath>
+      <Modified>2013-05-07T15:02:57.009</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\pj2.jpg">
-      <PackagePath>Assets\pj2.jpg</PackagePath>
-      <Modified>2013-05-07T06:46:38.400</Modified>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Libro\mondragobaobab.jpg">
+      <PackagePath>Assets\Libro\mondragobaobab.jpg</PackagePath>
+      <Modified>2013-05-07T15:02:57.010</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Libro\mondragogranprueba.jpg">
+      <PackagePath>Assets\Libro\mondragogranprueba.jpg</PackagePath>
+      <Modified>2013-05-07T15:02:57.011</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Libro\onceminutos.jpg">
+      <PackagePath>Assets\Libro\onceminutos.jpg</PackagePath>
+      <Modified>2013-05-07T15:02:57.013</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Libro\orgulloyprejuicio.jpg">
+      <PackagePath>Assets\Libro\orgulloyprejuicio.jpg</PackagePath>
+      <Modified>2013-05-07T15:02:57.014</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Libro\peppaBichos.jpg">
+      <PackagePath>Assets\Libro\peppaBichos.jpg</PackagePath>
+      <Modified>2013-05-07T15:02:57.015</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Libro\peppaEscuela.jpg">
+      <PackagePath>Assets\Libro\peppaEscuela.jpg</PackagePath>
+      <Modified>2013-05-07T15:02:57.016</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Libro\peppafeliz.jpg">
+      <PackagePath>Assets\Libro\peppafeliz.jpg</PackagePath>
+      <Modified>2013-05-07T15:02:57.017</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Libro\peppapega.jpg">
+      <PackagePath>Assets\Libro\peppapega.jpg</PackagePath>
+      <Modified>2013-05-07T15:02:57.018</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Libro\peppapiscina.jpg">
+      <PackagePath>Assets\Libro\peppapiscina.jpg</PackagePath>
+      <Modified>2013-05-07T15:02:57.019</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Libro\pj2.jpg">
+      <PackagePath>Assets\Libro\pj2.jpg</PackagePath>
+      <Modified>2013-05-07T15:02:57.020</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Libro\TheRockyHorrorPictureShowBook.jpg">
+      <PackagePath>Assets\Libro\TheRockyHorrorPictureShowBook.jpg</PackagePath>
+      <Modified>2013-05-07T15:02:57.021</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Libro\toothiana.jpg">
+      <PackagePath>Assets\Libro\toothiana.jpg</PackagePath>
+      <Modified>2013-05-07T15:02:57.023</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Libro\trhpsb.jpg">
+      <PackagePath>Assets\Libro\trhpsb.jpg</PackagePath>
+      <Modified>2013-05-07T15:02:57.024</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\principal.jpg">
       <PackagePath>Assets\principal.jpg</PackagePath>
-      <Modified>2013-05-07T06:46:38.401</Modified>
+      <Modified>2013-05-07T15:02:57.032</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\sk.jpg">
-      <PackagePath>Assets\sk.jpg</PackagePath>
-      <Modified>2013-05-07T06:46:38.403</Modified>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\DarkGray.png">
+      <PackagePath>Assets\DarkGray.png</PackagePath>
+      <Modified>2013-05-07T15:02:57.026</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\sm.jpg">
-      <PackagePath>Assets\sm.jpg</PackagePath>
-      <Modified>2013-05-07T06:46:38.405</Modified>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Editorial\alfaguara.png">
+      <PackagePath>Assets\Editorial\alfaguara.png</PackagePath>
+      <Modified>2013-05-07T15:02:57.057</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\TheRockyHorrorPictureShowBook.jpg">
-      <PackagePath>Assets\TheRockyHorrorPictureShowBook.jpg</PackagePath>
-      <Modified>2013-05-07T06:46:38.411</Modified>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Editorial\atheneum.png">
+      <PackagePath>Assets\Editorial\atheneum.png</PackagePath>
+      <Modified>2013-05-07T15:02:57.058</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\toothiana.jpg">
-      <PackagePath>Assets\toothiana.jpg</PackagePath>
-      <Modified>2013-05-07T06:46:38.412</Modified>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Editorial\beascoa.png">
+      <PackagePath>Assets\Editorial\beascoa.png</PackagePath>
+      <Modified>2013-05-07T15:02:57.060</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\tr.jpg">
-      <PackagePath>Assets\tr.jpg</PackagePath>
-      <Modified>2013-05-07T06:46:38.414</Modified>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Editorial\bloom.png">
+      <PackagePath>Assets\Editorial\bloom.png</PackagePath>
+      <Modified>2013-05-07T15:02:57.061</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\trhpsb.jpg">
-      <PackagePath>Assets\trhpsb.jpg</PackagePath>
-      <Modified>2013-05-07T06:46:38.415</Modified>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Editorial\dutton.png">
+      <PackagePath>Assets\Editorial\dutton.png</PackagePath>
+      <Modified>2013-05-07T15:02:57.062</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\wj.jpg">
-      <PackagePath>Assets\wj.jpg</PackagePath>
-      <Modified>2013-05-07T06:46:38.417</Modified>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Editorial\everest.png">
+      <PackagePath>Assets\Editorial\everest.png</PackagePath>
+      <Modified>2013-05-07T15:02:57.063</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Editorial\gallup.png">
+      <PackagePath>Assets\Editorial\gallup.png</PackagePath>
+      <Modified>2013-05-07T15:02:57.064</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Editorial\grijalbo.png">
+      <PackagePath>Assets\Editorial\grijalbo.png</PackagePath>
+      <Modified>2013-05-07T15:02:57.065</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Editorial\howardb.png">
+      <PackagePath>Assets\Editorial\howardb.png</PackagePath>
+      <Modified>2013-05-07T15:02:57.066</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Editorial\lbbg.png">
+      <PackagePath>Assets\Editorial\lbbg.png</PackagePath>
+      <Modified>2013-05-07T15:02:57.070</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Editorial\mcgraw.png">
+      <PackagePath>Assets\Editorial\mcgraw.png</PackagePath>
+      <Modified>2013-05-07T15:02:57.071</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Editorial\planeta.png">
+      <PackagePath>Assets\Editorial\planeta.png</PackagePath>
+      <Modified>2013-05-07T15:02:57.072</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Editorial\plazaj.png">
+      <PackagePath>Assets\Editorial\plazaj.png</PackagePath>
+      <Modified>2013-05-07T15:02:57.073</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Editorial\putnam.png">
+      <PackagePath>Assets\Editorial\putnam.png</PackagePath>
+      <Modified>2013-05-07T15:02:57.074</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Editorial\stmt.png">
+      <PackagePath>Assets\Editorial\stmt.png</PackagePath>
+      <Modified>2013-05-07T15:02:57.075</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Editorial\tomo.png">
+      <PackagePath>Assets\Editorial\tomo.png</PackagePath>
+      <Modified>2013-05-07T15:02:57.076</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Editorial\trillas.png">
+      <PackagePath>Assets\Editorial\trillas.png</PackagePath>
+      <Modified>2013-05-07T15:02:57.077</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Editorial\tuttle.png">
+      <PackagePath>Assets\Editorial\tuttle.png</PackagePath>
+      <Modified>2013-05-07T15:02:57.078</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Genero\biografia.png">
+      <PackagePath>Assets\Genero\biografia.png</PackagePath>
+      <Modified>2013-05-07T15:02:57.080</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Genero\chistes.png">
+      <PackagePath>Assets\Genero\chistes.png</PackagePath>
+      <Modified>2013-05-07T15:02:57.081</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Genero\educacion.png">
+      <PackagePath>Assets\Genero\educacion.png</PackagePath>
+      <Modified>2013-05-07T15:02:57.082</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Genero\ficcion.png">
+      <PackagePath>Assets\Genero\ficcion.png</PackagePath>
+      <Modified>2013-05-07T15:02:57.083</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Genero\infantil.png">
+      <PackagePath>Assets\Genero\infantil.png</PackagePath>
+      <Modified>2013-05-07T15:02:57.084</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Genero\magia.png">
+      <PackagePath>Assets\Genero\magia.png</PackagePath>
+      <Modified>2013-05-07T15:02:57.085</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Genero\motivacional.png">
+      <PackagePath>Assets\Genero\motivacional.png</PackagePath>
+      <Modified>2013-05-07T15:02:57.086</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Genero\romance.png">
+      <PackagePath>Assets\Genero\romance.png</PackagePath>
+      <Modified>2013-05-07T15:02:57.087</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Genero\terror.png">
+      <PackagePath>Assets\Genero\terror.png</PackagePath>
+      <Modified>2013-05-07T15:02:57.088</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Genero\viajes.png">
+      <PackagePath>Assets\Genero\viajes.png</PackagePath>
+      <Modified>2013-05-07T15:02:57.089</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\LightGray.png">
+      <PackagePath>Assets\LightGray.png</PackagePath>
+      <Modified>2013-05-07T15:02:57.029</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\Logo.png">
       <PackagePath>Assets\Logo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-05-07T06:46:38.345</Modified>
+      <Modified>2013-05-07T15:02:57.030</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\MediumGray.png">
+      <PackagePath>Assets\MediumGray.png</PackagePath>
+      <Modified>2013-05-07T15:02:57.031</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\SmallLogo.png">
       <PackagePath>Assets\SmallLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-05-07T06:46:38.406</Modified>
+      <Modified>2013-05-07T15:02:57.033</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\SplashScreen.png">
       <PackagePath>Assets\SplashScreen.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-05-07T06:46:38.407</Modified>
+      <Modified>2013-05-07T15:02:57.034</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\SplashScreen2.png">
       <PackagePath>Assets\SplashScreen2.png</PackagePath>
-      <Modified>2013-05-07T06:46:38.408</Modified>
+      <Modified>2013-05-07T15:02:57.035</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-05-07T06:46:38.410</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\LightGray.png">
-      <PackagePath>Assets\LightGray.png</PackagePath>
-      <Modified>2013-05-07T06:46:38.342</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\MediumGray.png">
-      <PackagePath>Assets\MediumGray.png</PackagePath>
-      <Modified>2013-05-07T06:46:38.364</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\Assets\DarkGray.png">
-      <PackagePath>Assets\DarkGray.png</PackagePath>
-      <Modified>2013-05-07T06:46:38.177</Modified>
+      <Modified>2013-05-07T15:02:57.037</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\bin\Debug\App.xaml">
       <PackagePath>App.xaml</PackagePath>
@@ -386,7 +498,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\bin\Debug\Home.xaml">
       <PackagePath>Home.xaml</PackagePath>
-      <Modified>2013-05-07T14:52:19.894</Modified>
+      <Modified>2013-05-08T04:35:15.762</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\bin\Debug\ItemsPage.xaml">
       <PackagePath>ItemsPage.xaml</PackagePath>
@@ -398,7 +510,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\udem\finalv1\Splitpage\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2013-05-07T13:47:55.580</Modified>
+      <Modified>2013-05-07T15:05:01.576</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

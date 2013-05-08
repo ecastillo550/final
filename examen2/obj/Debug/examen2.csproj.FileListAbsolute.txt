@@ -24,6 +24,5 @@ C:\udem\final\examen2\obj\Debug\examen2.dll
 C:\udem\final\examen2\obj\Debug\examen2.pdb
 C:\udem\finalv1\examen2\bin\examen2.dll
 C:\udem\finalv1\examen2\bin\examen2.pdb
-C:\udem\finalv1\examen2\obj\Debug\examen2.csprojResolveAssemblyReference.cache
 C:\udem\finalv1\examen2\obj\Debug\examen2.dll
 C:\udem\finalv1\examen2\obj\Debug\examen2.pdb

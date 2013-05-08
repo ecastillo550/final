@@ -52,20 +52,20 @@
                 <ColumnDefinition Width="Auto"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
-            <Button x:ConnectionId='4' x:Name="backButton"                IsEnabled="{Binding Frame.CanGoBack, ElementName=pageRoot}" Style="{StaticResource BackButtonStyle}"/>
+            <Button x:ConnectionId='6' x:Name="backButton"                IsEnabled="{Binding Frame.CanGoBack, ElementName=pageRoot}" Style="{StaticResource BackButtonStyle}"/>
             <TextBlock x:Name="pageTitle" Grid.Column="1" Style="{StaticResource PageHeaderTextStyle}">
             	<Run Text="Librer"/>
             	<Run Text="ía HON"/>
             </TextBlock>
         </Grid>
         <GridView x:Name="Menu" HorizontalAlignment="Left" Margin="91,102,0,0" Grid.Row="1" VerticalAlignment="Top" Width="1231" Height="444">
-            <StackPanel x:ConnectionId='2' Orientation="Vertical" Width="382"                                                                              >
+            <StackPanel x:ConnectionId='3' Orientation="Vertical" Width="382"                                                                              >
                 <GridViewItem Margin="0">
                     <Image x:Name="genero_img" HorizontalAlignment="Left" Height="363" VerticalAlignment="Top" Width="374" Source="Assets/generos.jpg"/>
                 </GridViewItem>
                 <TextBlock x:Name="genero_txt" Style="{StaticResource PageHeaderTextStyle}" Margin="0,0,45,0" Text="Género"/>
             </StackPanel>
-            <StackPanel x:ConnectionId='3' Orientation="Vertical" Width="392"                                             >
+            <StackPanel x:ConnectionId='4' Orientation="Vertical" Width="392"                                             >
                 <GridViewItem Margin="0">
                     <Image Height="359" Width="364" Source="Assets/autores.jpg"/>
                 </GridViewItem>
@@ -75,18 +75,22 @@
                 	<Run/>
                 </TextBlock>
             </StackPanel>
-            <StackPanel Orientation="Vertical" Width="392">
+            <StackPanel x:ConnectionId='5' Orientation="Vertical" Width="392"                                             >
                 <GridViewItem Margin="0" Height="365">
                     <Image Height="285" Width="378" Source="Assets/editorial.jpg"/>
                 </GridViewItem>
-                <TextBlock x:Name="Editorial_txt" Style="{StaticResource PageHeaderTextStyle}" Margin="0,0,55,0">
+                <TextBlock x:Name="Editorial_txt" Style="{StaticResource PageHeaderTextStyle}" Margin="0" HorizontalAlignment="Left" Width="337">
                 	<Run Text="Editorial"/>
                 	<LineBreak/>
                 	<Run/>
                 </TextBlock>
             </StackPanel>
         </GridView>
-          
+        <ComboBox x:ConnectionId='2' x:Name="vistacmb" HorizontalAlignment="Left" Margin="87,19,0,0" Grid.Row="1" VerticalAlignment="Top" Width="401" Height="60" SelectedIndex="0" FontSize="18"                                               >
+            <ComboBoxItem Content="SplitView"/>
+            <ComboBoxItem Content="GridView"/>
+        </ComboBox>
+
 
         <VisualStateManager.VisualStateGroups>
 

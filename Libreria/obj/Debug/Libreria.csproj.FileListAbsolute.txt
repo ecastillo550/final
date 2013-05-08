@@ -102,3 +102,13 @@ C:\udem\finalv1\Libreria\obj\Debug\resources.resfiles
 C:\udem\finalv1\Libreria\obj\Debug\pri.resfiles
 C:\udem\finalv1\Libreria\obj\Debug\LanguageQualifiers.txt
 C:\udem\finalv1\Libreria\obj\Debug\ProjectArchitectures.txt
+C:\udem\finalv1\Libreria\obj\Debug\ItemsPage.g.i.cs
+C:\udem\finalv1\Libreria\obj\Debug\ItemsPage.g.cs
+C:\udem\finalv1\Libreria\obj\Debug\SplitPage.g.i.cs
+C:\udem\finalv1\Libreria\obj\Debug\SplitPage.g.cs
+C:\udem\finalv1\Libreria\obj\Debug\ItemsPage.xaml
+C:\udem\finalv1\Libreria\obj\Debug\SplitPage.xaml
+C:\udem\finalv1\Libreria\obj\Debug\priconfig.xml.intermediate
+C:\udem\finalv1\Libreria\obj\Debug\layout.resfiles.intermediate
+C:\udem\finalv1\Libreria\obj\Debug\resources.resfiles.intermediate
+C:\udem\finalv1\Libreria\obj\Debug\pri.resfiles.intermediate

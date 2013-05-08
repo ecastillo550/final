@@ -16,33 +16,7 @@ namespace examen2
     // NOTE: In order to launch WCF Test Client for testing this service, please select Service1.svc or Service1.svc.cs at the Solution Explorer and start debugging.
     public class Service1 : IService1
     {
-       /* public void NuevoLibro(string nombre, int autor, int editorial, int genero, string idioma, string pais, int paginas)
-        {
-            string dbStr = HostingEnvironment.MapPath(@"~/App_Data/libros.mdb;");
-            string connStr = @"Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" + dbStr;
-            OleDbConnection conn = new OleDbConnection(connStr);
-            string query = " INSERT INTO Libros (Nombre,AutorID,EditorialID,GeneroID,Idioma,Pais,NoPaginas) VALUES('" + nombre + "'," + autor + "," + editorial + "," + genero + ",'"+idioma+"','"+pais+"',"+paginas+");";
-
-
-            try
-            {
-                conn.Open();
-                OleDbCommand myCommand = new OleDbCommand(query, conn);
-                myCommand.ExecuteNonQuery();
-            }
-            catch (Exception ex)
-            {
-                string Message = ex.Message;
-                throw ex;
-            }
-
-            finally
-            {
-                if (conn.State == ConnectionState.Open)
-                    conn.Close();
-            }
-
-        }
+       /* 
         public void EditaLibro(int id, string nombre, int autor, int editorial, int genero, string idioma, string pais, int paginas)
         {
             string dbStr = HostingEnvironment.MapPath(@"~/App_Data/libros.mdb;");
@@ -227,30 +201,78 @@ namespace examen2
                     conn.Close();
             }
         }*/
-        public List<Editorial> ObtenerListaEditoriales()
+        public void NuevoLibro(string nombre, int autor, int editorial, int genero, string idioma, string pais, int paginas,string ImagenURL,string Descripcion)
         {
             string dbStr = HostingEnvironment.MapPath(@"~/App_Data/libros.mdb;");
             string connStr = @"Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" + dbStr;
             OleDbConnection conn = new OleDbConnection(connStr);
-            OleDbDataAdapter adapter = new OleDbDataAdapter("SELECT * FROM Editoriales;", conn);
+            string query = " INSERT INTO Libros (Nombre,AutorID,EditorialID,GeneroID,Idioma,Pais,NoPaginas,ImagenURL,Descripcion) VALUES('" + nombre + "'," + autor + "," + editorial + "," + genero + ",'" + idioma + "','" + pais + "'," + paginas + ",'" + ImagenURL + "','" + Descripcion + "');";
+
+
+            try
+            {
+                conn.Open();
+                OleDbCommand myCommand = new OleDbCommand(query, conn);
+                myCommand.ExecuteNonQuery();
+            }
+            catch (Exception ex)
+            {
+                string Message = ex.Message;
+                throw ex;
+            }
+
+            finally
+            {
+                if (conn.State == ConnectionState.Open)
+                    conn.Close();
+            }
+
+        }
+        public List<Editorial> ObtenerListaEditoriales()
+        {
+            List<Editorial> EditorialLst = new List<Editorial>();
+            string dbStr = HostingEnvironment.MapPath(@"~/App_Data/libros.mdb;");
+            string connStr = @"Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" + dbStr;
+            OleDbConnection conn = new OleDbConnection(connStr);
+            OleDbDataAdapter adapter = new OleDbDataAdapter("SELECT EditorialID,ImagenURL,Nombre,Direccion,Estado,Pais,URLEditorial FROM Editoriales;", conn);
             DataSet ds = new DataSet();
             adapter.Fill(ds);
-            List<Editorial> EditorialLst = new List<Editorial>();
-            Editorial EditorialObj = new Editorial();
-
+           
             foreach (DataRow dr in ds.Tables[0].Rows)
             {
+                Editorial EditorialObj = new Editorial();
+             
+
                 EditorialObj.Nombre = dr["Nombre"].ToString();
                 EditorialObj.EditorialID = Convert.ToInt32(dr["EditorialID"].ToString());
                 EditorialObj.Direccion = dr["Direccion"].ToString();
                 EditorialObj.Estado = dr["Estado"].ToString();
                 EditorialObj.Pais = dr["Pais"].ToString();
                 EditorialObj.URLEditorial = dr["URLEditorial"].ToString();
+                EditorialObj.ImagenURL = dr["ImagenURL"].ToString();
+
+                //Libros
+               
+                EditorialObj.ListaLibros = new List<Libro>();
+
+                DataSet ds2 = ObtenerListaLibrosXEditorial(EditorialObj.EditorialID);
+                foreach (DataRow dr2 in ds2.Tables[0].Rows)
+                {
+                    Libro l = new Libro();
+                    l.LibroID = Convert.ToInt32(dr2["LibroID"].ToString());
+                    l.Nombre = dr2["Nombre"].ToString();
+                    l.ImagenURL = dr2["ImagenURL"].ToString();
+                    l.Descripcion = dr2["Descripcion"].ToString();
+
+                    EditorialObj.ListaLibros.Add(l);
+                }
                 EditorialLst.Add(EditorialObj);
+
+                
             }
-       
-           
+
             return EditorialLst;
+
 
         }
         public List<Genero> ObtenerListaTodosGeneros()
@@ -258,16 +280,17 @@ namespace examen2
             string dbStr = HostingEnvironment.MapPath(@"~/App_Data/libros.mdb;");
             string connStr = @"Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" + dbStr;
             OleDbConnection conn = new OleDbConnection(connStr);
-            OleDbDataAdapter adapter = new OleDbDataAdapter("SELECT GeneroID,Nombre FROM Generos;", conn);
+            OleDbDataAdapter adapter = new OleDbDataAdapter("SELECT GeneroID,Nombre,ImagenURL FROM Generos;", conn);
             DataSet ds = new DataSet();
             adapter.Fill(ds);
+
             List<Genero> GeneroLst = new List<Genero>();
-            
 
             foreach (DataRow dr in ds.Tables[0].Rows)
             {
                 Genero GeneroObj = new Genero();
                 GeneroObj.GeneroID = Convert.ToInt32(dr["GeneroID"].ToString());
+                GeneroObj.ImagenURL = dr["ImagenURL"].ToString();
                 GeneroObj.Nombre = dr["Nombre"].ToString();
               
 
@@ -393,6 +416,16 @@ namespace examen2
               adapter.Fill(ds);
               return ds;
           }
+           public DataSet ObtenerListaLibrosXEditorial(int EditorialID)
+           {
+               string dbStr = HostingEnvironment.MapPath(@"~/App_Data/libros.mdb;");
+               string connStr = @"Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" + dbStr;
+               OleDbConnection conn = new OleDbConnection(connStr);
+               OleDbDataAdapter adapter = new OleDbDataAdapter("SELECT LibroID, Nombre,ImagenURL,Descripcion  FROM Libros WHERE EditorialID = " + EditorialID, conn);
+               DataSet ds = new DataSet();
+               adapter.Fill(ds);
+               return ds;
+           }
          /* public DataSet ObtenerListaGeneros()
           {
               string dbStr = HostingEnvironment.MapPath(@"~/App_Data/libros.mdb;");

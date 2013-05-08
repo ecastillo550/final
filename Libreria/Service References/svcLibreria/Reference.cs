@@ -37,6 +37,18 @@ namespace Libreria.svcLibreria {
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/ObtenerListaLibrosXAutor", ReplyAction="http://tempuri.org/IService1/ObtenerListaLibrosXAutorResponse")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<Libreria.svcLibreria.ObtenerListaLibrosXAutorResponse> ObtenerListaLibrosXAutorAsync(Libreria.svcLibreria.ObtenerListaLibrosXAutorRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/ObtenerListaLibrosXGenero", ReplyAction="http://tempuri.org/IService1/ObtenerListaLibrosXGeneroResponse")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        System.Threading.Tasks.Task<Libreria.svcLibreria.ObtenerListaLibrosXGeneroResponse> ObtenerListaLibrosXGeneroAsync(Libreria.svcLibreria.ObtenerListaLibrosXGeneroRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/ObtenerListaLibrosXEditorial", ReplyAction="http://tempuri.org/IService1/ObtenerListaLibrosXEditorialResponse")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        System.Threading.Tasks.Task<Libreria.svcLibreria.ObtenerListaLibrosXEditorialResponse> ObtenerListaLibrosXEditorialAsync(Libreria.svcLibreria.ObtenerListaLibrosXEditorialRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/NuevoLibro", ReplyAction="http://tempuri.org/IService1/NuevoLibroResponse")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        System.Threading.Tasks.Task<Libreria.svcLibreria.NuevoLibroResponse> NuevoLibroAsync(Libreria.svcLibreria.NuevoLibroRequest request);
     }
     
     /// <remarks/>
@@ -279,6 +291,10 @@ namespace Libreria.svcLibreria {
         
         private string estadoField;
         
+        private string imagenURLField;
+        
+        private Libro[] listaLibrosField;
+        
         private string nombreField;
         
         private string paisField;
@@ -335,6 +351,30 @@ namespace Libreria.svcLibreria {
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=3)]
+        public string ImagenURL {
+            get {
+                return this.imagenURLField;
+            }
+            set {
+                this.imagenURLField = value;
+                this.RaisePropertyChanged("ImagenURL");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlArrayAttribute(IsNullable=true, Order=4)]
+        public Libro[] ListaLibros {
+            get {
+                return this.listaLibrosField;
+            }
+            set {
+                this.listaLibrosField = value;
+                this.RaisePropertyChanged("ListaLibros");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=5)]
         public string Nombre {
             get {
                 return this.nombreField;
@@ -346,7 +386,7 @@ namespace Libreria.svcLibreria {
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=4)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=6)]
         public string Pais {
             get {
                 return this.paisField;
@@ -358,7 +398,7 @@ namespace Libreria.svcLibreria {
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=5)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=7)]
         public string URLEditorial {
             get {
                 return this.uRLEditorialField;
@@ -389,6 +429,8 @@ namespace Libreria.svcLibreria {
         
         private bool generoIDFieldSpecified;
         
+        private string imagenURLField;
+        
         private Libro[] listaLibrosField;
         
         private string nombreField;
@@ -418,7 +460,19 @@ namespace Libreria.svcLibreria {
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlArrayAttribute(IsNullable=true, Order=1)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=1)]
+        public string ImagenURL {
+            get {
+                return this.imagenURLField;
+            }
+            set {
+                this.imagenURLField = value;
+                this.RaisePropertyChanged("ImagenURL");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlArrayAttribute(IsNullable=true, Order=2)]
         public Libro[] ListaLibros {
             get {
                 return this.listaLibrosField;
@@ -430,7 +484,7 @@ namespace Libreria.svcLibreria {
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=2)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=3)]
         public string Nombre {
             get {
                 return this.nombreField;
@@ -716,6 +770,140 @@ namespace Libreria.svcLibreria {
         }
     }
     
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="ObtenerListaLibrosXGenero", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
+    public partial class ObtenerListaLibrosXGeneroRequest {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
+        public int GeneroID;
+        
+        public ObtenerListaLibrosXGeneroRequest() {
+        }
+        
+        public ObtenerListaLibrosXGeneroRequest(int GeneroID) {
+            this.GeneroID = GeneroID;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="ObtenerListaLibrosXGeneroResponse", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
+    public partial class ObtenerListaLibrosXGeneroResponse {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
+        public Libreria.svcLibreria.ArrayOfXElement ObtenerListaLibrosXGeneroResult;
+        
+        public ObtenerListaLibrosXGeneroResponse() {
+        }
+        
+        public ObtenerListaLibrosXGeneroResponse(Libreria.svcLibreria.ArrayOfXElement ObtenerListaLibrosXGeneroResult) {
+            this.ObtenerListaLibrosXGeneroResult = ObtenerListaLibrosXGeneroResult;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="ObtenerListaLibrosXEditorial", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
+    public partial class ObtenerListaLibrosXEditorialRequest {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
+        public int EditorialID;
+        
+        public ObtenerListaLibrosXEditorialRequest() {
+        }
+        
+        public ObtenerListaLibrosXEditorialRequest(int EditorialID) {
+            this.EditorialID = EditorialID;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="ObtenerListaLibrosXEditorialResponse", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
+    public partial class ObtenerListaLibrosXEditorialResponse {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
+        public Libreria.svcLibreria.ArrayOfXElement ObtenerListaLibrosXEditorialResult;
+        
+        public ObtenerListaLibrosXEditorialResponse() {
+        }
+        
+        public ObtenerListaLibrosXEditorialResponse(Libreria.svcLibreria.ArrayOfXElement ObtenerListaLibrosXEditorialResult) {
+            this.ObtenerListaLibrosXEditorialResult = ObtenerListaLibrosXEditorialResult;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="NuevoLibro", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
+    public partial class NuevoLibroRequest {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
+        public string nombre;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=1)]
+        public int autor;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=2)]
+        public int editorial;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=3)]
+        public int genero;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=4)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
+        public string idioma;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=5)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
+        public string pais;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=6)]
+        public int paginas;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=7)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
+        public string ImagenURL;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=8)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
+        public string Descripcion;
+        
+        public NuevoLibroRequest() {
+        }
+        
+        public NuevoLibroRequest(string nombre, int autor, int editorial, int genero, string idioma, string pais, int paginas, string ImagenURL, string Descripcion) {
+            this.nombre = nombre;
+            this.autor = autor;
+            this.editorial = editorial;
+            this.genero = genero;
+            this.idioma = idioma;
+            this.pais = pais;
+            this.paginas = paginas;
+            this.ImagenURL = ImagenURL;
+            this.Descripcion = Descripcion;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="NuevoLibroResponse", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
+    public partial class NuevoLibroResponse {
+        
+        public NuevoLibroResponse() {
+        }
+    }
+    
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
     public interface IService1Channel : Libreria.svcLibreria.IService1, System.ServiceModel.IClientChannel {
     }
@@ -808,6 +996,47 @@ namespace Libreria.svcLibreria {
             Libreria.svcLibreria.ObtenerListaLibrosXAutorRequest inValue = new Libreria.svcLibreria.ObtenerListaLibrosXAutorRequest();
             inValue.AutorID = AutorID;
             return ((Libreria.svcLibreria.IService1)(this)).ObtenerListaLibrosXAutorAsync(inValue);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        System.Threading.Tasks.Task<Libreria.svcLibreria.ObtenerListaLibrosXGeneroResponse> Libreria.svcLibreria.IService1.ObtenerListaLibrosXGeneroAsync(Libreria.svcLibreria.ObtenerListaLibrosXGeneroRequest request) {
+            return base.Channel.ObtenerListaLibrosXGeneroAsync(request);
+        }
+        
+        public System.Threading.Tasks.Task<Libreria.svcLibreria.ObtenerListaLibrosXGeneroResponse> ObtenerListaLibrosXGeneroAsync(int GeneroID) {
+            Libreria.svcLibreria.ObtenerListaLibrosXGeneroRequest inValue = new Libreria.svcLibreria.ObtenerListaLibrosXGeneroRequest();
+            inValue.GeneroID = GeneroID;
+            return ((Libreria.svcLibreria.IService1)(this)).ObtenerListaLibrosXGeneroAsync(inValue);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        System.Threading.Tasks.Task<Libreria.svcLibreria.ObtenerListaLibrosXEditorialResponse> Libreria.svcLibreria.IService1.ObtenerListaLibrosXEditorialAsync(Libreria.svcLibreria.ObtenerListaLibrosXEditorialRequest request) {
+            return base.Channel.ObtenerListaLibrosXEditorialAsync(request);
+        }
+        
+        public System.Threading.Tasks.Task<Libreria.svcLibreria.ObtenerListaLibrosXEditorialResponse> ObtenerListaLibrosXEditorialAsync(int EditorialID) {
+            Libreria.svcLibreria.ObtenerListaLibrosXEditorialRequest inValue = new Libreria.svcLibreria.ObtenerListaLibrosXEditorialRequest();
+            inValue.EditorialID = EditorialID;
+            return ((Libreria.svcLibreria.IService1)(this)).ObtenerListaLibrosXEditorialAsync(inValue);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        System.Threading.Tasks.Task<Libreria.svcLibreria.NuevoLibroResponse> Libreria.svcLibreria.IService1.NuevoLibroAsync(Libreria.svcLibreria.NuevoLibroRequest request) {
+            return base.Channel.NuevoLibroAsync(request);
+        }
+        
+        public System.Threading.Tasks.Task<Libreria.svcLibreria.NuevoLibroResponse> NuevoLibroAsync(string nombre, int autor, int editorial, int genero, string idioma, string pais, int paginas, string ImagenURL, string Descripcion) {
+            Libreria.svcLibreria.NuevoLibroRequest inValue = new Libreria.svcLibreria.NuevoLibroRequest();
+            inValue.nombre = nombre;
+            inValue.autor = autor;
+            inValue.editorial = editorial;
+            inValue.genero = genero;
+            inValue.idioma = idioma;
+            inValue.pais = pais;
+            inValue.paginas = paginas;
+            inValue.ImagenURL = ImagenURL;
+            inValue.Descripcion = Descripcion;
+            return ((Libreria.svcLibreria.IService1)(this)).NuevoLibroAsync(inValue);
         }
         
         public virtual System.Threading.Tasks.Task OpenAsync() {

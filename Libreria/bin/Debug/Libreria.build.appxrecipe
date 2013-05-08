@@ -19,207 +19,336 @@
     <AppxPackagedFile Include="C:\udem\finalv1\Libreria\bin\Debug\Libreria.pdb">
       <PackagePath>Libreria.pdb</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\ageekinjapan.jpg">
-      <PackagePath>Assets\ageekinjapan.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\amanecer.jpg">
-      <PackagePath>Assets\amanecer.jpg</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\autores.jpg">
       <PackagePath>Assets\autores.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\canciondesusannah.jpg">
-      <PackagePath>Assets\canciondesusannah.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Autor\csl.jpg">
+      <PackagePath>Assets\Autor\csl.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\cincuentasombras1.jpg">
-      <PackagePath>Assets\cincuentasombras1.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Autor\ds.jpg">
+      <PackagePath>Assets\Autor\ds.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\cincuentasombras2.jpg">
-      <PackagePath>Assets\cincuentasombras2.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Autor\elj.jpg">
+      <PackagePath>Assets\Autor\elj.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\cincuentasombras3.jpg">
-      <PackagePath>Assets\cincuentasombras3.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Autor\ggm.jpg">
+      <PackagePath>Assets\Autor\ggm.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\crepusculo.jpg">
-      <PackagePath>Assets\crepusculo.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Autor\hpl.jpg">
+      <PackagePath>Assets\Autor\hpl.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\cujo.jpg">
-      <PackagePath>Assets\cujo.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Autor\jkr.jpg">
+      <PackagePath>Assets\Autor\jkr.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\diabetesowls.JPG">
-      <PackagePath>Assets\diabetesowls.JPG</PackagePath>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Autor\mc.jpg">
+      <PackagePath>Assets\Autor\mc.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\eclipse.jpg">
-      <PackagePath>Assets\eclipse.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Autor\nr.jpg">
+      <PackagePath>Assets\Autor\nr.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Autor\pc.jpg">
+      <PackagePath>Assets\Autor\pc.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Autor\sk.jpg">
+      <PackagePath>Assets\Autor\sk.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Autor\sm.jpg">
+      <PackagePath>Assets\Autor\sm.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Autor\tr.jpg">
+      <PackagePath>Assets\Autor\tr.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Autor\wj.jpg">
+      <PackagePath>Assets\Autor\wj.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\editorial.jpg">
       <PackagePath>Assets\editorial.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\elcaballoyelmuchacho.jpg">
-      <PackagePath>Assets\elcaballoyelmuchacho.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\elleonlabrujayelarmario.jpg">
-      <PackagePath>Assets\elleonlabrujayelarmario.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\elpistolero.jpg">
-      <PackagePath>Assets\elpistolero.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\elprincipecaspian.jpg">
-      <PackagePath>Assets\elprincipecaspian.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\elsobrinodelmago.jpg">
-      <PackagePath>Assets\elsobrinodelmago.jpg</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\generos.jpg">
       <PackagePath>Assets\generos.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\happyhappyhappy.jpg">
-      <PackagePath>Assets\happyhappyhappy.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\ageekinjapan.jpg">
+      <PackagePath>Assets\Libro\ageekinjapan.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\howfullisyourbucket.jpg">
-      <PackagePath>Assets\howfullisyourbucket.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\amanecer.jpg">
+      <PackagePath>Assets\Libro\amanecer.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\howfullisyourbucketkids.jpg">
-      <PackagePath>Assets\howfullisyourbucketkids.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\canciondesusannah.jpg">
+      <PackagePath>Assets\Libro\canciondesusannah.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\hppa.jpg">
-      <PackagePath>Assets\hppa.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\cincuentasombras1.jpg">
+      <PackagePath>Assets\Libro\cincuentasombras1.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\hpss.jpg">
-      <PackagePath>Assets\hpss.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\cincuentasombras2.jpg">
+      <PackagePath>Assets\Libro\cincuentasombras2.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\hpsse.jpg">
-      <PackagePath>Assets\hpsse.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\cincuentasombras3.jpg">
+      <PackagePath>Assets\Libro\cincuentasombras3.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\it.jpg">
-      <PackagePath>Assets\it.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\crepusculo.jpg">
+      <PackagePath>Assets\Libro\crepusculo.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\jdate.jpg">
-      <PackagePath>Assets\jdate.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\cujo.jpg">
+      <PackagePath>Assets\Libro\cujo.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\JohnDiesAtTheEnd.jpg">
-      <PackagePath>Assets\JohnDiesAtTheEnd.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\diabetesowls.JPG">
+      <PackagePath>Assets\Libro\diabetesowls.JPG</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\jp.jpg">
-      <PackagePath>Assets\jp.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\eclipse.jpg">
+      <PackagePath>Assets\Libro\eclipse.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\lallegadadelostres.jpg">
-      <PackagePath>Assets\lallegadadelostres.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\elcaballoyelmuchacho.jpg">
+      <PackagePath>Assets\Libro\elcaballoyelmuchacho.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\lasilladeplata.jpg">
-      <PackagePath>Assets\lasilladeplata.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\elleonlabrujayelarmario.jpg">
+      <PackagePath>Assets\Libro\elleonlabrujayelarmario.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\lastierrasbaldias.JPG">
-      <PackagePath>Assets\lastierrasbaldias.JPG</PackagePath>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\elpistolero.jpg">
+      <PackagePath>Assets\Libro\elpistolero.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\latorreoscura.jpg">
-      <PackagePath>Assets\latorreoscura.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\elprincipecaspian.jpg">
+      <PackagePath>Assets\Libro\elprincipecaspian.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\latravesiadelviajerodelalba.jpg">
-      <PackagePath>Assets\latravesiadelviajerodelalba.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\elsobrinodelmago.jpg">
+      <PackagePath>Assets\Libro\elsobrinodelmago.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\laultimabatalla.jpg">
-      <PackagePath>Assets\laultimabatalla.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\happyhappyhappy.jpg">
+      <PackagePath>Assets\Libro\happyhappyhappy.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\lces.jpg">
-      <PackagePath>Assets\lces.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\howfullisyourbucket.jpg">
+      <PackagePath>Assets\Libro\howfullisyourbucket.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\lobosdelcalla.jpg">
-      <PackagePath>Assets\lobosdelcalla.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\howfullisyourbucketkids.jpg">
+      <PackagePath>Assets\Libro\howfullisyourbucketkids.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\lunanueva.jpg">
-      <PackagePath>Assets\lunanueva.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\hppa.jpg">
+      <PackagePath>Assets\Libro\hppa.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\magoycristal.jpg">
-      <PackagePath>Assets\magoycristal.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\hpss.jpg">
+      <PackagePath>Assets\Libro\hpss.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\maho.JPG">
-      <PackagePath>Assets\maho.JPG</PackagePath>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\hpsse.jpg">
+      <PackagePath>Assets\Libro\hpsse.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\meganalarisa1.jpg">
-      <PackagePath>Assets\meganalarisa1.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\it.jpg">
+      <PackagePath>Assets\Libro\it.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\meganalarisa10.jpg">
-      <PackagePath>Assets\meganalarisa10.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\jdate.jpg">
+      <PackagePath>Assets\Libro\jdate.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\meganalarisa2.jpg">
-      <PackagePath>Assets\meganalarisa2.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\JohnDiesAtTheEnd.jpg">
+      <PackagePath>Assets\Libro\JohnDiesAtTheEnd.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\meganalarisa3.jpg">
-      <PackagePath>Assets\meganalarisa3.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\jp.jpg">
+      <PackagePath>Assets\Libro\jp.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\meganalarisa4.jpg">
-      <PackagePath>Assets\meganalarisa4.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\lallegadadelostres.jpg">
+      <PackagePath>Assets\Libro\lallegadadelostres.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\meganalarisa5.jpg">
-      <PackagePath>Assets\meganalarisa5.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\lasilladeplata.jpg">
+      <PackagePath>Assets\Libro\lasilladeplata.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\meganalarisa6.jpg">
-      <PackagePath>Assets\meganalarisa6.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\lastierrasbaldias.JPG">
+      <PackagePath>Assets\Libro\lastierrasbaldias.JPG</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\meganalarisa7.jpg">
-      <PackagePath>Assets\meganalarisa7.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\latorreoscura.jpg">
+      <PackagePath>Assets\Libro\latorreoscura.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\meganalarisa8.jpg">
-      <PackagePath>Assets\meganalarisa8.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\latravesiadelviajerodelalba.jpg">
+      <PackagePath>Assets\Libro\latravesiadelviajerodelalba.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\meganalarisa9.jpg">
-      <PackagePath>Assets\meganalarisa9.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\laultimabatalla.jpg">
+      <PackagePath>Assets\Libro\laultimabatalla.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\mondragoarbolesparlantes.jpg">
-      <PackagePath>Assets\mondragoarbolesparlantes.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\lces.jpg">
+      <PackagePath>Assets\Libro\lces.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\mondragobanyan.jpg">
-      <PackagePath>Assets\mondragobanyan.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\lobosdelcalla.jpg">
+      <PackagePath>Assets\Libro\lobosdelcalla.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\mondragobaobab.jpg">
-      <PackagePath>Assets\mondragobaobab.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\lunanueva.jpg">
+      <PackagePath>Assets\Libro\lunanueva.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\mondragogranprueba.jpg">
-      <PackagePath>Assets\mondragogranprueba.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\magoycristal.jpg">
+      <PackagePath>Assets\Libro\magoycristal.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\onceminutos.jpg">
-      <PackagePath>Assets\onceminutos.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\maho.JPG">
+      <PackagePath>Assets\Libro\maho.JPG</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\orgulloyprejuicio.jpg">
-      <PackagePath>Assets\orgulloyprejuicio.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\meganalarisa1.jpg">
+      <PackagePath>Assets\Libro\meganalarisa1.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\peppaBichos.jpg">
-      <PackagePath>Assets\peppaBichos.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\meganalarisa10.jpg">
+      <PackagePath>Assets\Libro\meganalarisa10.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\peppaEscuela.jpg">
-      <PackagePath>Assets\peppaEscuela.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\meganalarisa2.jpg">
+      <PackagePath>Assets\Libro\meganalarisa2.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\peppafeliz.jpg">
-      <PackagePath>Assets\peppafeliz.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\meganalarisa3.jpg">
+      <PackagePath>Assets\Libro\meganalarisa3.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\peppapega.jpg">
-      <PackagePath>Assets\peppapega.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\meganalarisa4.jpg">
+      <PackagePath>Assets\Libro\meganalarisa4.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\peppapiscina.jpg">
-      <PackagePath>Assets\peppapiscina.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\meganalarisa5.jpg">
+      <PackagePath>Assets\Libro\meganalarisa5.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\pj2.jpg">
-      <PackagePath>Assets\pj2.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\meganalarisa6.jpg">
+      <PackagePath>Assets\Libro\meganalarisa6.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\meganalarisa7.jpg">
+      <PackagePath>Assets\Libro\meganalarisa7.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\meganalarisa8.jpg">
+      <PackagePath>Assets\Libro\meganalarisa8.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\meganalarisa9.jpg">
+      <PackagePath>Assets\Libro\meganalarisa9.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\mondragoarbolesparlantes.jpg">
+      <PackagePath>Assets\Libro\mondragoarbolesparlantes.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\mondragobanyan.jpg">
+      <PackagePath>Assets\Libro\mondragobanyan.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\mondragobaobab.jpg">
+      <PackagePath>Assets\Libro\mondragobaobab.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\mondragogranprueba.jpg">
+      <PackagePath>Assets\Libro\mondragogranprueba.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\onceminutos.jpg">
+      <PackagePath>Assets\Libro\onceminutos.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\orgulloyprejuicio.jpg">
+      <PackagePath>Assets\Libro\orgulloyprejuicio.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\peppaBichos.jpg">
+      <PackagePath>Assets\Libro\peppaBichos.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\peppaEscuela.jpg">
+      <PackagePath>Assets\Libro\peppaEscuela.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\peppafeliz.jpg">
+      <PackagePath>Assets\Libro\peppafeliz.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\peppapega.jpg">
+      <PackagePath>Assets\Libro\peppapega.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\peppapiscina.jpg">
+      <PackagePath>Assets\Libro\peppapiscina.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\pj2.jpg">
+      <PackagePath>Assets\Libro\pj2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\TheRockyHorrorPictureShowBook.jpg">
+      <PackagePath>Assets\Libro\TheRockyHorrorPictureShowBook.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\toothiana.jpg">
+      <PackagePath>Assets\Libro\toothiana.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\trhpsb.jpg">
+      <PackagePath>Assets\Libro\trhpsb.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\principal.jpg">
       <PackagePath>Assets\principal.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\sk.jpg">
-      <PackagePath>Assets\sk.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\DarkGray.png">
+      <PackagePath>Assets\DarkGray.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\TheRockyHorrorPictureShowBook.jpg">
-      <PackagePath>Assets\TheRockyHorrorPictureShowBook.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Editorial\alfaguara.png">
+      <PackagePath>Assets\Editorial\alfaguara.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\toothiana.jpg">
-      <PackagePath>Assets\toothiana.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Editorial\atheneum.png">
+      <PackagePath>Assets\Editorial\atheneum.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\trhpsb.jpg">
-      <PackagePath>Assets\trhpsb.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Editorial\beascoa.png">
+      <PackagePath>Assets\Editorial\beascoa.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Editorial\bloom.png">
+      <PackagePath>Assets\Editorial\bloom.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Editorial\dutton.png">
+      <PackagePath>Assets\Editorial\dutton.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Editorial\everest.png">
+      <PackagePath>Assets\Editorial\everest.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Editorial\gallup.png">
+      <PackagePath>Assets\Editorial\gallup.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Editorial\grijalbo.png">
+      <PackagePath>Assets\Editorial\grijalbo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Editorial\howardb.png">
+      <PackagePath>Assets\Editorial\howardb.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Editorial\lbbg.png">
+      <PackagePath>Assets\Editorial\lbbg.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Editorial\mcgraw.png">
+      <PackagePath>Assets\Editorial\mcgraw.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Editorial\planeta.png">
+      <PackagePath>Assets\Editorial\planeta.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Editorial\plazaj.png">
+      <PackagePath>Assets\Editorial\plazaj.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Editorial\putnam.png">
+      <PackagePath>Assets\Editorial\putnam.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Editorial\stmt.png">
+      <PackagePath>Assets\Editorial\stmt.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Editorial\tomo.png">
+      <PackagePath>Assets\Editorial\tomo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Editorial\trillas.png">
+      <PackagePath>Assets\Editorial\trillas.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Editorial\tuttle.png">
+      <PackagePath>Assets\Editorial\tuttle.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Genero\biografia.png">
+      <PackagePath>Assets\Genero\biografia.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Genero\chistes.png">
+      <PackagePath>Assets\Genero\chistes.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Genero\educacion.png">
+      <PackagePath>Assets\Genero\educacion.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Genero\ficcion.png">
+      <PackagePath>Assets\Genero\ficcion.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Genero\infantil.png">
+      <PackagePath>Assets\Genero\infantil.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Genero\magia.png">
+      <PackagePath>Assets\Genero\magia.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Genero\motivacional.png">
+      <PackagePath>Assets\Genero\motivacional.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Genero\romance.png">
+      <PackagePath>Assets\Genero\romance.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Genero\terror.png">
+      <PackagePath>Assets\Genero\terror.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Genero\viajes.png">
+      <PackagePath>Assets\Genero\viajes.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\LightGray.png">
+      <PackagePath>Assets\LightGray.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Logo.png">
       <PackagePath>Assets\Logo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\MediumGray.png">
+      <PackagePath>Assets\MediumGray.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\SmallLogo.png">
       <PackagePath>Assets\SmallLogo.png</PackagePath>
@@ -235,15 +364,6 @@
     <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\LightGray.png">
-      <PackagePath>Assets\LightGray.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\MediumGray.png">
-      <PackagePath>Assets\MediumGray.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\DarkGray.png">
-      <PackagePath>Assets\DarkGray.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\udem\finalv1\Libreria\bin\Debug\App.xaml">
       <PackagePath>App.xaml</PackagePath>
@@ -262,6 +382,12 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\udem\finalv1\Libreria\bin\Debug\ItemDetailPage.xaml">
       <PackagePath>ItemDetailPage.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\bin\Debug\ItemsPage.xaml">
+      <PackagePath>ItemsPage.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\bin\Debug\SplitPage.xaml">
+      <PackagePath>SplitPage.xaml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\udem\finalv1\Libreria\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>

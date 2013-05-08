@@ -124,6 +124,10 @@ namespace Libreria.Libreria_XamlTypeInfo
 
         private object Activate_5_ItemDetailPage() { return new global::Libreria.ItemDetailPage(); }
 
+        private object Activate_6_ItemsPage() { return new global::Libreria.ItemsPage(); }
+
+        private object Activate_7_SplitPage() { return new global::Libreria.SplitPage(); }
+
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(string typeName)
         {
@@ -188,6 +192,18 @@ namespace Libreria.Libreria_XamlTypeInfo
             case "Libreria.ItemDetailPage":
                 userType = new global::Libreria.Libreria_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Libreria.ItemDetailPage), GetXamlTypeByName("Libreria.Common.LayoutAwarePage"));
                 userType.Activator = Activate_5_ItemDetailPage;
+                xamlType = userType;
+                break;
+
+            case "Libreria.ItemsPage":
+                userType = new global::Libreria.Libreria_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Libreria.ItemsPage), GetXamlTypeByName("Libreria.Common.LayoutAwarePage"));
+                userType.Activator = Activate_6_ItemsPage;
+                xamlType = userType;
+                break;
+
+            case "Libreria.SplitPage":
+                userType = new global::Libreria.Libreria_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Libreria.SplitPage), GetXamlTypeByName("Libreria.Common.LayoutAwarePage"));
+                userType.Activator = Activate_7_SplitPage;
                 xamlType = userType;
                 break;
 

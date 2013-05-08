@@ -25,6 +25,7 @@ namespace Splitpage
         public Home()
         {
             this.InitializeComponent();
+            
         }
 
         /// <summary>
@@ -83,7 +84,7 @@ namespace Splitpage
 
         private void Generoclick(object sender, RoutedEventArgs e)
         {
-            tipo = 2;
+            tipo = 1;
 
             this.Frame.Navigate(typeof(ItemsPage), "AllGroups");
         }

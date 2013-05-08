@@ -47,6 +47,7 @@
   <xs:complexType name="Genero">
     <xs:sequence>
       <xs:element minOccurs="0" name="GeneroID" type="xs:int" />
+      <xs:element minOccurs="0" name="ImagenURL" nillable="true" type="xs:string" />
       <xs:element minOccurs="0" name="ListaLibros" nillable="true" type="tns:ArrayOfLibro" />
       <xs:element minOccurs="0" name="Nombre" nillable="true" type="xs:string" />
     </xs:sequence>
@@ -63,6 +64,8 @@
       <xs:element minOccurs="0" name="Direccion" nillable="true" type="xs:string" />
       <xs:element minOccurs="0" name="EditorialID" type="xs:int" />
       <xs:element minOccurs="0" name="Estado" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ImagenURL" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ListaLibros" nillable="true" type="tns:ArrayOfLibro" />
       <xs:element minOccurs="0" name="Nombre" nillable="true" type="xs:string" />
       <xs:element minOccurs="0" name="Pais" nillable="true" type="xs:string" />
       <xs:element minOccurs="0" name="URLEditorial" nillable="true" type="xs:string" />

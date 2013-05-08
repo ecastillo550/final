@@ -23,6 +23,7 @@ namespace Libreria
     public sealed partial class Home : Libreria.Common.LayoutAwarePage
     {
         public static int tipo = 0;
+        public static int vista = 0;
         public Home()
         {
             tipo = 0;
@@ -67,16 +68,49 @@ namespace Libreria
         private void StackPanel_PointerPressed_1(object sender, PointerRoutedEventArgs e)
         {
             tipo = 1;
+            if (vistacmb.SelectedIndex == 0)
+            {
+                this.Frame.Navigate(typeof(ItemsPage), "AllGroups");
+            }
+            else {
+                
+                this.Frame.Navigate(typeof(GroupedItemsPage), "AllGroups"); 
             
-            this.Frame.Navigate(typeof(GroupedItemsPage), "AllGroups");
+            }
+
+
+            
+            
             
         }
 
         private void StackPanel_PointerPressed_2(object sender, PointerRoutedEventArgs e)
         {
             tipo = 2;
-           
-            this.Frame.Navigate(typeof(GroupedItemsPage), "AllGroups");
+            if (vistacmb.SelectedIndex == 0)
+            {
+                this.Frame.Navigate(typeof(ItemsPage), "AllGroups");
+            }
+            else
+            {
+
+                this.Frame.Navigate(typeof(GroupedItemsPage), "AllGroups");
+
+            }
+        }
+        private void StackPanel_PointerPressed_3(object sender, PointerRoutedEventArgs e)
+        {
+            tipo = 3;
+            if (vistacmb.SelectedIndex == 0)
+            {
+                this.Frame.Navigate(typeof(ItemsPage), "AllGroups");
+            }
+            else
+            {
+
+                this.Frame.Navigate(typeof(GroupedItemsPage), "AllGroups");
+
+            }
         }
         private void StackPanel_GotFocus_2(object sender, RoutedEventArgs e)
         {
@@ -88,6 +122,11 @@ namespace Libreria
         {
             
             this.Frame.Navigate(typeof(GroupedItemsPage), "AllGroups");
+        }
+
+        private void ComboBox_SelectionChanged_1(object sender, SelectionChangedEventArgs e)
+        {
+           // tipo = vistacmb.SelectedIndex;
         }
     }
 }

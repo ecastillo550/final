@@ -75,18 +75,22 @@
                 	<Run/>
                 </TextBlock>
             </StackPanel>
-            <StackPanel Orientation="Vertical" Width="392">
+            <StackPanel Orientation="Vertical" Width="392" PointerPressed="StackPanel_PointerPressed_3">
                 <GridViewItem Margin="0" Height="365">
                     <Image Height="285" Width="378" Source="Assets/editorial.jpg"/>
                 </GridViewItem>
-                <TextBlock x:Name="Editorial_txt" Style="{StaticResource PageHeaderTextStyle}" Margin="0,0,55,0">
+                <TextBlock x:Name="Editorial_txt" Style="{StaticResource PageHeaderTextStyle}" Margin="0" HorizontalAlignment="Left" Width="337">
                 	<Run Text="Editorial"/>
                 	<LineBreak/>
                 	<Run/>
                 </TextBlock>
             </StackPanel>
         </GridView>
-          
+        <ComboBox x:Name="vistacmb" HorizontalAlignment="Left" Margin="87,19,0,0" Grid.Row="1" VerticalAlignment="Top" Width="401" Height="60" SelectedIndex="0" FontSize="18" SelectionChanged="ComboBox_SelectionChanged_1">
+            <ComboBoxItem Content="SplitView"/>
+            <ComboBoxItem Content="GridView"/>
+        </ComboBox>
+
 
         <VisualStateManager.VisualStateGroups>
 

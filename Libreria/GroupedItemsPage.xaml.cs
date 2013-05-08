@@ -23,7 +23,7 @@ namespace Libreria
     /// </summary>
     public sealed partial class GroupedItemsPage : Libreria.Common.LayoutAwarePage
     {
-        
+        public  IEnumerable<SampleDataGroup> sampleDataGroups;
         public GroupedItemsPage()
         {
             
@@ -43,10 +43,10 @@ namespace Libreria
         protected override void LoadState(Object navigationParameter, Dictionary<String, Object> pageState)
         {
             // TODO: Create an appropriate data model for your problem domain to replace the sample data
-              
-                var sampleDataGroups = SampleDataSource.GetGroups((String)navigationParameter);
+
+                sampleDataGroups = SampleDataSource.GetGroups((String)navigationParameter);
+                
                 this.DefaultViewModel["Groups"] = sampleDataGroups;
-    
         }
 
         /// <summary>
@@ -77,8 +77,6 @@ namespace Libreria
             var itemId = ((SampleDataItem)e.ClickedItem).UniqueId;
             this.Frame.Navigate(typeof(ItemDetailPage), itemId);
         }
-
-        
 
         
     }

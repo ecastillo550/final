@@ -227,7 +227,7 @@ namespace Libreria.Data
     /// </summary>
     public sealed class SampleDataSource
     {
-
+        
         private static SampleDataSource _sampleDataSource = new SampleDataSource();
         private static svcLibreria.Service1Client client;
         public static int tipo { get; set; }
@@ -271,13 +271,16 @@ namespace Libreria.Data
                 GetDataGenero();
             }
 
-            else
-            {
+            
                 if (Home.tipo == 2)
                 {
                     GetDataAutor();
                 }
-            }
+
+                if (Home.tipo == 3)
+                {
+                    GetDataEditorial();
+                }
 
                              
         }
@@ -295,9 +298,10 @@ namespace Libreria.Data
                 var group = new SampleDataGroup(genero.GeneroID.ToString(),
                     genero.Nombre,
                     " ",
-                   "",
+                   genero.ImagenURL,
                     "");
 
+               
 
                 String ITEM_CONTENT = String.Format("Item Content: {0}\n\n{0}\n\n{0}\n\n{0}\n\n{0}\n\n{0}\n\n{0}",
                         " ");
@@ -341,6 +345,40 @@ namespace Libreria.Data
                     group.Items.Add(new SampleDataItem(libro.LibroID.ToString(),
                     libro.Nombre,
                     autor.Nombre + " " + autor.ApPaterno,
+                    libro.ImagenURL,
+                    libro.Descripcion,
+                    libro.Descripcion,
+                    group));
+                }
+
+
+                this.AllGroups.Add(group);
+            }
+
+
+        }
+        public async void GetDataEditorial()
+        {
+            client = new svcLibreria.Service1Client();
+            var listaEditorial = await client.ObtenerListaEditorialesAsync();
+
+            foreach (var editorial in listaEditorial.ObtenerListaEditorialesResult)
+            {
+                var group = new SampleDataGroup(editorial.EditorialID.ToString(),
+                    editorial.Nombre,
+                    editorial.URLEditorial,
+                   editorial.ImagenURL,
+                    "");
+
+
+                String ITEM_CONTENT = String.Format("Item Content: {0}\n\n{0}\n\n{0}\n\n{0}\n\n{0}\n\n{0}\n\n{0}",
+                        " ");
+
+                foreach (var libro in editorial.ListaLibros)
+                {
+                    group.Items.Add(new SampleDataItem(libro.LibroID.ToString(),
+                    libro.Nombre,
+                    editorial.Nombre,
                     libro.ImagenURL,
                     libro.Descripcion,
                     libro.Descripcion,
