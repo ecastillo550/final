@@ -112,3 +112,6 @@ C:\udem\finalv1\Libreria\obj\Debug\priconfig.xml.intermediate
 C:\udem\finalv1\Libreria\obj\Debug\layout.resfiles.intermediate
 C:\udem\finalv1\Libreria\obj\Debug\resources.resfiles.intermediate
 C:\udem\finalv1\Libreria\obj\Debug\pri.resfiles.intermediate
+C:\udem\finalv1\Libreria\obj\Debug\Alta.g.i.cs
+C:\udem\finalv1\Libreria\obj\Debug\Alta.g.cs
+C:\udem\finalv1\Libreria\obj\Debug\Alta.xaml

@@ -72,4 +72,12 @@
     </xs:sequence>
   </xs:complexType>
   <xs:element name="Editorial" nillable="true" type="tns:Editorial" />
+  <xs:complexType name="Todo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Autor" nillable="true" type="tns:ArrayOfAutor" />
+      <xs:element minOccurs="0" name="Editorial" nillable="true" type="tns:ArrayOfEditorial" />
+      <xs:element minOccurs="0" name="Genero" nillable="true" type="tns:ArrayOfGenero" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Todo" nillable="true" type="tns:Todo" />
 </xs:schema>

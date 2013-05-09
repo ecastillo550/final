@@ -16,17 +16,17 @@
     <AppXManifest Include="C:\udem\finalv1\Libreria\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-05-08T21:59:18.002</Modified>
+      <Modified>2013-05-09T01:21:04.259</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\udem\finalv1\Libreria\bin\Debug\Libreria.exe">
       <PackagePath>Libreria.exe</PackagePath>
-      <Modified>2013-05-08T21:59:25.136</Modified>
+      <Modified>2013-05-09T01:21:04.100</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\udem\finalv1\Libreria\bin\Debug\Libreria.pdb">
       <PackagePath>Libreria.pdb</PackagePath>
-      <Modified>2013-05-08T21:59:25.118</Modified>
+      <Modified>2013-05-09T01:21:04.081</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\autores.jpg">
       <PackagePath>Assets\autores.jpg</PackagePath>
@@ -492,37 +492,41 @@
       <PackagePath>App.xaml</PackagePath>
       <Modified>2013-05-06T07:19:07.709</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\bin\Debug\Alta.xaml">
+      <PackagePath>Alta.xaml</PackagePath>
+      <Modified>2013-05-09T00:49:34.864</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\udem\finalv1\Libreria\bin\Debug\Common\StandardStyles.xaml">
       <PackagePath>Common\StandardStyles.xaml</PackagePath>
-      <Modified>2013-05-06T07:19:07.892</Modified>
+      <Modified>2013-05-09T00:13:50.926</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\udem\finalv1\Libreria\bin\Debug\GroupedItemsPage.xaml">
       <PackagePath>GroupedItemsPage.xaml</PackagePath>
-      <Modified>2013-05-08T06:34:45.909</Modified>
+      <Modified>2013-05-08T23:25:26.563</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\udem\finalv1\Libreria\bin\Debug\GroupDetailPage.xaml">
       <PackagePath>GroupDetailPage.xaml</PackagePath>
-      <Modified>2013-05-06T07:19:07.900</Modified>
+      <Modified>2013-05-08T23:30:11.915</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\udem\finalv1\Libreria\bin\Debug\Home.xaml">
       <PackagePath>Home.xaml</PackagePath>
-      <Modified>2013-05-08T21:53:05.654</Modified>
+      <Modified>2013-05-08T23:30:11.909</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\udem\finalv1\Libreria\bin\Debug\ItemDetailPage.xaml">
       <PackagePath>ItemDetailPage.xaml</PackagePath>
-      <Modified>2013-05-06T07:19:07.910</Modified>
+      <Modified>2013-05-08T23:30:11.920</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\udem\finalv1\Libreria\bin\Debug\ItemsPage.xaml">
       <PackagePath>ItemsPage.xaml</PackagePath>
-      <Modified>2013-05-08T21:16:37.458</Modified>
+      <Modified>2013-05-08T23:30:11.877</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\udem\finalv1\Libreria\bin\Debug\SplitPage.xaml">
       <PackagePath>SplitPage.xaml</PackagePath>
-      <Modified>2013-05-08T21:18:45.910</Modified>
+      <Modified>2013-05-08T23:59:28.012</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\udem\finalv1\Libreria\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2013-05-08T21:59:17.952</Modified>
+      <Modified>2013-05-09T00:27:13.039</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

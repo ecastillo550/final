@@ -32,6 +32,12 @@
   <wsdl:message name="IService1_ObtenerListaEditoriales_OutputMessage">
     <wsdl:part name="parameters" element="tns:ObtenerListaEditorialesResponse" />
   </wsdl:message>
+  <wsdl:message name="IService1_ObtenerTodo_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerTodo" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ObtenerTodo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerTodoResponse" />
+  </wsdl:message>
   <wsdl:message name="IService1_ObtenerListaLibrosXAutor_InputMessage">
     <wsdl:part name="parameters" element="tns:ObtenerListaLibrosXAutor" />
   </wsdl:message>
@@ -72,6 +78,10 @@
     <wsdl:operation name="ObtenerListaEditoriales">
       <wsdl:input wsaw:Action="http://tempuri.org/IService1/ObtenerListaEditoriales" message="tns:IService1_ObtenerListaEditoriales_InputMessage" />
       <wsdl:output wsaw:Action="http://tempuri.org/IService1/ObtenerListaEditorialesResponse" message="tns:IService1_ObtenerListaEditoriales_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerTodo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/ObtenerTodo" message="tns:IService1_ObtenerTodo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/ObtenerTodoResponse" message="tns:IService1_ObtenerTodo_OutputMessage" />
     </wsdl:operation>
     <wsdl:operation name="ObtenerListaLibrosXAutor">
       <wsdl:input wsaw:Action="http://tempuri.org/IService1/ObtenerListaLibrosXAutor" message="tns:IService1_ObtenerListaLibrosXAutor_InputMessage" />
@@ -121,6 +131,15 @@
     </wsdl:operation>
     <wsdl:operation name="ObtenerListaEditoriales">
       <soap:operation soapAction="http://tempuri.org/IService1/ObtenerListaEditoriales" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerTodo">
+      <soap:operation soapAction="http://tempuri.org/IService1/ObtenerTodo" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>

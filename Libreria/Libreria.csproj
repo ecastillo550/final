@@ -104,6 +104,9 @@
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Alta.xaml.cs">
+      <DependentUpon>Alta.xaml</DependentUpon>
+    </Compile>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
@@ -170,6 +173,9 @@
     <None Include="Service References\svcLibreria\Libreria.svcLibreria.ObtenerListaTodosLibrosResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
+    <None Include="Service References\svcLibreria\Libreria.svcLibreria.ObtenerTodoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
     <None Include="Service References\svcLibreria\Service1.wsdl" />
     <None Include="Service References\svcLibreria\Service1.xsd">
       <SubType>Designer</SubType>
@@ -198,6 +204,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="Alta.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Common\StandardStyles.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

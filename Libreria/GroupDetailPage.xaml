@@ -90,7 +90,7 @@
         </ListView>
 
         <!-- Back button and page title -->
-        <Grid>
+        <Grid Background="#FF722204">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="Auto"/>
                 <ColumnDefinition Width="*"/>

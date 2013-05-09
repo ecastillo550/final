@@ -55,8 +55,7 @@ namespace Libreria
 
         private void AppbarLibroB(object sender, RoutedEventArgs e)
         {
-
-
+            this.Frame.Navigate(typeof(Alta));
         }
 
         private void StackPanel_GotFocus_1(object sender, RoutedEventArgs e)

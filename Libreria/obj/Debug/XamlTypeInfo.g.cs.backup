@@ -114,19 +114,21 @@ namespace Libreria.Libreria_XamlTypeInfo
 
         private object Activate_0_LayoutAwarePage() { return new global::Libreria.Common.LayoutAwarePage(); }
 
-        private object Activate_1_GroupedItemsPage() { return new global::Libreria.GroupedItemsPage(); }
+        private object Activate_1_Alta() { return new global::Libreria.Alta(); }
 
-        private object Activate_2_GroupDetailPage() { return new global::Libreria.GroupDetailPage(); }
+        private object Activate_2_GroupedItemsPage() { return new global::Libreria.GroupedItemsPage(); }
 
-        private object Activate_3_Home() { return new global::Libreria.Home(); }
+        private object Activate_3_GroupDetailPage() { return new global::Libreria.GroupDetailPage(); }
 
-        private object Activate_4_RichTextColumns() { return new global::Libreria.Common.RichTextColumns(); }
+        private object Activate_4_Home() { return new global::Libreria.Home(); }
 
-        private object Activate_5_ItemDetailPage() { return new global::Libreria.ItemDetailPage(); }
+        private object Activate_5_RichTextColumns() { return new global::Libreria.Common.RichTextColumns(); }
 
-        private object Activate_6_ItemsPage() { return new global::Libreria.ItemsPage(); }
+        private object Activate_6_ItemDetailPage() { return new global::Libreria.ItemDetailPage(); }
 
-        private object Activate_7_SplitPage() { return new global::Libreria.SplitPage(); }
+        private object Activate_7_ItemsPage() { return new global::Libreria.ItemsPage(); }
+
+        private object Activate_8_SplitPage() { return new global::Libreria.SplitPage(); }
 
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(string typeName)
@@ -162,27 +164,33 @@ namespace Libreria.Libreria_XamlTypeInfo
                 xamlType = userType;
                 break;
 
+            case "Libreria.Alta":
+                userType = new global::Libreria.Libreria_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Libreria.Alta), GetXamlTypeByName("Libreria.Common.LayoutAwarePage"));
+                userType.Activator = Activate_1_Alta;
+                xamlType = userType;
+                break;
+
             case "Libreria.GroupedItemsPage":
                 userType = new global::Libreria.Libreria_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Libreria.GroupedItemsPage), GetXamlTypeByName("Libreria.Common.LayoutAwarePage"));
-                userType.Activator = Activate_1_GroupedItemsPage;
+                userType.Activator = Activate_2_GroupedItemsPage;
                 xamlType = userType;
                 break;
 
             case "Libreria.GroupDetailPage":
                 userType = new global::Libreria.Libreria_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Libreria.GroupDetailPage), GetXamlTypeByName("Libreria.Common.LayoutAwarePage"));
-                userType.Activator = Activate_2_GroupDetailPage;
+                userType.Activator = Activate_3_GroupDetailPage;
                 xamlType = userType;
                 break;
 
             case "Libreria.Home":
                 userType = new global::Libreria.Libreria_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Libreria.Home), GetXamlTypeByName("Libreria.Common.LayoutAwarePage"));
-                userType.Activator = Activate_3_Home;
+                userType.Activator = Activate_4_Home;
                 xamlType = userType;
                 break;
 
             case "Libreria.Common.RichTextColumns":
                 userType = new global::Libreria.Libreria_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Libreria.Common.RichTextColumns), GetXamlTypeByName("Windows.UI.Xaml.Controls.Panel"));
-                userType.Activator = Activate_4_RichTextColumns;
+                userType.Activator = Activate_5_RichTextColumns;
                 userType.SetContentPropertyName("Libreria.Common.RichTextColumns.RichTextContent");
                 userType.AddMemberName("RichTextContent");
                 userType.AddMemberName("ColumnTemplate");
@@ -191,19 +199,19 @@ namespace Libreria.Libreria_XamlTypeInfo
 
             case "Libreria.ItemDetailPage":
                 userType = new global::Libreria.Libreria_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Libreria.ItemDetailPage), GetXamlTypeByName("Libreria.Common.LayoutAwarePage"));
-                userType.Activator = Activate_5_ItemDetailPage;
+                userType.Activator = Activate_6_ItemDetailPage;
                 xamlType = userType;
                 break;
 
             case "Libreria.ItemsPage":
                 userType = new global::Libreria.Libreria_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Libreria.ItemsPage), GetXamlTypeByName("Libreria.Common.LayoutAwarePage"));
-                userType.Activator = Activate_6_ItemsPage;
+                userType.Activator = Activate_7_ItemsPage;
                 xamlType = userType;
                 break;
 
             case "Libreria.SplitPage":
                 userType = new global::Libreria.Libreria_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Libreria.SplitPage), GetXamlTypeByName("Libreria.Common.LayoutAwarePage"));
-                userType.Activator = Activate_7_SplitPage;
+                userType.Activator = Activate_8_SplitPage;
                 xamlType = userType;
                 break;
 

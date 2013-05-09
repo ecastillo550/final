@@ -34,6 +34,10 @@ namespace Libreria.svcLibreria {
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<Libreria.svcLibreria.ObtenerListaEditorialesResponse> ObtenerListaEditorialesAsync(Libreria.svcLibreria.ObtenerListaEditorialesRequest request);
         
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/ObtenerTodo", ReplyAction="http://tempuri.org/IService1/ObtenerTodoResponse")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        System.Threading.Tasks.Task<Libreria.svcLibreria.ObtenerTodoResponse> ObtenerTodoAsync(Libreria.svcLibreria.ObtenerTodoRequest request);
+        
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/ObtenerListaLibrosXAutor", ReplyAction="http://tempuri.org/IService1/ObtenerListaLibrosXAutorResponse")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         System.Threading.Tasks.Task<Libreria.svcLibreria.ObtenerListaLibrosXAutorResponse> ObtenerListaLibrosXAutorAsync(Libreria.svcLibreria.ObtenerListaLibrosXAutorRequest request);
@@ -281,6 +285,178 @@ namespace Libreria.svcLibreria {
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.18033")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://schemas.datacontract.org/2004/07/examen2")]
+    public partial class Todo : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private Autor[] autorField;
+        
+        private Editorial[] editorialField;
+        
+        private Genero[] generoField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlArrayAttribute(IsNullable=true, Order=0)]
+        public Autor[] Autor {
+            get {
+                return this.autorField;
+            }
+            set {
+                this.autorField = value;
+                this.RaisePropertyChanged("Autor");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlArrayAttribute(IsNullable=true, Order=1)]
+        public Editorial[] Editorial {
+            get {
+                return this.editorialField;
+            }
+            set {
+                this.editorialField = value;
+                this.RaisePropertyChanged("Editorial");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlArrayAttribute(IsNullable=true, Order=2)]
+        public Genero[] Genero {
+            get {
+                return this.generoField;
+            }
+            set {
+                this.generoField = value;
+                this.RaisePropertyChanged("Genero");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.18033")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://schemas.datacontract.org/2004/07/examen2")]
+    public partial class Autor : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private string apPaternoField;
+        
+        private int autorIDField;
+        
+        private bool autorIDFieldSpecified;
+        
+        private Libro[] listaLibrosField;
+        
+        private string nacionalidadField;
+        
+        private string nombreField;
+        
+        private string urlImgField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=0)]
+        public string ApPaterno {
+            get {
+                return this.apPaternoField;
+            }
+            set {
+                this.apPaternoField = value;
+                this.RaisePropertyChanged("ApPaterno");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public int AutorID {
+            get {
+                return this.autorIDField;
+            }
+            set {
+                this.autorIDField = value;
+                this.RaisePropertyChanged("AutorID");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool AutorIDSpecified {
+            get {
+                return this.autorIDFieldSpecified;
+            }
+            set {
+                this.autorIDFieldSpecified = value;
+                this.RaisePropertyChanged("AutorIDSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlArrayAttribute(IsNullable=true, Order=2)]
+        public Libro[] ListaLibros {
+            get {
+                return this.listaLibrosField;
+            }
+            set {
+                this.listaLibrosField = value;
+                this.RaisePropertyChanged("ListaLibros");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=3)]
+        public string Nacionalidad {
+            get {
+                return this.nacionalidadField;
+            }
+            set {
+                this.nacionalidadField = value;
+                this.RaisePropertyChanged("Nacionalidad");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=4)]
+        public string Nombre {
+            get {
+                return this.nombreField;
+            }
+            set {
+                this.nombreField = value;
+                this.RaisePropertyChanged("Nombre");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=5)]
+        public string UrlImg {
+            get {
+                return this.urlImgField;
+            }
+            set {
+                this.urlImgField = value;
+                this.RaisePropertyChanged("UrlImg");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.18033")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://schemas.datacontract.org/2004/07/examen2")]
     public partial class Editorial : object, System.ComponentModel.INotifyPropertyChanged {
         
         private string direccionField;
@@ -505,120 +681,6 @@ namespace Libreria.svcLibreria {
         }
     }
     
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.18033")]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://schemas.datacontract.org/2004/07/examen2")]
-    public partial class Autor : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private string apPaternoField;
-        
-        private int autorIDField;
-        
-        private bool autorIDFieldSpecified;
-        
-        private Libro[] listaLibrosField;
-        
-        private string nacionalidadField;
-        
-        private string nombreField;
-        
-        private string urlImgField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=0)]
-        public string ApPaterno {
-            get {
-                return this.apPaternoField;
-            }
-            set {
-                this.apPaternoField = value;
-                this.RaisePropertyChanged("ApPaterno");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public int AutorID {
-            get {
-                return this.autorIDField;
-            }
-            set {
-                this.autorIDField = value;
-                this.RaisePropertyChanged("AutorID");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool AutorIDSpecified {
-            get {
-                return this.autorIDFieldSpecified;
-            }
-            set {
-                this.autorIDFieldSpecified = value;
-                this.RaisePropertyChanged("AutorIDSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlArrayAttribute(IsNullable=true, Order=2)]
-        public Libro[] ListaLibros {
-            get {
-                return this.listaLibrosField;
-            }
-            set {
-                this.listaLibrosField = value;
-                this.RaisePropertyChanged("ListaLibros");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=3)]
-        public string Nacionalidad {
-            get {
-                return this.nacionalidadField;
-            }
-            set {
-                this.nacionalidadField = value;
-                this.RaisePropertyChanged("Nacionalidad");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=4)]
-        public string Nombre {
-            get {
-                return this.nombreField;
-            }
-            set {
-                this.nombreField = value;
-                this.RaisePropertyChanged("Nombre");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=5)]
-        public string UrlImg {
-            get {
-                return this.urlImgField;
-            }
-            set {
-                this.urlImgField = value;
-                this.RaisePropertyChanged("UrlImg");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
@@ -732,6 +794,34 @@ namespace Libreria.svcLibreria {
         
         public ObtenerListaEditorialesResponse(Libreria.svcLibreria.Editorial[] ObtenerListaEditorialesResult) {
             this.ObtenerListaEditorialesResult = ObtenerListaEditorialesResult;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="ObtenerTodo", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
+    public partial class ObtenerTodoRequest {
+        
+        public ObtenerTodoRequest() {
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="ObtenerTodoResponse", WrapperNamespace="http://tempuri.org/", IsWrapped=true)]
+    public partial class ObtenerTodoResponse {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
+        public Libreria.svcLibreria.Todo ObtenerTodoResult;
+        
+        public ObtenerTodoResponse() {
+        }
+        
+        public ObtenerTodoResponse(Libreria.svcLibreria.Todo ObtenerTodoResult) {
+            this.ObtenerTodoResult = ObtenerTodoResult;
         }
     }
     
@@ -985,6 +1075,16 @@ namespace Libreria.svcLibreria {
         public System.Threading.Tasks.Task<Libreria.svcLibreria.ObtenerListaEditorialesResponse> ObtenerListaEditorialesAsync() {
             Libreria.svcLibreria.ObtenerListaEditorialesRequest inValue = new Libreria.svcLibreria.ObtenerListaEditorialesRequest();
             return ((Libreria.svcLibreria.IService1)(this)).ObtenerListaEditorialesAsync(inValue);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        System.Threading.Tasks.Task<Libreria.svcLibreria.ObtenerTodoResponse> Libreria.svcLibreria.IService1.ObtenerTodoAsync(Libreria.svcLibreria.ObtenerTodoRequest request) {
+            return base.Channel.ObtenerTodoAsync(request);
+        }
+        
+        public System.Threading.Tasks.Task<Libreria.svcLibreria.ObtenerTodoResponse> ObtenerTodoAsync() {
+            Libreria.svcLibreria.ObtenerTodoRequest inValue = new Libreria.svcLibreria.ObtenerTodoRequest();
+            return ((Libreria.svcLibreria.IService1)(this)).ObtenerTodoAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]

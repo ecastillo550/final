@@ -6,6 +6,7 @@ using System.ServiceModel;
 using System.ServiceModel.Web;
 using System.Text;
 using System.Data;
+using System.Threading.Tasks;
 
 namespace examen2
 {
@@ -22,6 +23,9 @@ namespace examen2
         List<Genero> ObtenerListaTodosGeneros();
         [OperationContract]
         List<Editorial> ObtenerListaEditoriales();
+
+        [OperationContract]
+        Task<Todo> ObtenerTodo();
 
         //DataSet
         [OperationContract]
@@ -87,23 +91,30 @@ namespace examen2
 
     // Use a data contract as illustrated in the sample below to add composite types to service operations.
     [DataContract]
-    public class CompositeType
+    public class Todo
     {
-        bool boolValue = true;
-        string stringValue = "Hello ";
+        List<Autor> _a;
+        List<Genero> _g;
+        List<Editorial> _e;
 
         [DataMember]
-        public bool BoolValue
+        public List<Autor> Autor
         {
-            get { return boolValue; }
-            set { boolValue = value; }
+            get { return _a; }
+            set { _a = value; }
         }
 
         [DataMember]
-        public string StringValue
+        public List<Genero> Genero
         {
-            get { return stringValue; }
-            set { stringValue = value; }
+            get { return _g; }
+            set { _g = value; }
+        }
+        [DataMember]
+        public List<Editorial> Editorial
+        {
+            get { return _e; }
+            set { _e = value; }
         }
     }
 

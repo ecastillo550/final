@@ -9,6 +9,7 @@ using System.Web.Hosting;
 using System.Data;
 using System.Data.OleDb;
 using System.Data.Linq;
+using System.Threading.Tasks;
 
 namespace examen2
 {
@@ -201,6 +202,40 @@ namespace examen2
                     conn.Close();
             }
         }*/
+        public async Task<Todo> ObtenerTodo()
+        {
+            Todo todo = new Todo();
+
+            //EDITORIAL-------------------------------
+
+            List<Editorial> EditorialLst = new List<Editorial>();
+            string dbStr = HostingEnvironment.MapPath(@"~/App_Data/libros.mdb;");
+            string connStr = @"Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" + dbStr;
+            OleDbConnection conn = new OleDbConnection(connStr);
+            OleDbDataAdapter adapter = new OleDbDataAdapter("SELECT EditorialID,ImagenURL,Nombre,Direccion,Estado,Pais,URLEditorial FROM Editoriales;", conn);
+            DataSet ds = new DataSet();
+            adapter.Fill(ds);
+
+            foreach (DataRow dr in ds.Tables[0].Rows)
+            {
+                Editorial EditorialObj = new Editorial();
+                EditorialObj.Nombre = dr["Nombre"].ToString();
+                EditorialObj.EditorialID = Convert.ToInt32(dr["EditorialID"].ToString());
+                EditorialObj.Direccion = dr["Direccion"].ToString();
+                EditorialObj.Estado = dr["Estado"].ToString();
+                EditorialObj.Pais = dr["Pais"].ToString();
+                EditorialObj.URLEditorial = dr["URLEditorial"].ToString();
+                EditorialObj.ImagenURL = dr["ImagenURL"].ToString();
+                EditorialLst.Add(EditorialObj);
+            }
+            todo.Editorial = EditorialLst;
+               
+            //GENERO -----------------------------------
+            todo.Genero = ObtenerListaTodosGeneros();
+            todo.Autor = ObtenerListaAutores();
+            return todo;
+        }
+
         public void NuevoLibro(string nombre, int autor, int editorial, int genero, string idioma, string pais, int paginas,string ImagenURL,string Descripcion)
         {
             string dbStr = HostingEnvironment.MapPath(@"~/App_Data/libros.mdb;");

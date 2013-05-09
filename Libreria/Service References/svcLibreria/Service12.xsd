@@ -49,6 +49,18 @@
       </xs:sequence>
     </xs:complexType>
   </xs:element>
+  <xs:element name="ObtenerTodo">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerTodoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/examen2" minOccurs="0" name="ObtenerTodoResult" nillable="true" type="q5:Todo" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
   <xs:element name="ObtenerListaLibrosXAutor">
     <xs:complexType>
       <xs:sequence>
