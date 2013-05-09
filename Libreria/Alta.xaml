@@ -42,8 +42,9 @@
         <TextBox HorizontalAlignment="Left" Margin="47,252,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Pais" VerticalAlignment="Top" Width="332" Height="57"/>
         <TextBox HorizontalAlignment="Left" Margin="47,325,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Paginas" VerticalAlignment="Top" Width="332" Height="57"/>
         <ComboBox x:Name="Autor" ItemsSource="{Binding}" HorizontalAlignment="Left" Margin="418,33,0,0" Grid.Row="1" VerticalAlignment="Top" Width="329" Height="59"/>
-        <ComboBox x:Name="Editorial" HorizontalAlignment="Left" Margin="418,109,0,0" Grid.Row="1" VerticalAlignment="Top" Width="329" Height="59"/>
-        <ComboBox x:Name="Genero" HorizontalAlignment="Left" Margin="418,185,0,0" Grid.Row="1" VerticalAlignment="Top" Width="329" Height="59"/>
+        <ComboBox x:Name="Editorial" HorizontalAlignment="Left" Margin="418,109,0,0" Grid.Row="1" VerticalAlignment="Top" Width="329" Height="59" ItemsSource="{Binding}" />
+        <ComboBox x:Name="Genero" HorizontalAlignment="Left" Margin="418,185,0,0" Grid.Row="1" VerticalAlignment="Top" Width="329" Height="59" ItemsSource="{Binding}" />
+        <Button x:Name="btnalta" Content="Alta" HorizontalAlignment="Left" Margin="172,544,0,0" Grid.Row="1" VerticalAlignment="Top" Width="122" Click="btnalta_Click"/>
 
         <VisualStateManager.VisualStateGroups>
 

@@ -16,45 +16,101 @@
     <AppXManifest Include="C:\udem\finalv1\Libreria\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-05-09T01:21:04.259</Modified>
+      <Modified>2013-05-09T04:41:31.289</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\udem\finalv1\Libreria\bin\Debug\Libreria.exe">
       <PackagePath>Libreria.exe</PackagePath>
-      <Modified>2013-05-09T01:21:04.100</Modified>
+      <Modified>2013-05-09T04:55:19.940</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\udem\finalv1\Libreria\bin\Debug\Libreria.pdb">
       <PackagePath>Libreria.pdb</PackagePath>
-      <Modified>2013-05-09T01:21:04.081</Modified>
+      <Modified>2013-05-09T04:55:19.870</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\autores.jpg">
       <PackagePath>Assets\autores.jpg</PackagePath>
       <Modified>2013-05-07T15:02:03.166</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Autor\ak.jpg">
+      <PackagePath>Assets\Autor\ak.jpg</PackagePath>
+      <Modified>2013-05-09T03:31:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Autor\bh.jpg">
+      <PackagePath>Assets\Autor\bh.jpg</PackagePath>
+      <Modified>2013-05-09T01:57:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Autor\bj.jpg">
+      <PackagePath>Assets\Autor\bj.jpg</PackagePath>
+      <Modified>2013-05-09T02:27:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Autor\bs.jpg">
+      <PackagePath>Assets\Autor\bs.jpg</PackagePath>
+      <Modified>2013-05-09T02:44:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Autor\ca.jpg">
+      <PackagePath>Assets\Autor\ca.jpg</PackagePath>
+      <Modified>2013-05-09T02:11:36.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Autor\csl.jpg">
       <PackagePath>Assets\Autor\csl.jpg</PackagePath>
       <Modified>2013-05-07T15:01:37.476</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Autor\dr.jpg">
+      <PackagePath>Assets\Autor\dr.jpg</PackagePath>
+      <Modified>2013-05-09T02:31:14.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Autor\ds.jpg">
       <PackagePath>Assets\Autor\ds.jpg</PackagePath>
       <Modified>2013-05-07T15:01:39.220</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Autor\du.jpg">
+      <PackagePath>Assets\Autor\du.jpg</PackagePath>
+      <Modified>2013-05-09T02:03:36.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Autor\elj.jpg">
       <PackagePath>Assets\Autor\elj.jpg</PackagePath>
       <Modified>2013-05-07T15:01:39.223</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Autor\em.jpg">
+      <PackagePath>Assets\Autor\em.jpg</PackagePath>
+      <Modified>2013-05-09T02:36:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Autor\fb.jpg">
+      <PackagePath>Assets\Autor\fb.jpg</PackagePath>
+      <Modified>2013-05-09T02:09:38.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Autor\ggm.jpg">
       <PackagePath>Assets\Autor\ggm.jpg</PackagePath>
       <Modified>2013-05-07T15:01:39.226</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Autor\hk.jpg">
+      <PackagePath>Assets\Autor\hk.jpg</PackagePath>
+      <Modified>2013-05-09T02:05:08.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Autor\hpl.jpg">
       <PackagePath>Assets\Autor\hpl.jpg</PackagePath>
       <Modified>2013-05-07T15:01:39.229</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Autor\jdlt.jpg">
+      <PackagePath>Assets\Autor\jdlt.jpg</PackagePath>
+      <Modified>2013-05-09T01:48:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Autor\jie.jpg">
+      <PackagePath>Assets\Autor\jie.jpg</PackagePath>
+      <Modified>2013-05-09T01:56:12.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Autor\jkr.jpg">
       <PackagePath>Assets\Autor\jkr.jpg</PackagePath>
       <Modified>2013-05-07T15:01:39.232</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Autor\jm.jpg">
+      <PackagePath>Assets\Autor\jm.jpg</PackagePath>
+      <Modified>2013-05-09T02:34:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Autor\lh.jpg">
+      <PackagePath>Assets\Autor\lh.jpg</PackagePath>
+      <Modified>2013-05-09T02:46:26.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Autor\mc.jpg">
       <PackagePath>Assets\Autor\mc.jpg</PackagePath>
@@ -68,6 +124,18 @@
       <PackagePath>Assets\Autor\pc.jpg</PackagePath>
       <Modified>2013-05-07T15:01:39.240</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Autor\pm.jpg">
+      <PackagePath>Assets\Autor\pm.jpg</PackagePath>
+      <Modified>2013-05-09T03:34:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Autor\rf.jpg">
+      <PackagePath>Assets\Autor\rf.jpg</PackagePath>
+      <Modified>2013-05-09T01:15:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Autor\rs.jpg">
+      <PackagePath>Assets\Autor\rs.jpg</PackagePath>
+      <Modified>2013-05-09T04:07:20.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Autor\sk.jpg">
       <PackagePath>Assets\Autor\sk.jpg</PackagePath>
       <Modified>2013-05-07T15:01:39.243</Modified>
@@ -76,17 +144,41 @@
       <PackagePath>Assets\Autor\sm.jpg</PackagePath>
       <Modified>2013-05-07T15:01:39.245</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Autor\sp.jpg">
+      <PackagePath>Assets\Autor\sp.jpg</PackagePath>
+      <Modified>2013-05-09T02:39:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Autor\tb.jpg">
+      <PackagePath>Assets\Autor\tb.jpg</PackagePath>
+      <Modified>2013-05-09T02:13:40.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Autor\tr.jpg">
       <PackagePath>Assets\Autor\tr.jpg</PackagePath>
       <Modified>2013-05-07T15:01:39.246</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Autor\va.jpg">
+      <PackagePath>Assets\Autor\va.jpg</PackagePath>
+      <Modified>2013-05-09T01:58:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Autor\wi.jpg">
+      <PackagePath>Assets\Autor\wi.jpg</PackagePath>
+      <Modified>2013-05-09T02:20:46.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Autor\wj.jpg">
       <PackagePath>Assets\Autor\wj.jpg</PackagePath>
       <Modified>2013-05-07T15:01:39.253</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Autor\ws.jpg">
+      <PackagePath>Assets\Autor\ws.jpg</PackagePath>
+      <Modified>2013-05-09T02:48:10.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\editorial.jpg">
       <PackagePath>Assets\editorial.jpg</PackagePath>
       <Modified>2013-05-07T15:02:03.192</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Editorial\avalontravel.jpg">
+      <PackagePath>Assets\Editorial\avalontravel.jpg</PackagePath>
+      <Modified>2013-05-09T04:10:00.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\generos.jpg">
       <PackagePath>Assets\generos.jpg</PackagePath>
@@ -100,9 +192,33 @@
       <PackagePath>Assets\Libro\amanecer.jpg</PackagePath>
       <Modified>2013-05-07T15:01:49.836</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\anadissis.jpg">
+      <PackagePath>Assets\Libro\anadissis.jpg</PackagePath>
+      <Modified>2013-05-09T01:11:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\awakening.jpg">
+      <PackagePath>Assets\Libro\awakening.jpg</PackagePath>
+      <Modified>2013-05-09T03:23:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\bagobones.jpg">
+      <PackagePath>Assets\Libro\bagobones.jpg</PackagePath>
+      <Modified>2013-05-09T04:22:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\benjamin.jpg">
+      <PackagePath>Assets\Libro\benjamin.jpg</PackagePath>
+      <Modified>2013-05-09T02:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\bonhoeffer.jpg">
+      <PackagePath>Assets\Libro\bonhoeffer.jpg</PackagePath>
+      <Modified>2013-05-09T02:37:28.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\canciondesusannah.jpg">
       <PackagePath>Assets\Libro\canciondesusannah.jpg</PackagePath>
       <Modified>2013-05-07T15:01:49.838</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\carrie.jpg">
+      <PackagePath>Assets\Libro\carrie.jpg</PackagePath>
+      <Modified>2013-05-09T04:20:24.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\cincuentasombras1.jpg">
       <PackagePath>Assets\Libro\cincuentasombras1.jpg</PackagePath>
@@ -120,13 +236,29 @@
       <PackagePath>Assets\Libro\crepusculo.jpg</PackagePath>
       <Modified>2013-05-07T15:01:49.849</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\csalid.jpg">
+      <PackagePath>Assets\Libro\csalid.jpg</PackagePath>
+      <Modified>2013-05-09T01:51:18.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\cujo.jpg">
       <PackagePath>Assets\Libro\cujo.jpg</PackagePath>
       <Modified>2013-05-07T15:01:49.851</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\desperation.jpg">
+      <PackagePath>Assets\Libro\desperation.jpg</PackagePath>
+      <Modified>2013-05-09T04:25:36.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\diabetesowls.JPG">
       <PackagePath>Assets\Libro\diabetesowls.JPG</PackagePath>
       <Modified>2013-05-07T15:01:49.855</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\disney.jpg">
+      <PackagePath>Assets\Libro\disney.jpg</PackagePath>
+      <Modified>2013-05-09T02:45:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\disney2.jpg">
+      <PackagePath>Assets\Libro\disney2.jpg</PackagePath>
+      <Modified>2013-05-09T02:48:56.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\eclipse.jpg">
       <PackagePath>Assets\Libro\eclipse.jpg</PackagePath>
@@ -135,6 +267,14 @@
     <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\elcaballoyelmuchacho.jpg">
       <PackagePath>Assets\Libro\elcaballoyelmuchacho.jpg</PackagePath>
       <Modified>2013-05-07T15:01:49.860</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\elec.jpg">
+      <PackagePath>Assets\Libro\elec.jpg</PackagePath>
+      <Modified>2013-05-09T02:12:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\elemadmon.jpg">
+      <PackagePath>Assets\Libro\elemadmon.jpg</PackagePath>
+      <Modified>2013-05-09T02:06:56.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\elleonlabrujayelarmario.jpg">
       <PackagePath>Assets\Libro\elleonlabrujayelarmario.jpg</PackagePath>
@@ -151,6 +291,26 @@
     <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\elsobrinodelmago.jpg">
       <PackagePath>Assets\Libro\elsobrinodelmago.jpg</PackagePath>
       <Modified>2013-05-07T15:01:49.870</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\europe.jpg">
+      <PackagePath>Assets\Libro\europe.jpg</PackagePath>
+      <Modified>2013-05-09T04:15:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\family1st.jpg">
+      <PackagePath>Assets\Libro\family1st.jpg</PackagePath>
+      <Modified>2013-05-09T04:01:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\florenceandtusc.jpg">
+      <PackagePath>Assets\Libro\florenceandtusc.jpg</PackagePath>
+      <Modified>2013-05-09T04:16:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\france.jpg">
+      <PackagePath>Assets\Libro\france.jpg</PackagePath>
+      <Modified>2013-05-09T04:17:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\geografia.jpg">
+      <PackagePath>Assets\Libro\geografia.jpg</PackagePath>
+      <Modified>2013-05-09T01:34:28.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\happyhappyhappy.jpg">
       <PackagePath>Assets\Libro\happyhappyhappy.jpg</PackagePath>
@@ -176,9 +336,21 @@
       <PackagePath>Assets\Libro\hpsse.jpg</PackagePath>
       <Modified>2013-05-07T15:01:49.884</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\insomnia.jpg">
+      <PackagePath>Assets\Libro\insomnia.jpg</PackagePath>
+      <Modified>2013-05-09T04:27:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\ireland.jpg">
+      <PackagePath>Assets\Libro\ireland.jpg</PackagePath>
+      <Modified>2013-05-09T04:15:34.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\it.jpg">
       <PackagePath>Assets\Libro\it.jpg</PackagePath>
       <Modified>2013-05-07T15:01:49.886</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\italy.jpg">
+      <PackagePath>Assets\Libro\italy.jpg</PackagePath>
+      <Modified>2013-05-09T04:15:10.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\jdate.jpg">
       <PackagePath>Assets\Libro\jdate.jpg</PackagePath>
@@ -220,9 +392,21 @@
       <PackagePath>Assets\Libro\lces.jpg</PackagePath>
       <Modified>2013-05-07T15:01:49.911</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\lifecode.jpg">
+      <PackagePath>Assets\Libro\lifecode.jpg</PackagePath>
+      <Modified>2013-05-09T03:59:50.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\lobosdelcalla.jpg">
       <PackagePath>Assets\Libro\lobosdelcalla.jpg</PackagePath>
       <Modified>2013-05-07T15:01:49.913</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\london.jpg">
+      <PackagePath>Assets\Libro\london.jpg</PackagePath>
+      <Modified>2013-05-09T04:16:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\lovesmrt.jpg">
+      <PackagePath>Assets\Libro\lovesmrt.jpg</PackagePath>
+      <Modified>2013-05-09T04:03:46.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\lunanueva.jpg">
       <PackagePath>Assets\Libro\lunanueva.jpg</PackagePath>
@@ -235,6 +419,18 @@
     <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\maho.JPG">
       <PackagePath>Assets\Libro\maho.JPG</PackagePath>
       <Modified>2013-05-07T15:01:49.921</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\mate5.jpg">
+      <PackagePath>Assets\Libro\mate5.jpg</PackagePath>
+      <Modified>2013-05-09T01:19:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\matef.jpg">
+      <PackagePath>Assets\Libro\matef.jpg</PackagePath>
+      <Modified>2013-05-09T02:01:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\mecmat.jpg">
+      <PackagePath>Assets\Libro\mecmat.jpg</PackagePath>
+      <Modified>2013-05-09T02:08:16.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\meganalarisa1.jpg">
       <PackagePath>Assets\Libro\meganalarisa1.jpg</PackagePath>
@@ -292,6 +488,10 @@
       <PackagePath>Assets\Libro\mondragogranprueba.jpg</PackagePath>
       <Modified>2013-05-07T15:01:49.960</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\nostars.jpg">
+      <PackagePath>Assets\Libro\nostars.jpg</PackagePath>
+      <Modified>2013-05-09T04:24:12.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\onceminutos.jpg">
       <PackagePath>Assets\Libro\onceminutos.jpg</PackagePath>
       <Modified>2013-05-07T15:01:49.962</Modified>
@@ -299,6 +499,10 @@
     <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\orgulloyprejuicio.jpg">
       <PackagePath>Assets\Libro\orgulloyprejuicio.jpg</PackagePath>
       <Modified>2013-05-07T15:01:49.965</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\paris.jpg">
+      <PackagePath>Assets\Libro\paris.jpg</PackagePath>
+      <Modified>2013-05-09T04:15:20.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\peppaBichos.jpg">
       <PackagePath>Assets\Libro\peppaBichos.jpg</PackagePath>
@@ -324,9 +528,49 @@
       <PackagePath>Assets\Libro\pj2.jpg</PackagePath>
       <Modified>2013-05-07T15:01:49.979</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\producto.jpg">
+      <PackagePath>Assets\Libro\producto.jpg</PackagePath>
+      <Modified>2013-05-09T02:03:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\python.jpg">
+      <PackagePath>Assets\Libro\python.jpg</PackagePath>
+      <Modified>2013-05-09T02:14:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\rome.jpg">
+      <PackagePath>Assets\Libro\rome.jpg</PackagePath>
+      <Modified>2013-05-09T04:16:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\rosemadder.jpg">
+      <PackagePath>Assets\Libro\rosemadder.jpg</PackagePath>
+      <Modified>2013-05-09T04:28:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\selfmatters.jpg">
+      <PackagePath>Assets\Libro\selfmatters.jpg</PackagePath>
+      <Modified>2013-05-09T03:35:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\shstw.jpg">
+      <PackagePath>Assets\Libro\shstw.jpg</PackagePath>
+      <Modified>2013-05-09T03:33:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\spain.jpg">
+      <PackagePath>Assets\Libro\spain.jpg</PackagePath>
+      <Modified>2013-05-09T04:16:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\stevejobs.jpg">
+      <PackagePath>Assets\Libro\stevejobs.jpg</PackagePath>
+      <Modified>2013-05-09T02:26:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\tesla.jpg">
+      <PackagePath>Assets\Libro\tesla.jpg</PackagePath>
+      <Modified>2013-05-09T02:41:56.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\TheRockyHorrorPictureShowBook.jpg">
       <PackagePath>Assets\Libro\TheRockyHorrorPictureShowBook.jpg</PackagePath>
       <Modified>2013-05-07T15:01:49.982</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\tomasj.jpg">
+      <PackagePath>Assets\Libro\tomasj.jpg</PackagePath>
+      <Modified>2013-05-09T02:35:44.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\toothiana.jpg">
       <PackagePath>Assets\Libro\toothiana.jpg</PackagePath>
@@ -335,6 +579,14 @@
     <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\trhpsb.jpg">
       <PackagePath>Assets\Libro\trhpsb.jpg</PackagePath>
       <Modified>2013-05-07T15:01:49.987</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\unbroken.jpg">
+      <PackagePath>Assets\Libro\unbroken.jpg</PackagePath>
+      <Modified>2013-05-09T02:47:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Libro\wtloss.jpg">
+      <PackagePath>Assets\Libro\wtloss.jpg</PackagePath>
+      <Modified>2013-05-09T04:02:54.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\principal.jpg">
       <PackagePath>Assets\principal.jpg</PackagePath>
@@ -399,6 +651,10 @@
     <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Editorial\putnam.png">
       <PackagePath>Assets\Editorial\putnam.png</PackagePath>
       <Modified>2013-05-07T15:01:50.015</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Editorial\simon.png">
+      <PackagePath>Assets\Editorial\simon.png</PackagePath>
+      <Modified>2013-05-09T02:25:12.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\udem\finalv1\Libreria\Assets\Editorial\stmt.png">
       <PackagePath>Assets\Editorial\stmt.png</PackagePath>
@@ -494,7 +750,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\udem\finalv1\Libreria\bin\Debug\Alta.xaml">
       <PackagePath>Alta.xaml</PackagePath>
-      <Modified>2013-05-09T00:49:34.864</Modified>
+      <Modified>2013-05-09T04:55:16.962</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\udem\finalv1\Libreria\bin\Debug\Common\StandardStyles.xaml">
       <PackagePath>Common\StandardStyles.xaml</PackagePath>
@@ -510,7 +766,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\udem\finalv1\Libreria\bin\Debug\Home.xaml">
       <PackagePath>Home.xaml</PackagePath>
-      <Modified>2013-05-08T23:30:11.909</Modified>
+      <Modified>2013-05-09T04:36:34.624</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\udem\finalv1\Libreria\bin\Debug\ItemDetailPage.xaml">
       <PackagePath>ItemDetailPage.xaml</PackagePath>
@@ -526,7 +782,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\udem\finalv1\Libreria\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2013-05-09T00:27:13.039</Modified>
+      <Modified>2013-05-09T04:41:31.142</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

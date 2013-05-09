@@ -312,8 +312,8 @@ namespace Libreria.Data
                     libro.Nombre,
                     genero.Nombre,
                     libro.ImagenURL,
-                    libro.Descripcion,
-                    libro.Descripcion,
+                    libro.Descripcion +  "\n"+libro.FechaAlta,
+                    libro.Descripcion + "\n" + libro.FechaAlta,
                     group));
                 }
 
@@ -346,8 +346,8 @@ namespace Libreria.Data
                     libro.Nombre,
                     autor.Nombre + " " + autor.ApPaterno,
                     libro.ImagenURL,
-                    libro.Descripcion,
-                    libro.Descripcion,
+                    libro.Descripcion + "\n" + libro.FechaAlta,
+                    libro.Descripcion + "\n" + libro.FechaAlta,
                     group));
                 }
 
@@ -380,8 +380,8 @@ namespace Libreria.Data
                     libro.Nombre,
                     editorial.Nombre,
                     libro.ImagenURL,
-                    libro.Descripcion,
-                    libro.Descripcion,
+                    libro.Descripcion + "\n" + libro.FechaAlta,
+                    libro.Descripcion + "\n" + libro.FechaAlta,
                     group));
                 }
 

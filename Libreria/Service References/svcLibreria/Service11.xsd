@@ -11,6 +11,7 @@
       <xs:element minOccurs="0" name="AutorID" type="xs:int" />
       <xs:element minOccurs="0" name="Descripcion" nillable="true" type="xs:string" />
       <xs:element minOccurs="0" name="EditorialID" type="xs:int" />
+      <xs:element minOccurs="0" name="FechaAlta" nillable="true" type="xs:string" />
       <xs:element minOccurs="0" name="GeneroID" type="xs:int" />
       <xs:element minOccurs="0" name="Idioma" nillable="true" type="xs:string" />
       <xs:element minOccurs="0" name="ImagenURL" nillable="true" type="xs:string" />

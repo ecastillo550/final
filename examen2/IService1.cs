@@ -192,6 +192,8 @@ namespace examen2
         public string ImagenURL { get; set; }
         [DataMember]
         public string Descripcion { get; set; }
+        [DataMember]
+        public string FechaAlta { get; set; }
 
     }
 }

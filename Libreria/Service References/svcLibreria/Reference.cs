@@ -71,6 +71,8 @@ namespace Libreria.svcLibreria {
         
         private bool editorialIDFieldSpecified;
         
+        private string fechaAltaField;
+        
         private int generoIDField;
         
         private bool generoIDFieldSpecified;
@@ -152,7 +154,19 @@ namespace Libreria.svcLibreria {
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=3)]
+        public string FechaAlta {
+            get {
+                return this.fechaAltaField;
+            }
+            set {
+                this.fechaAltaField = value;
+                this.RaisePropertyChanged("FechaAlta");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=4)]
         public int GeneroID {
             get {
                 return this.generoIDField;
@@ -176,7 +190,7 @@ namespace Libreria.svcLibreria {
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=4)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=5)]
         public string Idioma {
             get {
                 return this.idiomaField;
@@ -188,7 +202,7 @@ namespace Libreria.svcLibreria {
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=5)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=6)]
         public string ImagenURL {
             get {
                 return this.imagenURLField;
@@ -200,7 +214,7 @@ namespace Libreria.svcLibreria {
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=6)]
+        [System.Xml.Serialization.XmlElementAttribute(Order=7)]
         public int LibroID {
             get {
                 return this.libroIDField;
@@ -224,7 +238,7 @@ namespace Libreria.svcLibreria {
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=7)]
+        [System.Xml.Serialization.XmlElementAttribute(Order=8)]
         public int NoPaginas {
             get {
                 return this.noPaginasField;
@@ -248,7 +262,7 @@ namespace Libreria.svcLibreria {
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=8)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=9)]
         public string Nombre {
             get {
                 return this.nombreField;
@@ -260,7 +274,7 @@ namespace Libreria.svcLibreria {
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=9)]
+        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true, Order=10)]
         public string Pais {
             get {
                 return this.paisField;

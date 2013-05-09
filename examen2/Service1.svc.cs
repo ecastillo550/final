@@ -298,7 +298,7 @@ namespace examen2
                     l.Nombre = dr2["Nombre"].ToString();
                     l.ImagenURL = dr2["ImagenURL"].ToString();
                     l.Descripcion = dr2["Descripcion"].ToString();
-
+                    l.FechaAlta = dr2["FechaAlta"].ToString();
                     EditorialObj.ListaLibros.Add(l);
                 }
                 EditorialLst.Add(EditorialObj);
@@ -340,7 +340,7 @@ namespace examen2
                     l.Nombre = dr2["Nombre"].ToString();
                     l.ImagenURL = dr2["ImagenURL"].ToString();
                     l.Descripcion = dr2["Descripcion"].ToString();
-
+                    l.FechaAlta = dr2["FechaAlta"].ToString();
                     GeneroObj.ListaLibros.Add(l);
                 }
 
@@ -385,7 +385,7 @@ namespace examen2
                     l.Nombre = dr2["Nombre"].ToString();
                     l.ImagenURL = dr2["ImagenURL"].ToString();
                     l.Descripcion = dr2["Descripcion"].ToString();
-
+                    l.FechaAlta = dr2["FechaAlta"].ToString();
                     AutorObj.ListaLibros.Add(l);
                 }
                 autoresList.Add(AutorObj);
@@ -418,6 +418,7 @@ namespace examen2
                 LibroObj.NoPaginas = Convert.ToInt32(dr["NoPagina"].ToString());
                 LibroObj.ImagenURL = dr["ImagenURL"].ToString();
                 LibroObj.Descripcion = dr["Descripcion"].ToString();
+
                
                 libroLst.Add(LibroObj);
             }
@@ -434,7 +435,7 @@ namespace examen2
             string dbStr = HostingEnvironment.MapPath(@"~/App_Data/libros.mdb;");
             string connStr = @"Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" + dbStr;
             OleDbConnection conn = new OleDbConnection(connStr);
-            OleDbDataAdapter adapter = new OleDbDataAdapter("SELECT LibroID, Nombre,ImagenURL,Descripcion FROM Libros WHERE AutorID = " + AutorID, conn);
+            OleDbDataAdapter adapter = new OleDbDataAdapter("SELECT LibroID, Nombre,ImagenURL,Descripcion,FechaAlta FROM Libros WHERE AutorID = " + AutorID, conn);
             DataSet ds = new DataSet();
             adapter.Fill(ds);
             return ds;
@@ -446,7 +447,7 @@ namespace examen2
               string dbStr = HostingEnvironment.MapPath(@"~/App_Data/libros.mdb;");
               string connStr = @"Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" + dbStr;
               OleDbConnection conn = new OleDbConnection(connStr);
-              OleDbDataAdapter adapter = new OleDbDataAdapter("SELECT LibroID, Nombre,ImagenURL,Descripcion  FROM Libros WHERE GeneroID = " + GeneroID, conn);
+              OleDbDataAdapter adapter = new OleDbDataAdapter("SELECT LibroID, Nombre,ImagenURL,Descripcion,FechaAlta  FROM Libros WHERE GeneroID = " + GeneroID, conn);
               DataSet ds = new DataSet();
               adapter.Fill(ds);
               return ds;
@@ -456,7 +457,7 @@ namespace examen2
                string dbStr = HostingEnvironment.MapPath(@"~/App_Data/libros.mdb;");
                string connStr = @"Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" + dbStr;
                OleDbConnection conn = new OleDbConnection(connStr);
-               OleDbDataAdapter adapter = new OleDbDataAdapter("SELECT LibroID, Nombre,ImagenURL,Descripcion  FROM Libros WHERE EditorialID = " + EditorialID, conn);
+               OleDbDataAdapter adapter = new OleDbDataAdapter("SELECT LibroID, Nombre,ImagenURL,Descripcion,FechaAlta  FROM Libros WHERE EditorialID = " + EditorialID, conn);
                DataSet ds = new DataSet();
                adapter.Fill(ds);
                return ds;
